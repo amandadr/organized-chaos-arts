@@ -1,0 +1,14 @@
+---
+description: TypeScript and Next.js App Router conventions for OCA
+globs: "**/*.{ts,tsx}"
+alwaysApply: false
+---
+
+# TypeScript + App Router
+
+- Server Components by default; add `"use client"` only for browser state, effects, or browser-only APIs.
+- Prefer typed domain shapes (`Artist`, `Artwork`) over passing raw CMS response objects through the tree (when CMS exists).
+- Avoid `any`; document exceptions.
+- Keep data-fetching in `lib/` modules when integrations exist; pages call meaningful functions.
+- Prefer composition and small props APIs over mega-components with many optional variants.
+- Use the `@/*` import alias for project files.

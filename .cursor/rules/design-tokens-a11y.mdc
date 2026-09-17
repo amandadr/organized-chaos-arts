@@ -1,0 +1,14 @@
+---
+description: Semantic colour tokens, focus styles, and reduced-motion baselines
+globs: "**/*.{css,tsx}"
+alwaysApply: false
+---
+
+# Design tokens and accessibility
+
+- Use semantic CSS variables (`--color-background`, `--color-text`, `--color-link`, `--color-focus`, etc.). Do not put raw hex values in components.
+- Light mode is the current implementation; keep the same variable names so dark mode can remap later. Do not enable automatic `prefers-color-scheme` dark mode until the light system is stable.
+- Never remove focus outlines unless replacing them with an equally visible focus indicator using `--color-focus`.
+- Prefer native HTML elements before recreating behaviour with ARIA.
+- Respect `prefers-reduced-motion` for non-essential motion.
+- Accessibility target: WCAG 2.2 AA.
