@@ -4,30 +4,53 @@ Living sequence for Organized Chaos Arts. The full original roadmap remains in `
 
 ## Done — Local kickoff
 
-- Next.js App Router + TypeScript + Tailwind + ESLint (local npm)
+- Next.js App Router + TypeScript + ESLint (local npm)
 - Prettier, `typecheck` script, `.nvmrc` / `engines`, `.env.example`
 - `AGENTS.md` + Cursor rules
 - Semantic design tokens + temporary `/design-system` route
-- Local git only (no GitHub / Netlify yet)
+- Local git + GitHub remote configured
 
-## Next — Site shell
+## Done — Relume pages
 
-After Relume design review / palette confirmation:
+- Tailwind CSS **3** + branded Relume theme (ink / teal / ochre)
+- Bricolage Grotesque + Manrope fonts, shared SiteHeader / SiteFooter / SkipLink
+- Public routes: `/`, `/artists`, `/artists/demo`, `/gallery`, `/about`, `/for-artists`, `/resources`, `/resources/demo`, `/values`, `/pilot`, `/contact`, `/support`, `/instagram`
+- Placeholder Relume lorem replaced with OCA-flavoured copy
 
-1. SkipLink, SiteHeader, accessible desktop + mobile navigation, SiteFooter
-2. PageContainer, Section primitives
-3. Adapt Relume sections into OCA-named components (no Relume section-number names)
+## Done — Sanity content foundation
+
+- Embedded Studio at `/studio` (`next-sanity` + Presentation / Draft Mode)
+- Schemas: `siteSettings`, `artist`, `artwork` (+ `seo` object, required image alt)
+- Typed GROQ + `lib/sanity/queries.ts` fetch helpers
+- Development seed: `npm run sanity:seed` (needs a real project ID)
+
+## Done — Artist and artwork pages
+
+- `/artists` lists published Sanity artists (featured first)
+- `/artists/[slug]` loads bio, portrait, and referenced artwork
+- `/`, `/gallery`, and `/instagram` hang CMS artwork and artist cards
+- Empty CMS shows empty states; unknown slugs 404
+
+## Done — Remaining public copy
+
+- Resources at `/resources` and `/resources/[slug]` (demo route redirects)
+- About, values, for-artists, pilot, support, contact, and Instagram heroes/lists from `editorialPage`, `value`, and `faq` documents
+- Home “how it works” and values cards from the same documents
+
+## Next
+
+1. Replace Relume placeholder images with real photography
+2. Promote remaining Relume sections into OCA-named components
+3. Connect CTAs and forms to real destinations
+4. Accessibility and SEO pass on each page
 
 ## Then
 
-4. Sanity: site settings, artist, artwork schemas + typed queries
-5. Artist directory + artist profile vertical slice
-6. Remaining public pages (home, about, resources, contact, membership marketing)
-7. SEO / accessibility / performance sweep
-8. GitHub remote + Netlify deploy previews
-9. Supabase authentication
-10. Stripe membership
-11. Artist self-service
+6. SEO / accessibility / performance sweep
+7. Netlify deploy previews
+8. Supabase authentication
+9. Stripe membership
+10. Artist self-service
 
 ## Working rules
 

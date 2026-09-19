@@ -14,6 +14,9 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Raw Relume Site Builder export (adapt before treating as product code)
+    "components/relume/**",
+    "sanity/schema.json",
   ]),
 ]);
 

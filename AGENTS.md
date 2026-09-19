@@ -34,7 +34,8 @@ Read `/docs` before significant changes. Prefer `docs/dev-plan.md`, `docs/archit
 - Preserve accessibility semantics from the beginning (WCAG 2.2 AA).
 - Use semantic design tokens (`var(--color-*)`); do not hard-code raw hex/rgb in components.
 - Work one coherent phase at a time; stop when the current task is done.
-- Do not implement Sanity, Supabase, Stripe, membership, or Relume imports until that phase is requested.
+- Relume packages and `components/relume/` are the section source; promote into OCA-named components before shipping.
+- Do not implement Sanity, Supabase, Stripe, or membership until that phase is requested.
 - Do not create empty directories or abstractions that have no current use.
 
 ### After significant changes

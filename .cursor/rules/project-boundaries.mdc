@@ -1,12 +1,13 @@
 ---
-description: OCA project boundaries — no premature CMS/auth/billing; no empty abstractions
+description: OCA project boundaries — no premature CMS/auth/billing; Relume is source only
 alwaysApply: true
 ---
 
 # Project boundaries
 
-- Do not install or implement Sanity, Supabase, Stripe, Relume packages, or membership flows unless the current task explicitly asks for that phase.
-- Do not create empty folders (`lib/sanity`, `lib/supabase`, `lib/stripe`, `components/relume`, etc.) until they have real files.
+- Do not install or implement Sanity, Supabase, Stripe, or membership flows unless the current task explicitly asks for that phase.
+- Relume: packages and `components/relume/` are allowed as a **component source**. Promote sections into OCA-named components before shipping; do not leave Relume section numbers as the public API.
+- Do not create empty folders (`lib/sanity`, `lib/supabase`, `lib/stripe`, etc.) until they have real files.
 - Prefer boring, understandable architecture over speculative abstractions.
 - After significant changes, run `npm run lint`, `npm run typecheck`, and `npm run build`.
 - Stop at the end of the requested phase; do not auto-continue into the next roadmap phase.

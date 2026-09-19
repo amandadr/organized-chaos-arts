@@ -4,17 +4,9 @@ type TextLinkProps = ComponentPropsWithoutRef<"a"> & {
   children: ReactNode;
 };
 
-export function TextLink({ children, style, ...props }: TextLinkProps) {
+export function TextLink({ children, className, ...props }: TextLinkProps) {
   return (
-    <a
-      {...props}
-      style={{
-        color: "var(--color-link)",
-        fontWeight: 500,
-        textUnderlineOffset: "0.2em",
-        ...style,
-      }}
-    >
+    <a {...props} className={["oca-inline-link", className].filter(Boolean).join(" ")}>
       {children}
     </a>
   );
