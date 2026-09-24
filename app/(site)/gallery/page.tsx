@@ -30,8 +30,8 @@ export default async function Page() {
           { href: "/for-artists", label: "Submit work", variant: "secondary" },
         ]}
         tone="goldenrod"
-        image={lead?.imageUrl ?? undefined}
-        imageAlt={lead?.imageAlt}
+        artwork={lead}
+        viewerItems={artworks}
         mediaLabel={lead ? lead.title : "Hung with care"}
       />
       <Section tone="seafoam">
@@ -40,7 +40,7 @@ export default async function Page() {
           body="Every piece belongs to someone in the directory. Follow it back to the maker."
         />
         {artworks.length > 0 ? (
-          <ArtworkGrid items={artworks} />
+          <ArtworkGrid items={artworks} surface="seafoam" />
         ) : (
           <CatalogEmpty
             title="The wall is still empty"

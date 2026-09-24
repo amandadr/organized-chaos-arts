@@ -6,7 +6,9 @@ import { ArtworkGrid } from "@/components/sections/Cards";
 import { CtaBanner } from "@/components/sections/CtaBanner";
 import { PageHero } from "@/components/sections/PageHero";
 import { Section } from "@/components/sections/Section";
+import { Tag } from "@/components/ui/Tag";
 import {
+  artistTagsFrom,
   artworkGridItemFromSanity,
   disciplineLabel,
   regionLabel,
@@ -65,6 +67,7 @@ export default async function Page({ params }: ArtistPageProps) {
   const works = artist.artworks.map((artwork) =>
     artworkGridItemFromSanity(artwork, { slug: cleanSlug, name }),
   );
+  const tags = artistTagsFrom(artist);
   const portraitUrl = imageUrl(artist.portrait, 1600);
   const website = artist.website ? stegaClean(artist.website) : null;
   const instagramUrl = artist.instagramUrl
@@ -112,6 +115,13 @@ export default async function Page({ params }: ArtistPageProps) {
         <p className="inline-block border-2 border-[color:var(--color-ink)] bg-[color:var(--color-tangerine)] px-3 py-1 text-eyebrow text-[color:var(--color-ink)]">
           Selected work
         </p>
+        <div className="mt-4 flex flex-wrap gap-2">
+          {tags.map((tag) => (
+            <Tag key={`${tag.kind}-${tag.label}`} token={tag.token}>
+              {tag.label}
+            </Tag>
+          ))}
+        </div>
         <h2 className="text-h2 mt-4">From the studio</h2>
         {works.length > 0 ? (
           <>
@@ -120,7 +130,7 @@ export default async function Page({ params }: ArtistPageProps) {
                 ? "One piece on the wall for now."
                 : `${works.length} works, from the studio to here.`}
             </p>
-            <ArtworkGrid items={works} />
+            <ArtworkGrid items={works} surface="oat" />
           </>
         ) : (
           <p className="mt-4 max-w-2xl text-[color:var(--color-text-muted)]">

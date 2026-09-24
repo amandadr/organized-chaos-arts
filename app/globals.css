@@ -15,6 +15,36 @@
   --color-seafoam: #a3ccbf;
   --color-goldenrod: #d2a520;
 
+  /* Categorical palettes — hue-rotated families. Role map: docs/decisions/004-categorical-colour-roles.md */
+  --color-palette-teal-green: #155c35;
+  --color-palette-teal-blue: #153c5c;
+  --color-palette-teal-plum: #5c153c;
+  --color-palette-teal-umber: #5c3515;
+  --color-palette-rust-berry: #9a223a;
+  --color-palette-rust-ochre: #9a8222;
+  --color-palette-rust-jade: #229a82;
+  --color-palette-rust-indigo: #223a9a;
+  --color-palette-cocoa-wine: #441623;
+  --color-palette-cocoa-olive: #443716;
+  --color-palette-cocoa-pine: #164437;
+  --color-palette-cocoa-midnight: #162344;
+  --color-palette-moss-khaki: #685017;
+  --color-palette-moss-leaf: #2f6817;
+  --color-palette-moss-navy: #172f68;
+  --color-palette-moss-grape: #501768;
+  --color-palette-tangerine-punch: #f43c58;
+  --color-palette-tangerine-lemon: #f4d83c;
+  --color-palette-tangerine-aqua: #3cf4d8;
+  --color-palette-tangerine-iris: #3c58f4;
+  --color-palette-seafoam-mint: #7fd39f;
+  --color-palette-seafoam-sky: #7fb3d3;
+  --color-palette-seafoam-orchid: #d37fb3;
+  --color-palette-seafoam-peach: #d39f7f;
+  --color-palette-goldenrod-coral: #d95a4c;
+  --color-palette-goldenrod-chartreuse: #cbd94c;
+  --color-palette-goldenrod-aqua: #4ccbd9;
+  --color-palette-goldenrod-violet: #5a4cd9;
+
   --color-background: var(--color-paper);
   --color-surface: #fffcf7;
   --color-surface-alt: var(--color-oat);
@@ -398,6 +428,50 @@
     box-shadow: 5px 5px 0 var(--color-ink);
   }
 
+  .oca-artwork-card {
+    position: relative;
+    cursor: pointer;
+    transition:
+      transform 180ms ease,
+      box-shadow 180ms ease;
+  }
+
+  /*
+   * Native buttons use cursor: default, which blocks the card pointer on the
+   * image. Inherit so the whole card (image + body) shows the same hand cursor.
+   */
+  .oca-artwork-card .oca-artwork-trigger,
+  .oca-artwork-card .oca-artwork-trigger * {
+    cursor: inherit;
+  }
+
+  .oca-artwork-trigger {
+    cursor: pointer;
+  }
+
+  .oca-artwork-card:hover,
+  .oca-artwork-card:focus-within {
+    z-index: 1;
+    transform: translate(-4px, -4px);
+    box-shadow: 10px 10px 0 var(--color-ink);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .oca-artwork-card {
+      transition: box-shadow 180ms ease;
+    }
+
+    .oca-artwork-card:hover,
+    .oca-artwork-card:focus-within {
+      transform: none;
+      box-shadow: 8px 8px 0 var(--color-ink);
+    }
+  }
+
+  .oca-artwork-viewer::backdrop {
+    background: color-mix(in srgb, var(--color-ink) 72%, transparent);
+  }
+
   .oca-fill-paper {
     background: var(--color-paper);
     color: var(--color-ink);
@@ -443,3 +517,144 @@
     color: var(--color-paper);
   }
 }
+
+.oca-fill-palette-teal-green {
+  background: var(--color-palette-teal-green);
+  color: var(--color-paper);
+}
+
+.oca-fill-palette-teal-blue {
+  background: var(--color-palette-teal-blue);
+  color: var(--color-paper);
+}
+
+.oca-fill-palette-teal-plum {
+  background: var(--color-palette-teal-plum);
+  color: var(--color-paper);
+}
+
+.oca-fill-palette-teal-umber {
+  background: var(--color-palette-teal-umber);
+  color: var(--color-paper);
+}
+
+.oca-fill-palette-rust-berry {
+  background: var(--color-palette-rust-berry);
+  color: var(--color-paper);
+}
+
+.oca-fill-palette-rust-ochre {
+  background: var(--color-palette-rust-ochre);
+  color: var(--color-ink);
+}
+
+.oca-fill-palette-rust-jade {
+  background: var(--color-palette-rust-jade);
+  color: var(--color-ink);
+}
+
+.oca-fill-palette-rust-indigo {
+  background: var(--color-palette-rust-indigo);
+  color: var(--color-paper);
+}
+
+.oca-fill-palette-cocoa-wine {
+  background: var(--color-palette-cocoa-wine);
+  color: var(--color-paper);
+}
+
+.oca-fill-palette-cocoa-olive {
+  background: var(--color-palette-cocoa-olive);
+  color: var(--color-paper);
+}
+
+.oca-fill-palette-cocoa-pine {
+  background: var(--color-palette-cocoa-pine);
+  color: var(--color-paper);
+}
+
+.oca-fill-palette-cocoa-midnight {
+  background: var(--color-palette-cocoa-midnight);
+  color: var(--color-paper);
+}
+
+.oca-fill-palette-moss-khaki {
+  background: var(--color-palette-moss-khaki);
+  color: var(--color-paper);
+}
+
+.oca-fill-palette-moss-leaf {
+  background: var(--color-palette-moss-leaf);
+  color: var(--color-paper);
+}
+
+.oca-fill-palette-moss-navy {
+  background: var(--color-palette-moss-navy);
+  color: var(--color-paper);
+}
+
+.oca-fill-palette-moss-grape {
+  background: var(--color-palette-moss-grape);
+  color: var(--color-paper);
+}
+
+.oca-fill-palette-tangerine-punch {
+  background: var(--color-palette-tangerine-punch);
+  color: var(--color-ink);
+}
+
+.oca-fill-palette-tangerine-lemon {
+  background: var(--color-palette-tangerine-lemon);
+  color: var(--color-ink);
+}
+
+.oca-fill-palette-tangerine-aqua {
+  background: var(--color-palette-tangerine-aqua);
+  color: var(--color-ink);
+}
+
+.oca-fill-palette-tangerine-iris {
+  background: var(--color-palette-tangerine-iris);
+  color: var(--color-paper);
+}
+
+.oca-fill-palette-seafoam-mint {
+  background: var(--color-palette-seafoam-mint);
+  color: var(--color-ink);
+}
+
+.oca-fill-palette-seafoam-sky {
+  background: var(--color-palette-seafoam-sky);
+  color: var(--color-ink);
+}
+
+.oca-fill-palette-seafoam-orchid {
+  background: var(--color-palette-seafoam-orchid);
+  color: var(--color-ink);
+}
+
+.oca-fill-palette-seafoam-peach {
+  background: var(--color-palette-seafoam-peach);
+  color: var(--color-ink);
+}
+
+.oca-fill-palette-goldenrod-coral {
+  background: var(--color-palette-goldenrod-coral);
+  color: var(--color-ink);
+}
+
+.oca-fill-palette-goldenrod-chartreuse {
+  background: var(--color-palette-goldenrod-chartreuse);
+  color: var(--color-ink);
+}
+
+.oca-fill-palette-goldenrod-aqua {
+  background: var(--color-palette-goldenrod-aqua);
+  color: var(--color-ink);
+}
+
+.oca-fill-palette-goldenrod-violet {
+  background: var(--color-palette-goldenrod-violet);
+  color: var(--color-paper);
+}
+

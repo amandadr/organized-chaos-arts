@@ -50,7 +50,7 @@ export default async function Page() {
       />
       <Section tone="oat">
         {artists.length > 0 ? (
-          <ArtistGrid items={artists} />
+          <ArtistGrid items={artists} surface="oat" />
         ) : (
           <CatalogEmpty
             title="The wall is still empty"

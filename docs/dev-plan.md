@@ -37,12 +37,21 @@ Living sequence for Organized Chaos Arts. The full original roadmap remains in `
 - About, values, for-artists, pilot, support, contact, and Instagram heroes/lists from `editorialPage`, `value`, and `faq` documents
 - Home “how it works” and values cards from the same documents
 
+## Done — Richer development catalog
+
+- Seed roster: ~20 invented Atlantic makers / ~100 works (niches, 1–2 bodies each)
+- Coverage: all disciplines with multi-maker depth where needed; PE ≥3 cities; NL ≥3 cities; NS/NB balanced
+- Medium classifier in `lib/palette.ts` aligned with seed strings; seed asserts classification before write
+- Catalog data in `scripts/seed/catalog.mjs`; seed prunes leftover artists/artworks
+- Fuel for a later hang-and-filter pass (variety ordering, medium chips) — not implemented yet
+
 ## Next
 
-1. Replace Relume placeholder images with real photography
-2. Promote remaining Relume sections into OCA-named components
-3. Connect CTAs and forms to real destinations
-4. Accessibility and SEO pass on each page
+1. Gallery hang algorithm + medium filtering (variety ordering; location later)
+2. Replace Relume placeholder images with real photography
+3. Promote remaining Relume sections into OCA-named components
+4. Connect CTAs and forms to real destinations
+5. Accessibility and SEO pass on each page
 
 ## Then
 

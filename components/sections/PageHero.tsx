@@ -1,7 +1,12 @@
 import clsx from "clsx";
 import type { ReactNode } from "react";
+import {
+  ArtworkViewer,
+  ArtworkViewerTrigger,
+} from "@/components/ui/ArtworkViewer";
 import { ButtonLink } from "@/components/ui/ButtonLink";
 import { MediaFrame } from "@/components/ui/MediaFrame";
+import type { ArtworkGridItem } from "@/lib/catalog";
 import type { MediaTone } from "@/lib/media";
 
 type Action = {
@@ -20,6 +25,10 @@ type PageHeroProps = {
   mediaCaption?: string;
   image?: string;
   imageAlt?: string;
+  /** When set, the hero image opens the artwork viewer. */
+  artwork?: ArtworkGridItem;
+  /** Works available in the viewer (defaults to `[artwork]`). */
+  viewerItems?: readonly ArtworkGridItem[];
   children?: ReactNode;
 };
 
@@ -84,9 +93,36 @@ export function PageHero({
   mediaCaption,
   image,
   imageAlt,
+  artwork,
+  viewerItems,
   children,
 }: PageHeroProps) {
   const band = bands[tone];
+  const mediaClassName = clsx("w-full", mediaCaption ? "" : "lg:mt-6");
+  const viewerSet = viewerItems ?? (artwork ? [artwork] : []);
+
+  const media = artwork ? (
+    <ArtworkViewer items={viewerSet}>
+      <ArtworkViewerTrigger
+        artwork={artwork}
+        ratio="landscape"
+        label={mediaLabel ?? artwork.title}
+        priority
+        className={mediaClassName}
+      />
+    </ArtworkViewer>
+  ) : (
+    <MediaFrame
+      src={image}
+      alt={imageAlt ?? mediaLabel ?? title}
+      tone={tone}
+      ratio="landscape"
+      label={mediaLabel}
+      caption={mediaCaption}
+      className={mediaClassName}
+      priority
+    />
+  );
 
   return (
     <section
@@ -131,16 +167,7 @@ export function PageHero({
           ) : null}
           {children}
         </div>
-        <MediaFrame
-          src={image}
-          alt={imageAlt ?? mediaLabel ?? title}
-          tone={tone}
-          ratio="landscape"
-          label={mediaLabel}
-          caption={mediaCaption}
-          className={clsx("w-full", mediaCaption ? "" : "lg:mt-6")}
-          priority
-        />
+        {media}
       </div>
     </section>
   );

@@ -1,109 +1,120 @@
 import Link from "next/link";
+import {
+  ArtworkViewer,
+  ArtworkViewerTrigger,
+} from "@/components/ui/ArtworkViewer";
 import { MediaFrame } from "@/components/ui/MediaFrame";
+import { Tag } from "@/components/ui/Tag";
 import type {
   ArtistGridItem,
   ArtworkGridItem,
   ResourceGridItem,
 } from "@/lib/catalog";
-
-const cardFills = [
-  "oca-fill-paper",
-  "oca-fill-goldenrod",
-  "oca-fill-tangerine",
-];
+import {
+  artistFillSequence,
+  artworkFillSequence,
+  quietFillSequence,
+  type SurfaceTone,
+} from "@/lib/palette";
 
 export function ArtworkGrid({
   items,
   featured = false,
+  surface = "oat",
 }: {
   items: readonly ArtworkGridItem[];
   featured?: boolean;
+  surface?: SurfaceTone;
 }) {
+  const fills = artworkFillSequence(
+    items.map((artwork) => artwork.fillToken),
+    surface,
+  );
   return (
-    <ul className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-      {items.map((artwork, index) => {
-        const href = artwork.artistSlug
-          ? `/artists/${artwork.artistSlug}`
-          : "/gallery";
-        const featuredLead = featured && index === 0;
-        return (
-          <li
-            key={artwork.slug}
-            className={
-              featuredLead ? "min-w-0 sm:col-span-2 lg:col-span-2" : "min-w-0"
-            }
-          >
-            <article
-              className={`oca-color-card overflow-hidden p-0 ${cardFills[index % cardFills.length]}`}
+    <ArtworkViewer items={items}>
+      <ul className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        {items.map((artwork, index) => {
+          const href = artwork.artistSlug
+            ? `/artists/${artwork.artistSlug}`
+            : "/gallery";
+          const featuredLead = featured && index === 0;
+          return (
+            <li
+              key={artwork.slug}
+              className={
+                featuredLead ? "min-w-0 sm:col-span-2 lg:col-span-2" : "min-w-0"
+              }
             >
-              <Link href={href} className="block min-w-0">
-                <MediaFrame
-                  src={artwork.imageUrl ?? undefined}
-                  alt={artwork.imageAlt}
-                  tone={artwork.tone}
+              <article
+                className={`oca-color-card oca-artwork-card overflow-hidden p-0 ${fills[index]}`}
+              >
+                <ArtworkViewerTrigger
+                  artwork={artwork}
                   ratio={featured && index === 0 ? "wide" : "landscape"}
-                  label={artwork.title}
                   priority={featured && index === 0}
                   embedded
                 />
-              </Link>
-              <div className="p-5 md:p-6">
-                <h3 className="text-h4">
-                  <Link href={href} className="hover:underline">
-                    {artwork.title}
-                  </Link>
-                </h3>
-                <p className="mt-1 text-sm opacity-90">
-                  {artwork.artistName && artwork.artistSlug ? (
-                    <Link
-                      href={href}
-                      className="font-semibold underline decoration-[0.12em] underline-offset-[0.18em]"
-                    >
-                      {artwork.artistName}
+                <div className="p-5 md:p-6">
+                  <h3 className="text-h4">
+                    <Link href={href} className="hover:underline">
+                      {artwork.title}
                     </Link>
-                  ) : null}
-                  {artwork.artistName ? " · " : null}
-                  {artwork.medium}
-                  {artwork.year ? ` · ${artwork.year}` : null}
-                </p>
-                {artwork.description ? (
-                  <p className="mt-2 opacity-90">{artwork.description}</p>
-                ) : null}
-                {artwork.purchaseUrl ? (
-                  <p className="mt-3">
-                    <a
-                      href={artwork.purchaseUrl}
-                      className="text-sm font-semibold underline decoration-[0.12em] underline-offset-[0.18em]"
-                      rel="noreferrer"
-                      target="_blank"
-                    >
-                      Available from the artist
-                    </a>
+                  </h3>
+                  <p className="mt-1 text-sm opacity-90">
+                    {artwork.artistName && artwork.artistSlug ? (
+                      <Link
+                        href={href}
+                        className="font-semibold underline decoration-[0.12em] underline-offset-[0.18em]"
+                      >
+                        {artwork.artistName}
+                      </Link>
+                    ) : null}
+                    {artwork.artistName ? " · " : null}
+                    {artwork.medium}
+                    {artwork.year ? ` · ${artwork.year}` : null}
                   </p>
-                ) : null}
-              </div>
-            </article>
-          </li>
-        );
-      })}
-    </ul>
+                  {artwork.description ? (
+                    <p className="mt-2 opacity-90">{artwork.description}</p>
+                  ) : null}
+                  {artwork.purchaseUrl ? (
+                    <p className="mt-3">
+                      <a
+                        href={artwork.purchaseUrl}
+                        className="text-sm font-semibold underline decoration-[0.12em] underline-offset-[0.18em]"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        Available from the artist
+                      </a>
+                    </p>
+                  ) : null}
+                </div>
+              </article>
+            </li>
+          );
+        })}
+      </ul>
+    </ArtworkViewer>
   );
 }
 
-const tagTones = [
-  "oca-fill-seafoam",
-  "oca-fill-goldenrod",
-  "oca-fill-tangerine",
-  "oca-fill-paper",
-];
-
-export function ArtistGrid({ items }: { items: readonly ArtistGridItem[] }) {
+export function ArtistGrid({
+  items,
+  surface = "oat",
+}: {
+  items: readonly ArtistGridItem[];
+  surface?: SurfaceTone;
+}) {
+  const fills = artistFillSequence(
+    items.map((artist) => artist.slug),
+    surface,
+  );
   return (
     <ul className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
       {items.map((artist, index) => (
         <li key={artist.slug} className="min-w-0">
           <article
-            className={`oca-color-card overflow-hidden p-0 ${cardFills[(index + 1) % cardFills.length]}`}
+            className={`oca-color-card overflow-hidden p-0 ${fills[index]}`}
           >
             <Link href={`/artists/${artist.slug}`} className="block min-w-0">
               <MediaFrame
@@ -117,13 +128,13 @@ export function ArtistGrid({ items }: { items: readonly ArtistGridItem[] }) {
             </Link>
             <div className="p-5 md:p-6">
               <div className="flex flex-wrap gap-2">
-                {artist.tags.map((tag, tagIndex) => (
-                  <span
-                    key={`${artist.slug}-${tag}`}
-                    className={`border-2 border-[color:var(--color-ink)] px-3 py-1 text-xs font-bold ${tagTones[tagIndex % tagTones.length]}`}
+                {artist.tags.map((tag) => (
+                  <Tag
+                    key={`${artist.slug}-${tag.kind}-${tag.label}`}
+                    token={tag.token}
                   >
-                    {tag}
-                  </span>
+                    {tag.label}
+                  </Tag>
                 ))}
               </div>
               <h3 className="text-h4 mt-3">
@@ -158,13 +169,23 @@ export function CatalogEmpty({
   );
 }
 
-export function ResourceGrid({ items }: { items: readonly ResourceGridItem[] }) {
+export function ResourceGrid({
+  items,
+  surface = "seafoam",
+}: {
+  items: readonly ResourceGridItem[];
+  surface?: SurfaceTone;
+}) {
+  const fills = quietFillSequence(
+    items.map((resource) => resource.fillClass),
+    surface,
+  );
   return (
     <ul className="grid grid-cols-1 gap-8 md:grid-cols-3">
       {items.map((resource, index) => (
         <li key={resource.slug} className="min-w-0">
           <article
-            className={`oca-color-card overflow-hidden p-0 ${cardFills[index % cardFills.length]}`}
+            className={`oca-color-card overflow-hidden p-0 ${fills[index]}`}
           >
             <Link href={`/resources/${resource.slug}`} className="block">
               <MediaFrame
@@ -195,25 +216,18 @@ export function ResourceGrid({ items }: { items: readonly ResourceGridItem[] }) 
   );
 }
 
-const valueFills = [
-  "oca-fill-paper",
-  "oca-fill-goldenrod",
-  "oca-fill-seafoam",
-  "oca-fill-oat",
-];
-
 export function ValueGrid({
   items,
+  surface = "default",
 }: {
   items: readonly { title: string; body: string }[];
+  surface?: SurfaceTone;
 }) {
+  const fills = quietFillSequence(items.length, surface);
   return (
     <ul className="grid grid-cols-1 gap-6 sm:grid-cols-2">
       {items.map((value, index) => (
-        <li
-          key={value.title}
-          className={`oca-color-card md:p-8 ${valueFills[index % valueFills.length]}`}
-        >
+        <li key={value.title} className={`oca-color-card md:p-8 ${fills[index]}`}>
           <h3 className="text-h4">{value.title}</h3>
           <p className="mt-3 opacity-90">{value.body}</p>
         </li>

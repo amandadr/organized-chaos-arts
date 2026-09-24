@@ -53,7 +53,7 @@ export default async function Page() {
           }
         />
         {ways.length > 0 ? (
-          <FeatureList items={ways} palette="deep" />
+          <FeatureList items={ways} palette="deep" surface="oat" />
         ) : (
           <CatalogEmpty
             title="Support notes still being written"

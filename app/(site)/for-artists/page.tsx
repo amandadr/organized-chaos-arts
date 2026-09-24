@@ -62,7 +62,7 @@ export default async function Page() {
           }
         />
         {steps.length > 0 ? (
-          <FeatureList items={steps} />
+          <FeatureList items={steps} surface="seafoam" />
         ) : (
           <CatalogEmpty
             title="Steps still being written"
@@ -77,7 +77,7 @@ export default async function Page() {
             body="If your answer is not here, write to us. We would rather talk than guess."
           />
           {faqs.length > 0 ? (
-            <FaqList items={faqs} />
+            <FaqList items={faqs} surface="oat" />
           ) : (
             <CatalogEmpty
               title="No artist FAQs yet"

@@ -103,6 +103,9 @@ export const featuredArtworksQuery = defineQuery(`
     "slug": slug.current,
     year,
     medium,
+    dimensions,
+    description,
+    purchaseUrl,
     featured,
     image { ${imageProjection} },
     artist->{

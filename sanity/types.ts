@@ -466,13 +466,16 @@ export type ArtworksQueryResult = Array<{
 
 // Source: sanity/queries/index.ts
 // Variable: featuredArtworksQuery
-// Query: *[_type == "artwork" && featured == true && defined(slug.current)] | order(year desc, title asc) {    _id,    title,    "slug": slug.current,    year,    medium,    featured,    image {   asset,  hotspot,  crop,  alt },    artist->{      _id,      name,      "slug": slug.current    }  }
+// Query: *[_type == "artwork" && featured == true && defined(slug.current)] | order(year desc, title asc) {    _id,    title,    "slug": slug.current,    year,    medium,    dimensions,    description,    purchaseUrl,    featured,    image {   asset,  hotspot,  crop,  alt },    artist->{      _id,      name,      "slug": slug.current    }  }
 export type FeaturedArtworksQueryResult = Array<{
   _id: string;
   title: string;
   slug: string;
   year: number | null;
   medium: string;
+  dimensions: string | null;
+  description: string | null;
+  purchaseUrl: string | null;
   featured: true;
   image: {
     asset: SanityImageAssetReference | null;
@@ -613,7 +616,7 @@ declare module "@sanity/client" {
     '\n  *[_type == "artist" && defined(slug.current)] {\n    "slug": slug.current\n  }\n': ArtistSlugsQueryResult;
     '\n  *[_type == "artist" && slug.current == $slug][0] {\n    _id,\n    name,\n    "slug": slug.current,\n    shortBio,\n    bio,\n    city,\n    region,\n    disciplines,\n    website,\n    instagramUrl,\n    featured,\n    portrait { \n  asset,\n  hotspot,\n  crop,\n  alt\n },\n    seo {\n      title,\n      description,\n      image { \n  asset,\n  hotspot,\n  crop,\n  alt\n }\n    },\n    "artworks": *[_type == "artwork" && artist._ref == ^._id] | order(year desc, title asc) {\n      _id,\n      title,\n      "slug": slug.current,\n      year,\n      medium,\n      dimensions,\n      description,\n      purchaseUrl,\n      featured,\n      image { \n  asset,\n  hotspot,\n  crop,\n  alt\n }\n    }\n  }\n': ArtistBySlugQueryResult;
     '\n  *[_type == "artwork" && defined(slug.current)] | order(year desc, title asc) {\n    _id,\n    title,\n    "slug": slug.current,\n    year,\n    medium,\n    dimensions,\n    description,\n    purchaseUrl,\n    featured,\n    image { \n  asset,\n  hotspot,\n  crop,\n  alt\n },\n    artist->{\n      _id,\n      name,\n      "slug": slug.current\n    }\n  }\n': ArtworksQueryResult;
-    '\n  *[_type == "artwork" && featured == true && defined(slug.current)] | order(year desc, title asc) {\n    _id,\n    title,\n    "slug": slug.current,\n    year,\n    medium,\n    featured,\n    image { \n  asset,\n  hotspot,\n  crop,\n  alt\n },\n    artist->{\n      _id,\n      name,\n      "slug": slug.current\n    }\n  }\n': FeaturedArtworksQueryResult;
+    '\n  *[_type == "artwork" && featured == true && defined(slug.current)] | order(year desc, title asc) {\n    _id,\n    title,\n    "slug": slug.current,\n    year,\n    medium,\n    dimensions,\n    description,\n    purchaseUrl,\n    featured,\n    image { \n  asset,\n  hotspot,\n  crop,\n  alt\n },\n    artist->{\n      _id,\n      name,\n      "slug": slug.current\n    }\n  }\n': FeaturedArtworksQueryResult;
     '\n  *[_type == "resource" && defined(slug.current)] | order(coalesce(publishedAt, _createdAt) desc) {\n    _id,\n    title,\n    "slug": slug.current,\n    category,\n    summary,\n    featured,\n    image { \n  asset,\n  hotspot,\n  crop,\n  alt\n }\n  }\n': ResourcesQueryResult;
     '\n  *[_type == "resource" && defined(slug.current)] {\n    "slug": slug.current\n  }\n': ResourceSlugsQueryResult;
     '\n  *[_type == "resource" && slug.current == $slug][0] {\n    _id,\n    title,\n    "slug": slug.current,\n    category,\n    summary,\n    body,\n    publishedAt,\n    featured,\n    image { \n  asset,\n  hotspot,\n  crop,\n  alt\n },\n    seo {\n      title,\n      description,\n      image { \n  asset,\n  hotspot,\n  crop,\n  alt\n }\n    }\n  }\n': ResourceBySlugQueryResult;

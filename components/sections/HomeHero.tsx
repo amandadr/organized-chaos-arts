@@ -1,4 +1,7 @@
-import Link from "next/link";
+import {
+  ArtworkViewer,
+  ArtworkViewerTrigger,
+} from "@/components/ui/ArtworkViewer";
 import { ButtonLink } from "@/components/ui/ButtonLink";
 import { MediaFrame } from "@/components/ui/MediaFrame";
 import type { ArtworkGridItem } from "@/lib/catalog";
@@ -36,19 +39,21 @@ export function HomeHero({ highlights }: { highlights: ArtworkGridItem[] }) {
         </div>
 
         {frames.length > 0 ? (
-          <div className="grid min-w-0 grid-cols-2 gap-4">
-            {first ? (
-              <HeroFrame artwork={first} {...heroFrames[0]} />
-            ) : null}
-            <div className="grid min-w-0 gap-4 self-end">
-              {second ? (
-                <HeroFrame artwork={second} {...heroFrames[1]} />
+          <ArtworkViewer items={highlights.slice(0, 3)}>
+            <div className="grid min-w-0 grid-cols-2 gap-4">
+              {first ? (
+                <HeroFrame artwork={first} {...heroFrames[0]} />
               ) : null}
-              {third ? (
-                <HeroFrame artwork={third} {...heroFrames[2]} />
-              ) : null}
+              <div className="grid min-w-0 gap-4 self-end">
+                {second ? (
+                  <HeroFrame artwork={second} {...heroFrames[1]} />
+                ) : null}
+                {third ? (
+                  <HeroFrame artwork={third} {...heroFrames[2]} />
+                ) : null}
+              </div>
             </div>
-          </div>
+          </ArtworkViewer>
         ) : (
           <MediaFrame
             tone="rust"
@@ -74,20 +79,13 @@ function HeroFrame({
   className: string;
   priority?: boolean;
 }) {
-  const href = artwork.artistSlug
-    ? `/artists/${artwork.artistSlug}`
-    : "/gallery";
-
   return (
-    <Link href={href} className={`min-w-0 ${className}`}>
-      <MediaFrame
-        src={artwork.imageUrl ?? undefined}
-        alt={artwork.imageAlt}
-        tone={artwork.tone}
-        ratio={ratio}
-        label={artwork.artistName ?? artwork.title}
-        priority={priority}
-      />
-    </Link>
+    <ArtworkViewerTrigger
+      artwork={artwork}
+      ratio={ratio}
+      className={className}
+      priority={priority}
+      label={artwork.artistName ?? artwork.title}
+    />
   );
 }

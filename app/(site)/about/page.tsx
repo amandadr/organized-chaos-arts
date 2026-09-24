@@ -80,7 +80,7 @@ export default async function Page() {
           body="Three jobs the site has to do, even while the rest of the stack is still landing."
         />
         {pillars.length > 0 ? (
-          <FeatureList items={pillars} palette="deep" />
+          <FeatureList items={pillars} palette="deep" surface="oat" />
         ) : (
           <CatalogEmpty
             title="Still sketching the pillars"

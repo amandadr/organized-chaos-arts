@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { CatalogEmpty } from "@/components/sections/Cards";
 import { CtaBanner } from "@/components/sections/CtaBanner";
 import { PageHero } from "@/components/sections/PageHero";
 import { Section, SectionIntro } from "@/components/sections/Section";
-import { MediaFrame } from "@/components/ui/MediaFrame";
+import {
+  ArtworkViewer,
+  ArtworkViewerTrigger,
+} from "@/components/ui/ArtworkViewer";
 import { artworkGridItemFromSanityWithArtist } from "@/lib/catalog";
 import { editorialMetadata, heroImage, missingPageBody } from "@/lib/editorial";
 import { getArtworks, getEditorialPage } from "@/lib/sanity/queries";
@@ -31,6 +33,8 @@ export default async function Page() {
   const lead = artworks[0];
   const image = heroImage(page);
   const configured = isSanityConfigured();
+  // Prefer Studio hero art; otherwise hang a catalogue lead and open the viewer.
+  const heroArtwork = image.src ? undefined : lead;
 
   return (
     <>
@@ -43,8 +47,10 @@ export default async function Page() {
           { href: "/contact", label: "Send a studio shot", variant: "secondary" },
         ]}
         tone="cocoa"
-        image={image.src ?? lead?.imageUrl ?? undefined}
-        imageAlt={image.alt ?? lead?.imageAlt}
+        image={image.src}
+        imageAlt={image.alt}
+        artwork={heroArtwork}
+        viewerItems={heroArtwork ? artworks : undefined}
         mediaLabel="Daily looking"
       />
       <Section tone="tangerine">
@@ -56,26 +62,15 @@ export default async function Page() {
           }
         />
         {artworks.length > 0 ? (
-          <ul className="grid grid-cols-2 gap-4 md:grid-cols-3">
-            {artworks.map((artwork) => {
-              const href = artwork.artistSlug
-                ? `/artists/${artwork.artistSlug}`
-                : "/gallery";
-              return (
+          <ArtworkViewer items={artworks}>
+            <ul className="grid grid-cols-2 gap-4 md:grid-cols-3">
+              {artworks.map((artwork) => (
                 <li key={artwork.slug} className="min-w-0">
-                  <Link href={href} className="block min-w-0">
-                    <MediaFrame
-                      src={artwork.imageUrl ?? undefined}
-                      alt={artwork.imageAlt}
-                      tone={artwork.tone}
-                      ratio="square"
-                      label={artwork.title}
-                    />
-                  </Link>
+                  <ArtworkViewerTrigger artwork={artwork} ratio="square" />
                 </li>
-              );
-            })}
-          </ul>
+              ))}
+            </ul>
+          </ArtworkViewer>
         ) : (
           <CatalogEmpty
             title="No stills yet"

@@ -1,4 +1,8 @@
 import { createClient } from "@sanity/client";
+import { artists, artworks, catalogImagePlan } from "./seed/catalog.mjs";
+import { assertArtworkDisciplines } from "./seed/classify.mjs";
+
+assertArtworkDisciplines(artists, artworks);
 
 const projectId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID;
 const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET || "production";
@@ -18,10 +22,6 @@ const client = createClient({
   token,
   useCdn: false,
 });
-
-function unsplash(id) {
-  return `https://images.unsplash.com/${id}?auto=format&fit=crop&w=1600&q=80`;
-}
 
 const assets = {};
 
@@ -43,179 +43,6 @@ async function uploadImage(key, url, filename) {
 function imageWithAlt(key, alt) {
   return { ...assets[key], alt };
 }
-
-const artists = [
-  {
-    _id: "artist.alexandria",
-    name: "Alexandria-Catherine MacKinnon-Beauregard",
-    slug: "alexandria-catherine-mackinnon-beauregard",
-    city: "Halifax",
-    region: "NS",
-    disciplines: ["ceramics", "sculpture"],
-    featured: true,
-    website: "https://example.com/alexandria",
-    instagramUrl: "https://www.instagram.com/",
-    shortBio:
-      "Coil-built vessels whose names barely fit a gallery label. Ash glaze, backyard kiln, and a bio that keeps going after the fold.",
-    bio: `Alexandria-Catherine works in a shared Dartmouth studio through the week and fires on weekends in a brick kiln behind a North End house that is not quite hers.
-
-The work is meant to be used — soup, flowers, the odd leftover — and to hold a bit of the neighbourhood in the clay. She titles pieces after streets that no longer exist under those names, then writes the old name on the foot in pencil so it survives the glaze but not the dishwasher.
-
-This biography is intentionally long. It should wrap on a phone, stay readable on a wide profile, and still feel like a person rather than a press release. She exhibits rarely. She answers email slowly. The kiln is louder than she is.`,
-    portraitKey: "portrait-long",
-    portraitAlt:
-      "A person with dark hair looking slightly off camera, photographed outdoors",
-    seo: {
-      title: "Alexandria-Catherine MacKinnon-Beauregard — Ceramics",
-      description:
-        "Coil-built vessels and backyard firings from Halifax, Nova Scotia.",
-    },
-  },
-  {
-    _id: "artist.jo",
-    name: "Jo",
-    slug: "jo",
-    city: "Sydney",
-    region: "NS",
-    disciplines: ["wood"],
-    featured: false,
-    shortBio: "Spoons.",
-    bio: "Jo carves spoons.",
-    portraitKey: "portrait-short",
-    portraitAlt: "Close portrait of a person with short hair and a wool sweater",
-  },
-  {
-    _id: "artist.lea",
-    name: "Léa Boudreau",
-    slug: "lea-boudreau",
-    city: "Dieppe",
-    region: "NB",
-    disciplines: ["glass"],
-    featured: true,
-    website: "https://example.com/lea",
-    shortBio:
-      "Blown vessels that catch kitchen light. Thin walls, thick feet, colours named after weather.",
-    bio: "Léa works a torch and a glory hole in a shared shop off Acadie Avenue. She talks about viscosity the way other people talk about dough. Nothing leaves the bench until it can stand up to a dishwasher.",
-    portraitKey: "portrait-lea",
-    portraitAlt: "Portrait of a person standing in open daylight",
-  },
-  {
-    _id: "artist.sam",
-    name: "Sam Okonkwo",
-    slug: "sam-okonkwo",
-    city: "Fredericton",
-    region: "NB",
-    disciplines: ["illustration"],
-    featured: false,
-    instagramUrl: "https://www.instagram.com/",
-    shortBio:
-      "Ink drawings of buses, kitchens, and the particular boredom of a Saturday in town.",
-    bio: "Sam draws on leftover print proofs and grocery receipts when the good paper runs out. The work is funny without being mean, and detailed without asking you to squint.",
-    portraitKey: "portrait-sam",
-    portraitAlt: "Portrait of a person against a dark background",
-  },
-  {
-    _id: "artist.river",
-    name: "River Quinn",
-    slug: "river-quinn",
-    city: "St. John's",
-    region: "NL",
-    disciplines: ["collage", "mixed-media"],
-    featured: false,
-    shortBio:
-      "Cut-paper rooms assembled from seed catalogues and ferry tickets. No works attached yet — tests the empty studio.",
-    bio: "River treats the island as a scrapbook that already happened. This record exists so the directory can render an artist with no artwork.",
-    portraitKey: "portrait-river",
-    portraitAlt: "Portrait of a person with hair pulled back, facing the camera",
-  },
-];
-
-const artworks = [
-  {
-    _id: "artwork.january-vessel",
-    title: "January Vessel",
-    slug: "january-vessel",
-    artistId: "artist.alexandria",
-    year: 2025,
-    medium: "Stoneware, ash glaze",
-    dimensions: "28 × 22 × 22 cm",
-    featured: true,
-    description: "Fired during the cold snap. Wide mouth, quiet foot, meant for stew.",
-    purchaseUrl: "https://example.com/shop/january-vessel",
-    imageKey: "work-landscape-1",
-    imageAlt: "A wide ceramic vessel on a wooden table, landscape crop",
-  },
-  {
-    _id: "artwork.north-end-bowl",
-    title: "North End Bowl",
-    slug: "north-end-bowl",
-    artistId: "artist.alexandria",
-    year: 2024,
-    medium: "Hand-built stoneware",
-    featured: false,
-    description: "A breakfast bowl that still has the seam of the coil inside.",
-    imageKey: "work-portrait-1",
-    imageAlt: "A tall ceramic form photographed vertically against a wall",
-  },
-  {
-    _id: "artwork.winter-pourer",
-    title: "Winter Pourer",
-    slug: "winter-pourer",
-    artistId: "artist.alexandria",
-    year: 2025,
-    medium: "Wheel-thrown pitcher",
-    dimensions: "variable",
-    featured: false,
-    imageKey: "work-square-1",
-    imageAlt: "A ceramic pitcher photographed close, filling the frame",
-  },
-  {
-    _id: "artwork.storm-stool",
-    title: "Storm Stool",
-    slug: "storm-stool",
-    artistId: "artist.jo",
-    medium: "Salvaged maple",
-    featured: false,
-    description: "Three legs. No year on purpose — tests a missing date.",
-    imageKey: "work-landscape-2",
-    imageAlt: "A wooden stool in a workshop, photographed horizontally",
-  },
-  {
-    _id: "artwork.weather-glass",
-    title: "Weather Glass",
-    slug: "weather-glass",
-    artistId: "artist.lea",
-    year: 2025,
-    medium: "Blown glass",
-    featured: true,
-    description: "Sea-green, thick foot, thin enough to sing if you wet the rim.",
-    imageKey: "work-portrait-2",
-    imageAlt: "A tall glass vessel catching window light, portrait crop",
-  },
-  {
-    _id: "artwork.fog-bowl",
-    title: "Fog Bowl",
-    slug: "fog-bowl",
-    artistId: "artist.lea",
-    year: 2023,
-    medium: "Blown glass",
-    featured: false,
-    imageKey: "work-landscape-3",
-    imageAlt: "A pale glass bowl on a windowsill, landscape crop",
-  },
-  {
-    _id: "artwork.saturday-bus",
-    title: "Saturday Bus",
-    slug: "saturday-bus",
-    artistId: "artist.sam",
-    year: 2025,
-    medium: "Ink on proof paper",
-    featured: false,
-    description: "Everyone looking at their phones except the one person who is not.",
-    imageKey: "work-portrait-3",
-    imageAlt: "An ink drawing photographed as a vertical page",
-  },
-];
 
 const values = [
   {
@@ -343,7 +170,7 @@ const resources = [
     category: "Field notes",
     featured: true,
     publishedAt: "2026-03-12T12:00:00.000Z",
-    imageKey: "work-portrait-3",
+    imageKey: "work-ink-1",
     imageAlt: "An open notebook and pen on a kitchen table",
     summary:
       "You do not need a perfect studio. You need a table, twenty minutes, and permission to be wrong on paper.",
@@ -362,7 +189,7 @@ When the table has to be cleared, the book closes. That is not a failure of prac
     category: "Practice",
     featured: false,
     publishedAt: "2026-04-02T12:00:00.000Z",
-    imageKey: "work-landscape-2",
+    imageKey: "work-wood-1",
     imageAlt: "Printmaking tools on a workbench",
     summary:
       "Count materials, time, and the cost of being able to make the next one. Then say the number out loud.",
@@ -381,7 +208,7 @@ You can always lower a price later. Raising one after people have already bought
     category: "Studio",
     featured: false,
     publishedAt: "2026-05-18T12:00:00.000Z",
-    imageKey: "work-square-1",
+    imageKey: "work-ceramic-3",
     imageAlt: "A still object photographed in soft indoor light",
     summary:
       "Overcast light is a gift. Face the window, skip the flash, and let the object keep its edges.",
@@ -426,7 +253,7 @@ const pages = [
     secondaryTitle: "Built by hand, on purpose",
     secondaryBody:
       "The public site is the first slice: a directory, a gallery, and a set of notes for working artists. Membership, accounts, and billing come later — after the looking is good.\n\nThe roster in Studio is the real directory. Start with the artist pages; the structure is the thing we are proving.",
-    imageKey: "work-landscape-2",
+    imageKey: "work-wood-1",
     imageAlt: "A wooden studio interior photographed horizontally",
     items: [
       {
@@ -452,7 +279,7 @@ const pages = [
     secondaryTitle: "What we will not trade away",
     secondaryBody:
       "Four commitments that survive the pilot, the CMS, and whatever comes after membership.",
-    imageKey: "work-portrait-1",
+    imageKey: "work-ceramic-2",
     imageAlt: "A tall ceramic form photographed vertically against a wall",
   },
   {
@@ -464,7 +291,7 @@ const pages = [
     secondaryTitle: "What joining actually means",
     secondaryBody:
       "A few hours to gather images. No posting schedule. No marketplace fees hiding in the footer.",
-    imageKey: "work-square-1",
+    imageKey: "work-ceramic-3",
     imageAlt: "A ceramic pitcher photographed close, filling the frame",
     items: [
       {
@@ -490,7 +317,7 @@ const pages = [
     secondaryTitle: "How the pilot runs",
     secondaryBody:
       "Small on purpose. We would rather know twelve artists well than publish a hundred empty profiles.",
-    imageKey: "work-landscape-1",
+    imageKey: "work-ceramic-1",
     imageAlt: "A wide ceramic vessel on a wooden table, landscape crop",
     items: [
       {
@@ -516,7 +343,7 @@ const pages = [
     secondaryTitle: "What actually helps right now",
     secondaryBody:
       "We would rather say this plainly than put a fake donate button on the page.",
-    imageKey: "work-landscape-3",
+    imageKey: "work-glass-2",
     imageAlt: "A pale glass bowl on a windowsill, landscape crop",
     items: [
       {
@@ -542,7 +369,7 @@ const pages = [
     secondaryTitle: "Before you write",
     secondaryBody:
       "Artist applications can also start on For artists. Press, partnerships, and corrections can use this form.",
-    imageKey: "work-portrait-3",
+    imageKey: "work-ink-1",
     imageAlt: "An ink drawing photographed as a vertical page",
   },
   {
@@ -556,25 +383,28 @@ const pages = [
   },
 ];
 
-const imagePlan = [
-  ["portrait-long", unsplash("photo-1544005313-94ddf0286df2"), "portrait-long.jpg"],
-  ["portrait-short", unsplash("photo-1472099645785-5658abf4ff4e"), "portrait-short.jpg"],
-  ["portrait-lea", unsplash("photo-1524504388940-b1c1722653e1"), "portrait-lea.jpg"],
-  ["portrait-sam", unsplash("photo-1507003211169-0a1dd7228f2d"), "portrait-sam.jpg"],
-  ["portrait-river", unsplash("photo-1534528741775-53994a69daeb"), "portrait-river.jpg"],
-  ["work-landscape-1", unsplash("photo-1578749556568-bc2c40e68b61"), "work-landscape-1.jpg"],
-  ["work-portrait-1", unsplash("photo-1565193566173-7a0ee3dbe261"), "work-portrait-1.jpg"],
-  ["work-square-1", unsplash("photo-1610701596007-11502861dcfa"), "work-square-1.jpg"],
-  ["work-landscape-2", unsplash("photo-1416879595882-3373a0480b5b"), "work-landscape-2.jpg"],
-  ["work-portrait-2", unsplash("photo-1602143407151-7111542de6e8"), "work-portrait-2.jpg"],
-  ["work-landscape-3", unsplash("photo-1601925260368-ae2f83cf8b7f"), "work-landscape-3.jpg"],
-  ["work-portrait-3", unsplash("photo-1455390582262-044cdead277a"), "work-portrait-3.jpg"],
-];
+async function pruneStaleCatalog() {
+  const keep = [...artists, ...artworks].map((doc) => doc._id);
+  const stale = await client.fetch(
+    `*[_type in ["artist", "artwork"] && !(_id in $keep)]._id`,
+    { keep },
+  );
+  if (stale.length === 0) {
+    console.log("No stale artists or artworks to prune.");
+    return;
+  }
+  for (const id of stale) {
+    process.stdout.write(`Deleting ${id}… `);
+    await client.delete(id);
+    console.log("ok");
+  }
+  console.log(`Pruned ${stale.length} leftover artist/artwork document(s).`);
+}
 
 async function main() {
   console.log(`Seeding ${projectId}/${dataset}…`);
 
-  for (const [key, url, filename] of imagePlan) {
+  for (const [key, url, filename] of catalogImagePlan) {
     process.stdout.write(`Uploading ${filename}… `);
     await uploadImage(key, url, filename);
     console.log("ok");
@@ -631,6 +461,8 @@ async function main() {
       image: imageWithAlt(artwork.imageKey, artwork.imageAlt),
     });
   }
+
+  await pruneStaleCatalog();
 
   for (const value of values) {
     await client.createOrReplace({

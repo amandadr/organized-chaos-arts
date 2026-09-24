@@ -1,8 +1,22 @@
 import { stegaClean } from "next-sanity";
 import { toneFromKey, type MediaTone } from "@/lib/media";
+import {
+  artistCardToken,
+  disciplineToken,
+  mediumToken,
+  quietCardFill,
+  regionToken,
+  type PaletteToken,
+} from "@/lib/palette";
 import { imageUrl } from "@/lib/sanity/image";
 import type { ArtistCard, ArtworkCard } from "@/lib/sanity/types";
 import { atlanticRegions, disciplines } from "@/sanity/schemas/lists";
+
+export type CatalogTag = {
+  kind: "discipline" | "place";
+  label: string;
+  token: PaletteToken;
+};
 
 export type ArtistGridItem = {
   slug: string;
@@ -12,7 +26,8 @@ export type ArtistGridItem = {
   portraitUrl: string | null;
   portraitAlt: string;
   shortBio: string;
-  tags: string[];
+  tags: CatalogTag[];
+  fillToken: PaletteToken;
   tone: MediaTone;
 };
 
@@ -20,13 +35,16 @@ export type ArtworkGridItem = {
   slug: string;
   title: string;
   imageUrl: string | null;
+  imageFullUrl: string | null;
   imageAlt: string;
   medium: string;
   year: string | number | null;
+  dimensions: string | null;
   description: string | null;
   artistSlug: string | null;
   artistName: string | null;
   purchaseUrl: string | null;
+  fillToken: PaletteToken;
   tone: MediaTone;
 };
 
@@ -44,6 +62,28 @@ export function regionLabel(region: string) {
 
 export function disciplineLabel(value: string) {
   return disciplineTitles[value as keyof typeof disciplineTitles] ?? value;
+}
+
+export function artistTagsFrom(artist: {
+  disciplines: readonly string[];
+  city: string;
+  region: string;
+}): CatalogTag[] {
+  return [
+    ...artist.disciplines.map((discipline) => {
+      const value = stegaClean(discipline);
+      return {
+        kind: "discipline" as const,
+        label: disciplineLabel(value),
+        token: disciplineToken(value),
+      };
+    }),
+    {
+      kind: "place" as const,
+      label: artist.city,
+      token: regionToken(),
+    },
+  ];
 }
 
 export function artistGridItemFromSanity(artist: {
@@ -65,12 +105,8 @@ export function artistGridItemFromSanity(artist: {
     portraitUrl: imageUrl(artist.portrait, 1200),
     portraitAlt: artist.portrait.alt || `Portrait of ${name}`,
     shortBio: artist.shortBio,
-    tags: [
-      ...artist.disciplines.map((discipline) =>
-        disciplineLabel(stegaClean(discipline)),
-      ),
-      artist.city,
-    ],
+    tags: artistTagsFrom(artist),
+    fillToken: artistCardToken(slug),
     tone: toneFromKey(slug),
   };
 }
@@ -81,6 +117,7 @@ export function artworkGridItemFromSanity(
     title: string;
     medium: string;
     year: number | null;
+    dimensions?: string | null;
     description?: string | null;
     purchaseUrl?: string | null;
     image: ArtworkCard["image"];
@@ -94,13 +131,16 @@ export function artworkGridItemFromSanity(
     slug,
     title,
     imageUrl: imageUrl(artwork.image, 1600),
+    imageFullUrl: imageUrl(artwork.image, 2400),
     imageAlt: artwork.image.alt || `${title} by ${artistName}`,
     medium: artwork.medium,
     year: artwork.year,
+    dimensions: artwork.dimensions ?? null,
     description: artwork.description ?? null,
     artistSlug: stegaClean(artist.slug),
     artistName,
     purchaseUrl: artwork.purchaseUrl ?? null,
+    fillToken: mediumToken(stegaClean(artwork.medium)),
     tone: toneFromKey(slug),
   };
 }
@@ -110,6 +150,7 @@ export function artworkGridItemFromSanityWithArtist(artwork: {
   title: string;
   medium: string;
   year: number | null;
+  dimensions?: string | null;
   description?: string | null;
   purchaseUrl?: string | null;
   image: ArtworkCard["image"];
@@ -125,6 +166,7 @@ export type ResourceGridItem = {
   summary: string;
   imageUrl: string | null;
   imageAlt: string;
+  fillClass: string;
   tone: MediaTone;
 };
 
@@ -144,6 +186,7 @@ export function resourceGridItemFromSanity(resource: {
     summary: resource.summary,
     imageUrl: imageUrl(resource.image, 1600),
     imageAlt: resource.image.alt || title,
+    fillClass: quietCardFill(stegaClean(resource.category)),
     tone: toneFromKey(slug),
   };
 }

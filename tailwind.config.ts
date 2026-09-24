@@ -8,9 +8,8 @@ import relumeTailwindPreset from "@relume_io/relume-tailwind";
 const config: Config = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/layout/**/*.{js,ts,jsx,tsx}",
-    "./components/ui/**/*.{js,ts,jsx,tsx}",
-    "./components/sections/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+    "./lib/**/*.{js,ts,jsx,tsx}",
   ],
   presets: [relumeTailwindPreset],
   theme: {

@@ -60,7 +60,7 @@ export default async function Page() {
                 "Artist applications can also start on For artists. Press, partnerships, and corrections can use this form."}
             </p>
             {faqs.length > 0 ? (
-              <FaqList items={faqs} />
+              <FaqList items={faqs} surface="oat" />
             ) : (
               <CatalogEmpty
                 title="No contact notes yet"

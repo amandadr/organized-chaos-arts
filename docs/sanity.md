@@ -17,11 +17,13 @@ Embedded Studio at `/studio`. Client, Live Content, and Draft Mode live in `lib/
 npx sanity cors add http://localhost:3000 --credentials
 ```
 
-5. Seed representative development documents:
+5. Seed the development catalog (and re-seed after pull when the roster changes):
 
 ```bash
 npm run sanity:seed
 ```
+
+The seed **replaces** the artist and artwork roster: it upserts the invented Atlantic catalog in `scripts/seed/catalog.mjs` (~20 makers / ~100 works), asserts that each artwork’s medium classifies into its artist’s disciplines, then deletes leftover `artist` / `artwork` documents that are no longer in that set. Editorial documents (site settings, values, FAQs, resources, page copy) are upserted but not pruned. Medium → discipline matching lives in `lib/palette.ts` (keep `scripts/seed/classify.mjs` in sync).
 
 6. Restart `npm run dev` and open [http://localhost:3000/studio](http://localhost:3000/studio).
 
@@ -33,7 +35,7 @@ Production will need the deployed origin added as a CORS origin as well.
 | --- | --- |
 | `npm run sanity` | Sanity CLI (`cors`, datasets, …) |
 | `npm run typegen` | Extract schema + generate GROQ types |
-| `npm run sanity:seed` | Idempotent development content |
+| `npm run sanity:seed` | Replace development artist/artwork roster + upsert editorial content |
 
 ## Preview
 

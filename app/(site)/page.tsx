@@ -67,7 +67,7 @@ export default async function Page() {
           body="A few recent pieces from the directory. Follow a work back to the person who made it."
         />
         {wall.length > 0 ? (
-          <ArtworkGrid items={wall} featured />
+          <ArtworkGrid items={wall} featured surface="oat" />
         ) : (
           <CatalogEmpty
             title="Nothing hung yet"
@@ -90,17 +90,17 @@ export default async function Page() {
           }
           invert
         />
-        {steps.length > 0 ? <FeatureList items={steps} /> : null}
+        {steps.length > 0 ? <FeatureList items={steps} surface="teal" /> : null}
       </Section>
 
-      <Section tone="seafoam">
+      <Section tone="oat">
         <SectionIntro
           eyebrow="Artists"
           title="Independent makers, nearby"
           body="A working directory of painters, potters, photographers, printmakers, and more across Atlantic Canada."
         />
         {artists.length > 0 ? (
-          <ArtistGrid items={artists} />
+          <ArtistGrid items={artists} surface="oat" />
         ) : (
           <CatalogEmpty
             title="The directory is waiting"
@@ -113,14 +113,14 @@ export default async function Page() {
         )}
       </Section>
 
-      <Section tone="tangerine">
+      <Section tone="seafoam">
         <SectionIntro
           eyebrow="Values"
           title="What this place stands for"
           body="We built this for the working artist — clay under the nails, paint on the jeans, and a table that has to be cleared for dinner."
         />
         {values.length > 0 ? (
-          <ValueGrid items={values} />
+          <ValueGrid items={values} surface="seafoam" />
         ) : (
           <CatalogEmpty
             title="Values still being written"
@@ -134,7 +134,7 @@ export default async function Page() {
       </Section>
 
       <CtaBanner
-        tone="rust"
+        tone="teal"
         eyebrow="For artists"
         title="Are you making work here?"
         body="Join the directory and put your work in front of people who care about local art. Free during the pilot. No commission, ever."

@@ -57,7 +57,7 @@ export default async function Page() {
           }
         />
         {timeline.length > 0 ? (
-          <FeatureList items={timeline} palette="deep" />
+          <FeatureList items={timeline} palette="deep" surface="goldenrod" />
         ) : (
           <CatalogEmpty
             title="Timeline still being written"

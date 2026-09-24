@@ -56,7 +56,7 @@ export default async function Page() {
           invert
         />
         {values.length > 0 ? (
-          <ValueGrid items={values} />
+          <ValueGrid items={values} surface="teal" />
         ) : (
           <CatalogEmpty
             title="Values still being written"
@@ -71,7 +71,7 @@ export default async function Page() {
             body="Short answers for the situations that usually need a longer meeting."
           />
           {faqs.length > 0 ? (
-            <FaqList items={faqs} />
+            <FaqList items={faqs} surface="default" />
           ) : (
             <CatalogEmpty
               title="No standards listed yet"

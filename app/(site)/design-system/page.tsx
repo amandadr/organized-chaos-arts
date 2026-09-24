@@ -1,6 +1,14 @@
 import type { Metadata } from "next";
 import { Button } from "@/components/ui/Button";
+import { Tag } from "@/components/ui/Tag";
 import { TextLink } from "@/components/ui/TextLink";
+import {
+  artistCardTokens,
+  disciplineTokens,
+  placeToken,
+  unusedForTextTokens,
+} from "@/lib/palette";
+import { disciplines } from "@/sanity/schemas/lists";
 
 export const metadata: Metadata = {
   title: "Design system",
@@ -31,6 +39,59 @@ const colorTokens = [
   "border-strong",
   "link",
   "focus",
+] as const;
+
+const categoricalPalettes = [
+  {
+    family: "Teal",
+    seed: "teal",
+    tokens: ["teal-green", "teal-blue", "teal-plum", "teal-umber"],
+  },
+  {
+    family: "Rust",
+    seed: "rust",
+    tokens: ["rust-berry", "rust-ochre", "rust-jade", "rust-indigo"],
+  },
+  {
+    family: "Cocoa",
+    seed: "cocoa",
+    tokens: ["cocoa-wine", "cocoa-olive", "cocoa-pine", "cocoa-midnight"],
+  },
+  {
+    family: "Moss",
+    seed: "moss",
+    tokens: ["moss-khaki", "moss-leaf", "moss-navy", "moss-grape"],
+  },
+  {
+    family: "Tangerine",
+    seed: "tangerine",
+    tokens: [
+      "tangerine-punch",
+      "tangerine-lemon",
+      "tangerine-aqua",
+      "tangerine-iris",
+    ],
+  },
+  {
+    family: "Seafoam",
+    seed: "seafoam",
+    tokens: [
+      "seafoam-mint",
+      "seafoam-sky",
+      "seafoam-orchid",
+      "seafoam-peach",
+    ],
+  },
+  {
+    family: "Goldenrod",
+    seed: "goldenrod",
+    tokens: [
+      "goldenrod-coral",
+      "goldenrod-chartreuse",
+      "goldenrod-aqua",
+      "goldenrod-violet",
+    ],
+  },
 ] as const;
 
 const spacingTokens = [
@@ -135,6 +196,151 @@ export default function DesignSystemPage() {
             </li>
           ))}
         </ul>
+        <h3
+          className="text-h3"
+          style={{ marginTop: "var(--space-2xl)" }}
+          id="categorical-palettes-heading"
+        >
+          Categorical palettes
+        </h3>
+        <p
+          className="text-body-sm text-muted"
+          style={{ marginTop: "var(--space-sm)", maxWidth: "var(--container-md)" }}
+        >
+          Hue-rotated families for colour-coding tags and types. Do not use these
+          in place of semantic UI tokens. Roles are assigned below so cards and
+          tags never share a fill.
+        </p>
+        <div
+          style={{
+            display: "grid",
+            gap: "var(--space-xl)",
+            marginTop: "var(--space-lg)",
+          }}
+        >
+          {categoricalPalettes.map((palette) => (
+            <div key={palette.family}>
+              <p className="text-eyebrow text-muted">{palette.family}</p>
+              <ul
+                style={{
+                  listStyle: "none",
+                  padding: 0,
+                  margin: "var(--space-sm) 0 0",
+                  display: "grid",
+                  gap: "var(--space-md)",
+                  gridTemplateColumns: "repeat(auto-fill, minmax(10rem, 1fr))",
+                }}
+              >
+                <li>
+                  <div
+                    style={{
+                      height: "4rem",
+                      borderRadius: "var(--radius-md)",
+                      border: "var(--border-width) solid var(--color-border)",
+                      background: `var(--color-${palette.seed})`,
+                    }}
+                    aria-hidden="true"
+                  />
+                  <p
+                    className="text-caption"
+                    style={{ marginTop: "var(--space-xs)" }}
+                  >
+                    --color-{palette.seed} (brand)
+                  </p>
+                </li>
+                {palette.tokens.map((token) => (
+                  <li key={token}>
+                    <div
+                      style={{
+                        height: "4rem",
+                        borderRadius: "var(--radius-md)",
+                        border: "var(--border-width) solid var(--color-border)",
+                        background: `var(--color-palette-${token})`,
+                      }}
+                      aria-hidden="true"
+                    />
+                    <p
+                      className="text-caption"
+                      style={{ marginTop: "var(--space-xs)" }}
+                    >
+                      --color-palette-{token}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+        <h3
+          className="text-h3"
+          style={{ marginTop: "var(--space-2xl)" }}
+          id="palette-roles-heading"
+        >
+          Palette roles
+        </h3>
+        <p
+          className="text-body-sm text-muted"
+          style={{ marginTop: "var(--space-sm)", maxWidth: "var(--container-md)" }}
+        >
+          Artist cards use seafoam. Each medium owns one colour for its tag and
+          for the artwork card. Every location tag is the same moss chip. Home
+          lists, values, and FAQs use quiet brand fills (paper, oat, seafoam,
+          goldenrod) — not the bright lemon/aqua tokens. See{" "}
+          <TextLink href="/artists">artists</TextLink> and{" "}
+          <TextLink href="/gallery">gallery</TextLink>.
+        </p>
+        <div
+          style={{
+            display: "grid",
+            gap: "var(--space-xl)",
+            marginTop: "var(--space-lg)",
+          }}
+        >
+          <div>
+            <p className="text-eyebrow text-muted">Artist cards</p>
+            <div
+              className="flex flex-wrap gap-2"
+              style={{ marginTop: "var(--space-sm)" }}
+            >
+              {artistCardTokens.map((token) => (
+                <Tag key={token} token={token}>
+                  {token.replace("seafoam-", "")}
+                </Tag>
+              ))}
+            </div>
+          </div>
+          <div>
+            <p className="text-eyebrow text-muted">Discipline / medium</p>
+            <div
+              className="flex flex-wrap gap-2"
+              style={{ marginTop: "var(--space-sm)" }}
+            >
+              {disciplines.map((discipline) => (
+                <Tag
+                  key={discipline.value}
+                  token={disciplineTokens[discipline.value]}
+                >
+                  {discipline.title}
+                </Tag>
+              ))}
+            </div>
+          </div>
+          <div>
+            <p className="text-eyebrow text-muted">Location</p>
+            <div
+              className="flex flex-wrap gap-2"
+              style={{ marginTop: "var(--space-sm)" }}
+            >
+              <Tag token={placeToken}>City</Tag>
+            </div>
+          </div>
+          <p className="text-body-sm text-muted">
+            Not used on text (contrast):{" "}
+            {unusedForTextTokens.map((token) => `--color-palette-${token}`).join(", ")}
+            . Bright lemon, aqua, iris, and violet tokens are not assigned to
+            landing furniture or medium tags.
+          </p>
+        </div>
       </section>
 
       <section style={sectionStyle} aria-labelledby="buttons-heading">

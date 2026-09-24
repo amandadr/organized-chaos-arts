@@ -73,7 +73,7 @@ Keyed by `pageId`: `home`, `about`, `values`, `for-artists`, `pilot`, `support`,
 - `items` (title + body blocks)
 - `seo` (optional)
 
-Presentation colour “tones” are not CMS fields. Mapping a record to a Relume/OCA colour is a UI concern.
+Presentation colour “tones” are not CMS fields. Mapping a record to a Relume/OCA colour is a UI concern. Discipline and region colour-coding is defined in `lib/palette.ts` (see `docs/decisions/004-categorical-colour-roles.md`). Artwork `medium` is still free text; the UI classifies it against the discipline list.
 
 ## Objects
 

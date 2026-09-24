@@ -46,7 +46,7 @@ export default async function Page() {
           body="Notes from the community. Follow a title into the full piece."
         />
         {resources.length > 0 ? (
-          <ResourceGrid items={resources} />
+          <ResourceGrid items={resources} surface="seafoam" />
         ) : (
           <CatalogEmpty
             title="The shelf is empty"
