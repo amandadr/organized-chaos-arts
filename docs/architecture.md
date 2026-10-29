@@ -31,6 +31,6 @@ A piece of data should normally have **one authoritative owner**. Do not synchro
 | Sanity | Installed: Studio at `/studio`; artist, artwork, resource, value, FAQ, and page-copy schemas; typed queries |
 | Supabase | Documented; not installed |
 | Stripe | Documented; not installed |
-| Netlify | Planned; GitHub remote configured |
+| Netlify | Going live with the faux Sanity seed in the `production` dataset |
 
 See `docs/decisions/001-stack-boundaries.md`, `docs/decisions/003-sanity-embedded-studio.md`, `docs/decisions/004-categorical-colour-roles.md`, `docs/content-model.md`, `docs/sanity.md`, and the full roadmap in `docs/begin.md`.

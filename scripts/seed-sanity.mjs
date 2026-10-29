@@ -1,5 +1,6 @@
 import { createClient } from "@sanity/client";
 import { artists, artworks, catalogImagePlan } from "./seed/catalog.mjs";
+import { editorialImagePlan } from "./seed/editorial-images.mjs";
 import { assertArtworkDisciplines } from "./seed/classify.mjs";
 
 assertArtworkDisciplines(artists, artworks);
@@ -386,16 +387,22 @@ const pages = [
 async function pruneStaleCatalog() {
   const keep = [...artists, ...artworks].map((doc) => doc._id);
   const stale = await client.fetch(
-    `*[_type in ["artist", "artwork"] && !(_id in $keep)]._id`,
+    `*[_type in ["artist", "artwork"] && !(_id in $keep)]{ _id, _type }`,
     { keep },
   );
   if (stale.length === 0) {
     console.log("No stale artists or artworks to prune.");
     return;
   }
-  for (const id of stale) {
-    process.stdout.write(`Deleting ${id}… `);
-    await client.delete(id);
+
+  const artworksFirst = [
+    ...stale.filter((doc) => doc._type === "artwork"),
+    ...stale.filter((doc) => doc._type === "artist"),
+  ];
+
+  for (const doc of artworksFirst) {
+    process.stdout.write(`Deleting ${doc._id}… `);
+    await client.delete(doc._id);
     console.log("ok");
   }
   console.log(`Pruned ${stale.length} leftover artist/artwork document(s).`);
@@ -404,7 +411,7 @@ async function pruneStaleCatalog() {
 async function main() {
   console.log(`Seeding ${projectId}/${dataset}…`);
 
-  for (const [key, url, filename] of catalogImagePlan) {
+  for (const [key, url, filename] of [...catalogImagePlan, ...editorialImagePlan]) {
     process.stdout.write(`Uploading ${filename}… `);
     await uploadImage(key, url, filename);
     console.log("ok");

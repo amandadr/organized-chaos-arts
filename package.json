@@ -12,7 +12,8 @@
     "format:check": "prettier --check .",
     "sanity": "sanity",
     "typegen": "sanity schema extract --enforce-required-fields --path ./sanity/schema.json && sanity typegen generate",
-    "sanity:seed": "node --env-file=.env.local scripts/seed-sanity.mjs"
+    "sanity:seed": "node --env-file=.env.local scripts/seed-sanity.mjs",
+    "sanity:fetch-catalog": "node scripts/seed/fetch-cleveland.mjs"
   },
   "dependencies": {
     "@relume_io/relume-tailwind": "^1.3.0",

@@ -142,19 +142,32 @@ export function ArtworkViewer({
       if (!dialog.open) {
         dialog.showModal();
       }
+      document.documentElement.classList.add("oca-viewer-open");
+      // Drop sticky :hover / pointer cursor from the card under the modal.
+      if (document.activeElement instanceof HTMLElement) {
+        document.activeElement.blur();
+      }
       return;
     }
 
+    document.documentElement.classList.remove("oca-viewer-open");
     if (dialog.open) {
       dialog.close();
     }
   }, [current, openSlug]);
 
   useEffect(() => {
+    return () => {
+      document.documentElement.classList.remove("oca-viewer-open");
+    };
+  }, []);
+
+  useEffect(() => {
     const dialog = dialogRef.current;
     if (!dialog) return;
 
     const onClose = () => {
+      document.documentElement.classList.remove("oca-viewer-open");
       setOpenSlug(null);
       setZoom(1);
       setDragging(false);

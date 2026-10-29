@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { FauxDataBanner } from "@/components/layout/FauxDataBanner";
 import {
   ArtistGrid,
   ArtworkGrid,
@@ -58,6 +59,7 @@ export default async function Page() {
 
   return (
     <>
+      <FauxDataBanner />
       <HomeHero highlights={highlights} />
 
       <Section tone="oat">

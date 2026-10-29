@@ -1,0 +1,1416 @@
+{
+  "fetchedAt": "2026-09-24T15:57:18.047Z",
+  "source": "https://openaccess-api.clevelandart.org/",
+  "license": "CC0",
+  "userAgent": "OrganizedChaosArts-dev-seed",
+  "artists": [
+    {
+      "cmaId": 1251,
+      "name": "Peter Paul Rubens",
+      "slug": "peter-paul-rubens",
+      "description": "Peter Paul Rubens (Flemish, 1577–1640)",
+      "bio": "Peter Paul Rubens (Flemish, 1577–1640) Active 1577–1640. Public-domain works from the Cleveland Museum of Art Open Access collection, used as development stand-ins for the Organized Chaos Arts directory.",
+      "shortBio": "Peter Paul Rubens (Flemish, 1577–1640) Active 1577–1640. Public-domain works from the Cleveland Museum of Art Open Access collection, used as development stand-ins for the Organized Chaos Arts directory.",
+      "disciplines": [
+        "illustration",
+        "painting",
+        "printmaking"
+      ],
+      "featured": true,
+      "website": "https://www.clevelandart.org/art/collection/search?artist=Peter%20Paul%20Rubens",
+      "works": [
+        {
+          "cmaId": 125247,
+          "title": "Portrait of Isabella Brant",
+          "slug": "portrait-of-isabella-brant-125247",
+          "year": 1620,
+          "medium": "oil on wood",
+          "dimensions": "Framed: 83 x 73.5 x 9 cm (32 11/16 x 28 15/16 x 3 9/16 in.); Unframed: 53 x 46 cm (20 7/8 x 18 1/8 in.)",
+          "description": "Isabella Brant was Rubens’s first wife. He painted her many times in many different ways before she died at the age of 35 (she is a model for a nymph in the other work by Rubens in this room). This intimate portrait, painted at least five years before her death, suggests the close relationship between the painter and sitter through the warm palette, the luscious brushstrokes, and her lively expression.",
+          "url": "https://clevelandart.org/art/1947.207",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1947.207/1947.207_web.jpg",
+          "discipline": "painting"
+        },
+        {
+          "cmaId": 151517,
+          "title": "Study for \"The Bear Hunt\" (for the Alcázar, Madrid)",
+          "slug": "study-for-the-bear-hunt-for-the-alcazar-madrid-151517",
+          "year": 1634,
+          "medium": "oil on wood",
+          "dimensions": "Framed: 70.5 x 40.6 x 7.6 cm (27 3/4 x 16 x 3 in.); Unframed: 26 x 53.7 cm (10 1/4 x 21 1/8 in.)",
+          "description": "On June 22, 1639, King Philip IV of Spain received a letter from his younger brother Ferdinand (1609–1641). The letter explained that the artist Peter Paul Rubens had recently completed all of the sketches for a series of paintings that were to hang in the halls of the Alcázar Palace in Madrid. Bear Hunt is one of seven surviving studies out of the original eighteen. In this scene, a bear attacks a hunter and a companion comes to his aide The others work to stave off a second angry bear. The sketch was completed in the last year Rubens's life, and the paintings for the series were never completed.",
+          "url": "https://clevelandart.org/art/1983.69",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1983.69/1983.69_web.jpg",
+          "discipline": "painting"
+        },
+        {
+          "cmaId": 95264,
+          "title": "The Triumph of the Church",
+          "slug": "the-triumph-of-the-church-95264",
+          "year": 1628,
+          "medium": "oil on wood",
+          "dimensions": "Framed: 129.5 x 96.5 x 8.5 cm (51 x 38 x 3 3/8 in.); Unframed: 74.1 x 105.7 cm (29 3/16 x 41 5/8 in.)",
+          "description": "This work is likely a copy after Rubens’s oil sketch for the Triumph of the Eucharist tapestry series. Isabella, daughter of King Phillip II of Spain, commissioned the tapestries for a royal monastery in Madrid. The finished tapestries still hang there today, and the original oil sketch is in the Museo del Prado, Madrid.",
+          "url": "https://clevelandart.org/art/1916.1037",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1916.1037/1916.1037_web.jpg",
+          "discipline": "painting"
+        },
+        {
+          "cmaId": 104787,
+          "title": "Saint Catherine in the Clouds",
+          "slug": "saint-catherine-in-the-clouds-104787",
+          "year": 1615,
+          "medium": "etching",
+          "url": "https://clevelandart.org/art/1923.1110",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1923.1110/1923.1110_web.jpg",
+          "discipline": "printmaking"
+        },
+        {
+          "cmaId": 131583,
+          "title": "The Feast of Herod (recto); Tomyris with the Head of Cyrus (verso)",
+          "slug": "the-feast-of-herod-recto-tomyris-with-the-head-of-cyrus-verso-131583",
+          "year": 1637,
+          "medium": "pen and brown ink, with black and red chalk, touched with white gouache",
+          "dimensions": "Sheet: 27.2 x 47.2 cm (10 11/16 x 18 9/16 in.); Secondary Support: 27.6 x 47.3 cm (10 7/8 x 18 5/8 in.)",
+          "description": "Peter Paul Rubens had a large studio in Antwerp and used drawing to prepare for large paintings as well as to direct the many pupils who assisted him. Striking in its immediacy, the drawing on the recto of this sheet of paper is a preparatory study for the Feast of Herod painting now at the Scottish National Gallery in Edinburgh. Herod, wearing a large cap and wrapped in a mantle, shrinks back in horror as Salome uncovers a charger that holds the head of Saint John the Baptist. Smiling, Herodias grabs the platter with her left hand and, in a chilling detail, gestures toward the charger with a fork. Rubens wrote what is usually interpreted as “Herodias somewhat higher” at the top of the sheet. The verso of the sheet depicts a sketch for another story featuring a change of fortune at the hands of a vengeful woman, Tomyris with the Head of Cyrus. Rubens made two paintings of the subject (now in Paris and Boston). A rare theme, the story tells of Queen Tomyris who, avenging the death of her son in battle, collects the head of his murderer Cyrus in a bag of human blood. Tomyris is shown seated under a canopy holding a scepter, while the servants before her handle Cyrus’s head. Rubens wrote “plus spatij” (more space) in the center of the sheet.",
+          "url": "https://clevelandart.org/art/1954.2",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1954.2/1954.2_web.jpg",
+          "discipline": "illustration"
+        }
+      ]
+    },
+    {
+      "cmaId": 1468,
+      "name": "Samuel Palmer",
+      "slug": "samuel-palmer",
+      "description": "Samuel Palmer (British, 1805–1881)",
+      "bio": "Samuel Palmer (British, 1805–1881) Active 1805–1881. Public-domain works from the Cleveland Museum of Art Open Access collection, used as development stand-ins for the Organized Chaos Arts directory.",
+      "shortBio": "Samuel Palmer (British, 1805–1881) Active 1805–1881. Public-domain works from the Cleveland Museum of Art Open Access collection, used as development stand-ins for the Organized Chaos Arts directory.",
+      "disciplines": [
+        "illustration",
+        "printmaking"
+      ],
+      "featured": true,
+      "website": "https://www.clevelandart.org/art/collection/search?artist=Samuel%20Palmer",
+      "works": [
+        {
+          "cmaId": 142367,
+          "title": "The Vine",
+          "slug": "the-vine-142367",
+          "year": 1852,
+          "medium": "etching",
+          "dimensions": "Sheet: 30 x 22 cm (11 13/16 x 8 11/16 in.)",
+          "description": "This early proof (an impression created while the artist is still working on the design) by Samuel Palmer features his illustrations before the accompanying text for Songs and Ballads of Shakespeare was printed. Both images relate to a drinking song featured in act 2 of William Shakespeare’s Antony and Cleopatra, praising Bacchus, the Roman god of wine, and his products. Palmer’s handwritten notes describe modifications he was planning to make. Palmer started to work in prints late in his career but quickly became accomplished in the medium. His imagery is characterized by juxtaposing delicate textures and dramatic lights and shadows, as seen here in the contrast between the radiant Bacchus and those making and enjoying the drink.",
+          "url": "https://clevelandart.org/art/1966.185",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1966.185/1966.185_web.jpg",
+          "discipline": "printmaking"
+        },
+        {
+          "cmaId": 142363,
+          "title": "The Skylark",
+          "slug": "the-skylark-142363",
+          "year": 1850,
+          "medium": "etching",
+          "description": "Palmer came to printmaking relatively late in his career in 1850 when he was elected to the Etching Club in London. He created a significant number of landscape etchings, intricate in detail and sonorous in chiaroscuro. In The Skylark, one of Palmer’s earliest compositions, a solitary figure in a rural landscape contemplates the flight of a songbird. Palmer has been compared to the German Romantic artist Caspar David Friedrich (also in this exhibition), who produced images infused with a similarly indefinable atmosphere of calm, mystery, and breathless silence.",
+          "url": "https://clevelandart.org/art/1966.181",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1966.181/1966.181_web.jpg",
+          "discipline": "printmaking"
+        },
+        {
+          "cmaId": 142382,
+          "title": "The Bellman",
+          "slug": "the-bellman-142382",
+          "year": 1879,
+          "medium": "etching",
+          "description": "In a highly personal style, Palmer combined minute study of natural details with Gothic features from early Northern art and figure types borrowed from William Blake (also in this gallery). His moonlit landscapes of Kent appear as a fruitful, mysterious paradise, populated by a race of rustic heroes, personifications of pastoral contentment.",
+          "url": "https://clevelandart.org/art/1966.198",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1966.198/1966.198_web.jpg",
+          "discipline": "printmaking"
+        },
+        {
+          "cmaId": 167560,
+          "title": "The Golden Hour",
+          "slug": "the-golden-hour-167560",
+          "year": 1865,
+          "medium": "watercolor and gouache with graphite and scraping",
+          "dimensions": "Sheet: 25.6 x 35.4 cm (10 1/16 x 13 15/16 in.)",
+          "description": "Samuel Palmer developed a personal and emotionally charged style of landscape painting that celebrated nature as the product of divine creation. This watercolor of a spectacularly colorful sunset over the hills of Surrey was painted by Palmer toward the end of his life. An autumn sky heavy with rows of cumulus clouds shimmers in a pattern of pink and amethyst, as slivers of golden light emanate from the setting sun. The idyllic landscape is an elegy not only to a passing day, but to the brevity of life itself.",
+          "url": "https://clevelandart.org/art/2009.3",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/2009.3/2009.3_web.jpg",
+          "discipline": "illustration"
+        }
+      ]
+    },
+    {
+      "cmaId": 1539,
+      "name": "John Sell Cotman",
+      "slug": "john-sell-cotman",
+      "description": "John Sell Cotman (British, 1782–1842)",
+      "bio": "John Sell Cotman (British, 1782–1842) Active 1782–1842. Public-domain works from the Cleveland Museum of Art Open Access collection, used as development stand-ins for the Organized Chaos Arts directory.",
+      "shortBio": "John Sell Cotman (British, 1782–1842) Active 1782–1842. Public-domain works from the Cleveland Museum of Art Open Access collection, used as development stand-ins for the Organized Chaos Arts directory.",
+      "disciplines": [
+        "illustration",
+        "printmaking"
+      ],
+      "featured": true,
+      "website": "https://www.clevelandart.org/art/collection/search?artist=John%20Sell%20Cotman",
+      "works": [
+        {
+          "cmaId": 155945,
+          "title": "Rievaulx Abbey, Yorkshire",
+          "slug": "rievaulx-abbey-yorkshire-155945",
+          "year": 1810,
+          "medium": "etching",
+          "description": "Rievaulx Abbey belongs to Cotman’s first series of etchings, published in 1811. The thirteen images depict the landscape of Yorkshire and picturesque architectural views such as rural cottages, ancient stone walls, and overgrown, ruined abbeys. The crumbling Gothic church was a quintessentially Romantic theme, intended to allude to a lost past.",
+          "url": "https://clevelandart.org/art/1991.233",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1991.233/1991.233_web.jpg",
+          "discipline": "printmaking"
+        },
+        {
+          "cmaId": 110042,
+          "title": "Liber Studiorum:  Devil's Bridge, Cardiganshire",
+          "slug": "liber-studiorum-devil-s-bridge-cardiganshire-110042",
+          "year": 1838,
+          "medium": "Soft ground etching",
+          "description": "Cotman followed in the footsteps of Thomas Gainsborough and also worked in soft-ground etching\r\n(see Gainsborough’s Wooded Landscape with Cows in this gallery). Thirty-nine of Cotman’s landscape etchings were published as the Liber Studiorum in 1838. This composition was based on sketches the artist made on the site during his journey through Wales in 1800.",
+          "url": "https://clevelandart.org/art/1928.645",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1928.645/1928.645_web.jpg",
+          "discipline": "printmaking"
+        },
+        {
+          "cmaId": 155930,
+          "title": "Traveler in a Woodland Landscape",
+          "slug": "traveler-in-a-woodland-landscape-155930",
+          "year": 1806,
+          "medium": "graphite and gray wash",
+          "dimensions": "Sheet: 30.3 x 21 cm (11 15/16 x 8 1/4 in.)",
+          "description": "John Sell Cotman left his native Norfolk at the young age of 16 and traveled to London with the aspiration to be an artist. His work evolved at a rapid pace as he developed a highly original style remarkable for its simple elegance and schematic treatment of the natural world. This landscape was made soon after a trip to Yorkshire. Cotman largely ignored the noteworthy landmarks of the area, preferring obscure views—trees, crumbling stone walls, and dilapidated fences. Inspired by the Greta woods, the straining bows of the trees form a beautifully balanced structure of geometric and amorphous shapes.",
+          "url": "https://clevelandart.org/art/1991.22",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1991.22/1991.22_web.jpg",
+          "discipline": "illustration"
+        },
+        {
+          "cmaId": 111057,
+          "title": "A Castle in Normandy",
+          "slug": "a-castle-in-normandy-111057",
+          "year": 1795,
+          "medium": "graphite",
+          "dimensions": "Sheet: 18.6 x 26.6 cm (7 5/16 x 10 1/2 in.)",
+          "url": "https://clevelandart.org/art/1929.550",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1929.550/1929.550_web.jpg",
+          "discipline": "illustration"
+        },
+        {
+          "cmaId": 136363,
+          "title": "Tower of the Church of Haute Allemagne near Caen",
+          "slug": "tower-of-the-church-of-haute-allemagne-near-caen-136363",
+          "year": 1822,
+          "medium": "etching",
+          "url": "https://clevelandart.org/art/1960.235",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1960.235/1960.235_web.jpg",
+          "discipline": "printmaking"
+        }
+      ]
+    },
+    {
+      "cmaId": 1568,
+      "name": "Eugène Boudin",
+      "slug": "eugene-boudin",
+      "description": "Eugène Boudin (French, 1824–1898)",
+      "bio": "Eugène Boudin is traditionally presented in literature as a self-taught artist, independent of the Parisian art world whose works, painted out of doors in a sketchy, light-hued style, foreshadowed impressionism.1 Recent scholarship has tempered this interpretation of the artist, but it conserves his importance to contemporaneous artistic concerns of modernity, the notion of \"finish,\" the relationship between the French city and countryside, and the marketing of art works.2 Raised by parents who worked on steamers, Boudin grew up in Le Havre on the Normandy coast. At the age of twenty, he and an associate established their own framing and stationery shop where they regularly served artists. In 1847 Boudin went to Paris to study art and made contacts with artists such as Couture (q.v.), who helped him win a three-year study grant in 1850 from the municipal council of Le Havre, and Constant Troyon (1810-1865). But it was along the Normandy coast, not in Paris, where Boudin first met painters Ribot (q.v.) in 1851, Monet (q.v.) in 1858, and Courbet (q.v.) in 1859 and art critic Charles Baudelaire in 1859 and painted in a coarse realist style. Boudin spent each winter, roughly November to May, in Paris, working in his studio. He spent the summer season, lasting from two to five months, making pictures on the Normandy coast or in the Breton landscape. In 1860 he began to paint scenes of fashionable society at the beach resorts of Trouville (The Beach at Trouville, Minneapolis Institute of Arts) and Deauville. At first his work attracted little critical notice, but Baudelaire praised his pastels in a review of the 1859 Salon where Boudin made his debut.4 By 1869 Boudin and his art came to be identified with the Normandy coast.5 After 1870 Boudin increasingly turned away from beach resort subjects to focus on port and harbor views and fisherfolk scenes. In 1881 Boudin entered into a business relationship with the important Parisian art dealer Durand-Ruel, who provided him with a regular income for the rights to his entire production. When Durand-Ruel mounted a one-person exhibition of Boudin's works in 1883, the artist enjoyed financial and critical triumph. Boudin sold his first picture to the French state in 1886 (A Squall, Musée de Morlaix) and his second two years later (The Russian Corvette in the Eure Reservoir, Musée d'Agen). In 1892 he was decorated with the Legion of Honor. Extremely productive until the end of his life, Boudin left more than four thousand paintings and seven thousand works on paper, some of which he or his family bequeathed to the French nation and art museums of Le Havre and Honfleur. The reputation that Boudin quietly established is nowhere better evidenced than in the fact that the retro-spective exhibition of his work (January 1898) was held at the École des Beaux-Arts in Paris, where Boudin never set foot and which had fought, and failed, to privilege history painting over landscape and genre. 1. By 1883 art critic Gustave Geffroy had already pronounced that Boudin \"is, together with Corot and Jongkind, one of the immediate precursors of Impressionism. He shows us that impenetrable black does not exist and that air is transparent.\" Cited in trans. in Hamilton 1992, 42. 2. See John House, \"Boudin's Modernity,\" in Hamilton 1992, 15-23. 3. Courbet first visited Le Havre in 1841, the year he moved to Paris from Ornans. He returned at the time of the 1858 Salon du Havre, to which he contributed, and again in 1859. He is reported to have bought some of Boudin's paintings. In 1865 the two painters socialized together and painted side by side at Trouville. 4. The artist exhibited no pastels in the Salon, but Baudelaire might have seen them in the artist's studio or elsewhere. 5. Jules Castagnary, Salon de 1869, cited in trans. in Hamilton 1992, 59.",
+      "shortBio": "Eugène Boudin is traditionally presented in literature as a self-taught artist, independent of the Parisian art world whose works, painted out of doors in a sketchy, light-hued style, foreshadowed impressionism.1 Recent scholarship has tempered this interpretation of the…",
+      "disciplines": [
+        "illustration",
+        "painting"
+      ],
+      "featured": true,
+      "website": "https://www.clevelandart.org/art/collection/search?artist=Eug%C3%A8ne%20Boudin",
+      "works": [
+        {
+          "cmaId": 125091,
+          "title": "The Beach at Deauville",
+          "slug": "the-beach-at-deauville-125091",
+          "year": 1864,
+          "medium": "oil on wood panel",
+          "dimensions": "Framed: 45.7 x 36.8 x 3.5 cm (18 x 14 1/2 x 1 3/8 in.); Unframed: 34.7 x 26 cm (13 11/16 x 10 1/4 in.)",
+          "description": "During the 1860s, Boudin executed many paintings and watercolors representing well-to-do tourists and vacationers enjoying seaside resorts in Normandy, principally Trouville and Deauville. In this scene, the informally posed figures suggest a sense of relaxation and intimacy. The overturned chair in the foreground underscores the impression of a casually observed moment, as though a sea breeze or a quick departure by its former occupant has upended it. The majority of Boudin's small oil paintings of beach scenes of the 1860s were executed on wood panel. After laying down a thin white ground, Boudin seems to have begun painting directly, not drawing or laying in guidelines for the forms. The result is a freshness and airiness appropriate to a windy day at the beach.",
+          "url": "https://clevelandart.org/art/1946.71",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1946.71/1946.71_web.jpg",
+          "discipline": "painting"
+        },
+        {
+          "cmaId": 98000,
+          "title": "Beach Scene",
+          "slug": "beach-scene-98000",
+          "year": 1865,
+          "medium": "oil on wood panel",
+          "dimensions": "Framed: 54 x 75 x 6.4 cm (21 1/4 x 29 1/2 x 2 1/2 in.); Unframed: 34.7 x 57.7 cm (13 11/16 x 22 11/16 in.)",
+          "description": "On a beach where a strong breeze moves off the water from left to right, figures of French women, men, and children in chic Parisian dress stroll, sit, chat, or take donkey rides. The activities depicted (promenades, socializing, riding, sandbox playing) are the same as those enjoyed by residents of London or Paris. At the right, the dog suggests that these are vacationers rather than tourists seeking to recreate their urban pastimes at the seashore. Painted outdoors, this composition is typical of Boudin's beach scenes in the 1860s in its low-lying horizon, cloud-filled sky, and figures ranged across the middle ground. By scattering the figures over the surface and not closing off the scene with framing elements, the artist created the impression of a partial view of a much larger scene.",
+          "url": "https://clevelandart.org/art/1917.63",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1917.63/1917.63_web.jpg",
+          "discipline": "painting"
+        },
+        {
+          "cmaId": 92480,
+          "title": "Seascape with Open Sky",
+          "slug": "seascape-with-open-sky-92480",
+          "year": 1860,
+          "medium": "pastel on gray wove paper mounted on thin paperboard",
+          "dimensions": "Sheet: 21.5 x 28.7 cm (8 7/16 x 11 5/16 in.)",
+          "description": "Eugène Boudin is best known for inspiring Impressionist artists, especially a young Claude Monet, to paint outdoors. This drawing belongs to a series that Boudin made throughout much of his career depicting seascapes with dramatic skylines onsite. He favored pastel, the powdery medium used here, for its portability and directness, allowing him to capture the dramatic effects of nature as they shifted.",
+          "url": "https://clevelandart.org/art/2020.116",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/2020.116/2020.116_web.jpg",
+          "discipline": "illustration"
+        },
+        {
+          "cmaId": 153388,
+          "title": "View of Bordeaux, from the Quai des Chartrons",
+          "slug": "view-of-bordeaux-from-the-quai-des-chartrons-153388",
+          "year": 1874,
+          "medium": "oil on fabric",
+          "dimensions": "Framed: 80.5 x 115.5 x 10 cm (31 11/16 x 45 1/2 x 3 15/16 in.); Unframed: 54.7 x 89.5 cm (21 9/16 x 35 1/4 in.)",
+          "description": "In 1873, Boudin made his first visit to the important port city of Bordeaux as a guest of the resident art collector Arthur Bourges. Between 1874 and 1876, Boudin made paintings of the city's harbor and docks. This was an especially stimulating time in Boudin's career, as he was invited to exhibit in 1874 with the newly-founded Société anonyme des artistes, soon to be known as the Impressionists. As in many of his views, Boudin concentrated here on the quais or working docks where goods were loaded and unloaded and sailors left in small dinghies for the larger vessels on which they worked. The low horizon line relegates much of the canvas to pure sky, but the soaring vertical and diagonal forms of the masts complement this horizontal thrust and open space. Many contemporaries greatly admired Boudin's ability to paint skies. Here, one can see the way in which he brushed on a tan color, then went over it, probably while it was still wet, with a thin but opaque application of white, to create a fresh, airy quality. For the darker areas representing water, Boudin laid in an olive-green tone.",
+          "url": "https://clevelandart.org/art/1986.73",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1986.73/1986.73_web.jpg",
+          "discipline": "painting"
+        },
+        {
+          "cmaId": 118042,
+          "title": "The Dock of Deauville",
+          "slug": "the-dock-of-deauville-118042",
+          "year": 1891,
+          "medium": "oil on wood panel",
+          "dimensions": "Framed: 80.5 x 116 x 10 cm (31 11/16 x 45 11/16 x 3 15/16 in.); Unframed: 46.7 x 37.8 cm (18 3/8 x 14 7/8 in.)",
+          "description": "This painting treats a common theme in Eugène Boudin's mature art: ships at harbor. Boudin typically did not depict the busy commercial life or human tasks related to ships; rather, he seemed always to strive for an overall mood of calm, harmony, and light. Although Boudin's brushwork was quite sketchy at this time, he was still able to suggest the complex sails and structures of large vessels. Here he rubbed light tones around the ships' masts, often overlapping the darker lines of the wood and rigging with white or gray tones as if to evoke the passing wind and shifting positions common to nautical life.",
+          "url": "https://clevelandart.org/art/1939.165",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1939.165/1939.165_web.jpg",
+          "discipline": "painting"
+        }
+      ]
+    },
+    {
+      "cmaId": 1626,
+      "name": "Charles François Daubigny",
+      "slug": "charles-francois-daubigny",
+      "description": "Charles François Daubigny (French, 1817–1878)",
+      "bio": "The son of a painter, Charles François Daubigny received his initial training from his father, Edmond François Daubigny (1789-1843), a student of Bertin (q.v.). Daubigny's uncle, Pierre, and his uncle's wife were also painters. In order to finance a trip to Italy, Daubigny began painting decorative panels for the Musée de Versailles. By 1835 he had earned enough money for the excursion and, accompanied by Henri Mignon, traveled through Rome, Florence, Pisa, and Genoa, studying the Italian country-side. Upon his return to Paris in 1836 Daubigny began working for Granet (q.v.) in the paintings restoration depart-ment of the Louvre. He made his Salon debut two years later and would regularly show there until 1868. During this time he also learned etching, and it became a good source of income while still allowing him time to paint. Daubigny began to travel often, to Normandy in 1842, to the forest of Fontainebleau and on to Burgundy in 1843. He became friends with Corot (q.v.), and the two artists painted together in Switzerland and the Dauphiné. In 1857 Daubigny bought a boat that he converted into a studio and used to explore the Oise, Marne, and Seine rivers. The boat allowed him freedom to choose the best viewpoints for his landscapes, an idea that Monet (q.v.) would adopt years later. Daubigny achieved some financial success, received the Legion of Honor in 1859, and a year later built a home and studio in Auvers. In 1861, however, he was criticized because his works were becoming darker and sketchier. He was, in fact, one of the earliest artists to become interested in capturing the changing quality of nature by using light, rapid brush strokes.\r\nWhile experimenting with painting, Daubigny continued his interest in printmaking. In 1862 he participated in an exhibit funded by Cadart, a print publisher and dealer. The exhibition concerned artists who considered printmaking a legitimate art in itself, not a medium for simple reproduction. Cadart became Daubigny's exclusive publisher. Along with Corot, Daubigny also experimented with the cliché verre technique. He continued to travel, in Brittany in 1867 and Spain in 1868-69. He was also supportive of other artists. As a member of the Salon jury of 1868, he was instrumental in having the works of Degas (q.v.), Morisot (q.v.), Pissarro (q.v.), Renoir (q.v.), Sisley (q.v.), Monet, and Frédéric Bazille (1841-1870) accepted. Daubigny moved to London in 1870 to escape the Franco-Prussian War. There he introduced Pissarro and Monet to Paul Durand-Ruel, his art dealer, who had opened a gallery in London. Daubigny returned to Paris after the war, traveling around the French countryside until the end of his life.",
+      "shortBio": "The son of a painter, Charles François Daubigny received his initial training from his father, Edmond François Daubigny (1789-1843), a student of Bertin (q.v.). Daubigny's uncle, Pierre, and his uncle's wife were also painters. In order to finance a trip to Italy, Daubigny…",
+      "disciplines": [
+        "illustration",
+        "painting",
+        "printmaking"
+      ],
+      "featured": false,
+      "website": "https://www.clevelandart.org/art/collection/search?artist=Charles%20Fran%C3%A7ois%20Daubigny",
+      "works": [
+        {
+          "cmaId": 134159,
+          "title": "The Shepherd and the Shepherdess",
+          "slug": "the-shepherd-and-the-shepherdess-134159",
+          "year": 1874,
+          "medium": "etching",
+          "dimensions": "Sheet: 32.8 x 24.8 cm (12 15/16 x 9 3/4 in.); Platemark: 28.9 x 21.5 cm (11 3/8 x 8 7/16 in.)",
+          "description": "Although etching had fallen into disfavor in France, Daubigny began to produce original etchings in the 1840s. The revival of this technique began to accelerate, and in 1862 the Société des Aquafortistes (Society of Etchers) was organized by Alfred Cadart, who was instrumental in publishing many albums of prints. In addition, periodicals such as L'Artiste (The Artist) included original etchings, which also helped to generate interest in the medium. The countryside around Barbizon (a village about 30 miles southeast of Paris) provided a refuge from the urbanization and industrialization of modern life and offered landscape etchers a vast array of scenery—from wild forest to rocky gorges. Daubigny, who wanted to retain the immediacy of the direct observation of nature, used a flat-bottomed boat as a floating studio on the rivers of France in order to capture the momentary effects of light and atmosphere.",
+          "url": "https://clevelandart.org/art/1956.655",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1956.655/1956.655_web.jpg",
+          "discipline": "printmaking"
+        },
+        {
+          "cmaId": 102005,
+          "title": "The Boat in Conflans",
+          "slug": "the-boat-in-conflans-102005",
+          "year": 1866,
+          "medium": "etching on chine collé",
+          "dimensions": "Sheet: 26.9 x 36.7 cm (10 9/16 x 14 7/16 in.); Platemark: 11 x 13.8 cm (4 5/16 x 5 7/16 in.)",
+          "description": "Closely associated with the Barbizon school artists, Daubigny began his career painting landscapes in the Forest of Fontainebleau. His love of water scenes led him to portray innumerable sites along the rivers of France. In 1857, Daubigny launched his \"botin,\" the studio boat that fostered the development of his plein-air aesthetic by enabling him to paint while traveling the French waterways, such as the Oise, the Marne, and the Seine rivers. This etching of the artist in his \"floating studio\" is from Voyage en Bateau, an album of etchings recording Daubigny’s river travels with his friend Camille Corot.",
+          "url": "https://clevelandart.org/art/1920.666",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1920.666/1920.666_web.jpg",
+          "discipline": "printmaking"
+        },
+        {
+          "cmaId": 128363,
+          "title": "Villerville Seen from Le Ratier",
+          "slug": "villerville-seen-from-le-ratier-128363",
+          "year": 1855,
+          "medium": "oil on fabric",
+          "dimensions": "Framed: 80 x 141.5 x 7.5 cm (31 1/2 x 55 11/16 x 2 15/16 in.); Unframed: 54.2 x 116.2 cm (21 5/16 x 45 3/4 in.)",
+          "description": "The town of Villerville on the Normandy coast appears just to the right of center in this expansive landscape by Daubigny, a pioneer of outdoor painting and a major influence on Claude Monet and the Impressionists. Daubigny introduced a new kind of natural landscape based on outdoor studies of light, water, and atmospheric conditions. Here, streaks of bright light along the horizon set off the dark masses of the rocky shore in the foreground.",
+          "url": "https://clevelandart.org/art/1951.323",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1951.323/1951.323_web.jpg",
+          "discipline": "painting"
+        },
+        {
+          "cmaId": 166636,
+          "title": "The Oak Tree and the Reed",
+          "slug": "the-oak-tree-and-the-reed-166636",
+          "year": 1868,
+          "medium": "blue, gray, and black wash, and graphite",
+          "dimensions": "Sheet: 29.3 x 23 cm (11 9/16 x 9 1/16 in.)",
+          "description": "The Oak Tree and the Reed illustrates the fable of the same name by the 17th-century French writer Jean de La Fontaine (1621-1695). Having disdainfully pitied the reed for bending before the wind, the oak is shown torn from the earth by a terrific north wind. Focusing upon the uprooted oak, Daubigny created a violently expressive treatment of the subject. The bold dappling of lights and darks below is set off by the intense blue of the clouds encroaching upon the land from the left. The diagonal streaks of thin-ly applied gray wash above suggest driving rain.",
+          "url": "https://clevelandart.org/art/2008.357",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/2008.357/2008.357_web.jpg",
+          "discipline": "illustration"
+        },
+        {
+          "cmaId": 140338,
+          "title": "Sunset on the River Oise",
+          "slug": "sunset-on-the-river-oise-140338",
+          "year": 1866,
+          "medium": "oil on wood panel",
+          "dimensions": "Framed: 56.2 x 85.1 x 9 cm (22 1/8 x 33 1/2 x 3 9/16 in.); Unframed: 40.1 x 69.1 cm (15 13/16 x 27 3/16 in.)",
+          "url": "https://clevelandart.org/art/1964.289",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1964.289/1964.289_web.jpg",
+          "discipline": "painting"
+        }
+      ]
+    },
+    {
+      "cmaId": 1748,
+      "name": "Odilon Redon",
+      "slug": "odilon-redon",
+      "description": "Odilon Redon (French, 1840–1916)",
+      "bio": "A leader of the symbolist movement in France, Odilon Redon was born in Bordeaux in 1840 and grew up in the surrounding region. During his early years he studied drawing, architecture, and the violin. A friendship with Armand Clavaud, a local botanist and philosopher, stimulated Redon's passion for romantic art and literature. In 1864, after a brief and discouraging period of instruction with Gérôme in Paris, Redon returned to Bordeaux, where he studied printmaking with Rodolphe Bresdin (1825-1885). Deploring the emphasis on rational, phenomenal experience in academic and naturalist art, Redon turned for inspiration to the imaginative paintings of Delacroix, the prints of Francisco José de Goya (1746-1828), and the poetry of Charles Baudelaire. In 1870, after military service in the Franco-Prussian War, Redon settled in Paris and produced his first Noirs. These visionary images, featuring floating eyes and severed heads born aloft on wings, reflect Redon's belief in the superiority of the imagination and fantasy, which he considered \"the messenger of the unconscious.\" After producing his initial Noirs in charcoal, Redon discovered a method of transferring his drawings to lithography in 1876. Throughout the 1880s he continued to use charcoal, etching, and lithography as his primary media, and he produced twelve lithography albums before abandoning the genre in the late 1890s. During the 1880s Redon emerged as a leader of the symbolist reaction against impressionism. The publication in 1879 of his first lithographic album, Dans le rêve, followed by his first solo exhibition in 1881, attracted the admiration of J. K. Huysmans, who included illustrations by Redon in his novel À rebours (1884). Around the same time, Redon developed a personal and artistic relationship with poet Stéphane Mallarmé. Increasingly drawn into the public arena, Redon helped organize the Société des Artistes Indépendants in 1884. In 1886 he participated in the last impressionist exhibition and began showing with Les XX in Brussels. Redon's antinaturalist, visionary, art inspired many symbolist and Nabi artists, including Gauguin and Vuillard. Maurice Denis praised Redon as \"our Mallarmé,\" and in 1892 critic Albert Aurier described Redon as a leader of the new \"idealistic\" tendency in art. After 1890 the focus of Redon's activity shifted from monochromatic drawings and prints toward exploring color in richly worked pastels. His innovations in luminous color, as seen in the pastel and oil paintings he exhibited at the Galeries Durand-Ruel in 1900 were greatly admired by Henri Matisse (1869-1954) and the Fauves. Awarded the Legion of Honor in 1903, Redon continued his leadership role in the avant-garde and in 1904 became a founding member of the Salon d'Automne. In 1913 forty of his works were selected for exhibition in the Armory Show, the most by any artist. Redon died at his home in Paris in the summer of 1916.",
+      "shortBio": "A leader of the symbolist movement in France, Odilon Redon was born in Bordeaux in 1840 and grew up in the surrounding region. During his early years he studied drawing, architecture, and the violin. A friendship with Armand Clavaud, a local botanist and philosopher,…",
+      "disciplines": [
+        "illustration",
+        "printmaking"
+      ],
+      "featured": false,
+      "website": "https://www.clevelandart.org/art/collection/search?artist=Odilon%20Redon",
+      "works": [
+        {
+          "cmaId": 160709,
+          "title": "Fear",
+          "slug": "fear-160709",
+          "year": 1866,
+          "medium": "etching",
+          "dimensions": "Image: 11 x 20 cm (4 5/16 x 7 7/8 in.); Platemark: 14 x 22.3 cm (5 1/2 x 8 3/4 in.); Sheet: 27.4 x 35.1 cm (10 13/16 x 13 13/16 in.)",
+          "description": "Odilon Redon used parallel lines of varying density throughout this etching to enhance its tonal and emotional darkness. The subject was inspired by Johann Wolfgang Goethe's 1782 poem describing a father who discovered his child's death after a cold and windy nighttime journey. The figures and the man's white cape contrast dramatically with the scale and tone of their surroundings. Redon made few etchings during his career. This one was a gift to his friend, French art critic and novelist Joris-Karl Huysmans, and features a personalized dedication at the bottom of the sheet.",
+          "url": "https://clevelandart.org/art/1998.69",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1998.69/1998.69_web.jpg",
+          "discipline": "printmaking"
+        },
+        {
+          "cmaId": 448828,
+          "title": "Princess Maleine (The Little Madonna)",
+          "slug": "princess-maleine-the-little-madonna-448828",
+          "year": 1892,
+          "medium": "etching and drypoint on wove paper",
+          "dimensions": "Plate: 8.6 x 6.3 cm (3 3/8 x 2 1/2 in.); Image: 12 x 6.7 cm (4 3/4 x 2 5/8 in.); Sheet: 23.1 x 19.8 cm (9 1/8 x 7 13/16 in.)",
+          "description": "Although Odilon Redon was best known for his lithographs, he created nearly 30 prints using etching throughout his career. Here, he depicted Princess Maleine, the protagonist of a tragic drama by avant-garde playwright Maurice Maeterlinck, himself a collector of Redon’s prints. The young woman is represented in feathery black lines and tonal areas created using drypoint, a technique that wears down as impressions are printed.",
+          "url": "https://clevelandart.org/art/2021.172",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/2021.172/2021.172_web.jpg",
+          "discipline": "printmaking"
+        },
+        {
+          "cmaId": 148753,
+          "title": "Violette Heymann",
+          "slug": "violette-heymann-148753",
+          "year": 1910,
+          "medium": "pastel on gray wove paper",
+          "dimensions": "Unframed: 72 x 92 cm (28 3/8 x 36 1/4 in.)",
+          "description": "Although he was known early in his career for works primarily in black and white, such as charcoal drawings and lithographs, Odilon Redon turned to more colorful media, including pastel, later on. In particular, he focused on commissioned pastel portraits of women with flowers, such as this one. Here, the young niece of the Parisian collector Marcel Kapferer appears alongside colorful blossoms as she looks forward, focused as if in the dreamlike state evoked by her surroundings.",
+          "url": "https://clevelandart.org/art/1926.1976",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1926.1976/1926.1976_web.jpg",
+          "discipline": "illustration"
+        },
+        {
+          "cmaId": 108544,
+          "title": "Orpheus",
+          "slug": "orpheus-108544",
+          "year": 1898,
+          "medium": "pastel on brown paper",
+          "dimensions": "Sheet: 68.8 x 56.8 cm (27 1/16 x 22 3/8 in.)",
+          "description": "Drawn in vivid layers of pastel crayon, this work depicts the head of the poet and musician Orpheus. The story of the god of music, whose music carried on after his death through his lyre and head, fascinated Redon, who related to Orpheus's dedication to his art. The subject also aligned with Redon's broader interest in dreams and spirituality around this time and he represented Orpheus several times throughout his career, in various media. Here, the god's head floats as if in stasis while Mount Parnassus—the home of Apollo and the Muses—soars from behind.",
+          "url": "https://clevelandart.org/art/1926.25",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1926.25/1926.25_web.jpg",
+          "discipline": "illustration"
+        },
+        {
+          "cmaId": 109138,
+          "title": "Melancholy",
+          "slug": "melancholy-109138",
+          "year": 1860,
+          "medium": "graphite on beige wove paper",
+          "dimensions": "Sheet: 32.1 x 22 cm (12 5/8 x 8 11/16 in.)",
+          "description": "Odilon Redon grew up near the massive Pyrénées mountains in southern France and their image recurred throughout his work. In a series of drawings made during the 1870s, Redon used the craggy surface and infinite reach of his native landscape to evoke a sense of solitude and isolation. The woman seen here, for example, leans forward and casts her eyes downward as if in resignation.",
+          "url": "https://clevelandart.org/art/1927.299",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1927.299/1927.299_web.jpg",
+          "discipline": "illustration"
+        }
+      ]
+    },
+    {
+      "cmaId": 1759,
+      "name": "Edgar Degas",
+      "slug": "edgar-degas",
+      "description": "Edgar Degas (French, 1834–1917)",
+      "bio": "Son of a Parisian banker, Edgar Degas enrolled in law school in 1853 following his father's wishes. But he had already shown an interest in art and had also registered to copy at the Louvre. In 1855 he entered the École des Beaux-Arts and became a student of Louis Lamothe (1822-1869), a former pupil of Ingres (q.v.). One year later Degas made the traditional journey to Italy, remaining there for three years. He visited family members in Naples and Florence and attended life classes at the Villa Medici in Rome. A visit to Normandy in 1861 may have introduced him to the racetrack. In Paris he continued to study at the Louvre, where he met Manet (q.v.) in 1862. Apart from his continuous interest in portraiture and history painting, Degas began to pay attention to subjects of modern life. Between 1865 and 1870, he exhibited at the Salon. At the time of the Franco-Prussian War, he enlisted in the artillery, but because of his poor eyesight he served (with Manet) in the infantry. After the war he traveled first to London and, in 1872-73, visited his uncle and brothers who had a cotton business in New Orleans. Degas participated in the first impressionist exhibition of 1874. He continued to exhibit with these artists until 1886 but never completely considered himself a member of the group, preferring to call himself a realist or naturalist. While many of the impressionists painted en plein air, Degas worked with models in his studio and, later in his career, from his imagination. In addition to painting, he experimented often with monotypes, engraving, pastels, sculpture, and photography. He traveled extensively-London, Naples, Spain, Morocco, and Switzerland-but continued to draw his subject matter from modern-day Paris. Other recurring themes would be the female nude and the ballet dancer. After the impressionist exhibition of 1886, Degas no longer participated in group shows. Instead he sold his works to private dealers such as Durand-Ruel and Ambroise Vollard. In the 1890s he began his own art collection, which, besides many works on paper, included paintings by such artists as Ingres, Cézanne (q.v.), Delacroix (q.v.), Gauguin (q.v.), and van Gogh (q.v.). His own art at the time became characterized by broader strokes of paint, charcoal, and pastel and the use of more vibrant colors, partly because of problems with his vision. His failing eyesight and poor health caused him to abandon his pursuit of art during the last years of his life.",
+      "shortBio": "Son of a Parisian banker, Edgar Degas enrolled in law school in 1853 following his father's wishes. But he had already shown an interest in art and had also registered to copy at the Louvre. In 1855 he entered the École des Beaux-Arts and became a student of Louis Lamothe…",
+      "disciplines": [
+        "painting",
+        "printmaking"
+      ],
+      "featured": false,
+      "website": "https://www.clevelandart.org/art/collection/search?artist=Edgar%20Degas",
+      "works": [
+        {
+          "cmaId": 135238,
+          "title": "Paul Lafond and Alphonse Cherfils Examining a Painting",
+          "slug": "paul-lafond-and-alphonse-cherfils-examining-a-painting-135238",
+          "year": 1873,
+          "medium": "oil on wood panel",
+          "dimensions": "Framed: 42.5 x 50 x 6 cm (16 3/4 x 19 11/16 x 2 3/8 in.); Unframed: 27 x 34 cm (10 5/8 x 13 3/8 in.)",
+          "description": "The upper left corner of this painting bears a dedication by Degas \"to his dear friends.\" The double portrait depicts Paul Lafond (left), future curator of the art museum at Pau, in southwestern France, and Alphonse Cherfils (right), an art collector and defender of the Impressionists. Through the influence of these friends, Degas's works were selected for the annual exhibitions of the Société des Amis des Arts (Society of Friends of the Arts), and his painting, A Cotton Office (1873), was the first by the artist to be purchased by a museum. Since the painting held by the two men is probably by Degas, this intimate image commemorates both personal and business relationships.",
+          "url": "https://clevelandart.org/art/1958.25",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1958.25/1958.25_web.jpg",
+          "discipline": "painting"
+        },
+        {
+          "cmaId": 125526,
+          "title": "Mary Cassatt at the Louvre: The Paintings Gallery",
+          "slug": "mary-cassatt-at-the-louvre-the-paintings-gallery-125526",
+          "year": 1879,
+          "medium": "etching, softground etching, aquatint, and drypoint",
+          "dimensions": "Platemark: 30.2 x 12.6 cm (11 7/8 x 4 15/16 in.); Sheet: 36.3 x 26.6 cm (14 5/16 x 10 1/2 in.)",
+          "description": "Degas and his friends Mary Cassatt and Camille Pissarro were all experimental printmakers who combined traditional printmaking techniques to create a black and white equivalent for the tonality and varied textures of paintings. They were all so involved in printmaking that in 1879–80 they planned to publish a journal, Le Jour et la nuit (Day and Night), that would contain original etchings. As a printmaker, Degas was ambivalent about when a plate was considered finished. What attracted him to printmaking was the variability. He thoroughly enjoyed reworking, retouching, and transforming plates, often progressing toward more subtle painterly effects.",
+          "url": "https://clevelandart.org/art/1947.459",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1947.459/1947.459_web.jpg",
+          "discipline": "printmaking"
+        },
+        {
+          "cmaId": 163547,
+          "title": "Self-Portrait",
+          "slug": "self-portrait-163547",
+          "year": 1857,
+          "medium": "etching and drypoint",
+          "dimensions": "Platemark: 23 x 14.5 cm (9 1/16 x 5 11/16 in.); Sheet: 31.5 x 22.6 cm (12 3/8 x 8 7/8 in.)",
+          "description": "In the 1850s Degas frequently used himself as a model, but he made only one printed self-portrait. Through successive stages of biting the plate and layers of crosshatching, Degas gradually built areas of dark tone. In this impression, Degas added etched lines on the face, hat, and coat and carefully wiped his copper plate to create atmospheric effects. His clearly drawn eyes directly engage the viewer, resulting in a psychologically powerful and intense portrait of the young artist at age 23. This impression was dedicated to his friend, the painter and sculptor Paul Albert Bartholomé.",
+          "url": "https://clevelandart.org/art/2004.87",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/2004.87/2004.87_web.jpg",
+          "discipline": "printmaking"
+        },
+        {
+          "cmaId": 111372,
+          "title": "Mary Cassatt at the Louvre: The Etruscan Gallery",
+          "slug": "mary-cassatt-at-the-louvre-the-etruscan-gallery-111372",
+          "year": 1879,
+          "medium": "softground etching, drypoint, aquatint, and etching",
+          "dimensions": "Platemark: 26.7 x 23.2 cm (10 1/2 x 9 1/8 in.)",
+          "description": "This print is one of two in which Edgar Degas depicted Mary Cassatt and her sister Lydia at the Musée du Louvre. In this iteration of the subject, Casatt gazes intently at an Etruscan tomb, about 500 BC, excavated at Cerveteri, the largest ancient necropolis in the Mediterranean. Cassatt is viewed from behind while the enigmatically smiling couple, lying on top of a sarcophagus and enclosed in a glass case, face the viewer. Cassatt confronts the sculpture directly while Lydia reads about it in a guidebook.",
+          "url": "https://clevelandart.org/art/1929.877",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1929.877/1929.877_web.jpg",
+          "discipline": "printmaking"
+        }
+      ]
+    },
+    {
+      "cmaId": 1796,
+      "name": "Édouard Manet",
+      "slug": "edouard-manet",
+      "description": "Édouard Manet (French, 1832–1883)",
+      "bio": "Born into a wealthy family, Édouard Manet was encouraged in his artistic curiosity by his uncle and often visited the Louvre with his college friend Antonin Proust. Initially, however, Manet wanted to pursue a naval career. It was not until he failed the entrance exams for the naval academy that he decided to pursue a career as an artist. In 1850 he entered the studio of Couture (q.v.), whose reputation had risen sharply after exhibiting his Romans of the Decadence (Salon 1847, Musée d'Orsay, Paris). Couture wanted to circumvent conventional academic training and combined traditional painting methods with new techniques-for example, allowing underpaint to form an intrinsic part of the final composition, which resulted in a sketchy appearance. Manet would absorb this technique into his work. He had no strict need to sell his artwork; rather, he longed for recognition as an artist. He responded to Charles Baudelaire's call to young artists to paint contemporary life rather than antiquity and take a distanced point of view, because, as Baudelaire stated in his article The Painter of Modern Life (published in Le Figaro, 1863), objectivity is more sincere and honest. In 1863 the Salon jury rejected more than half of the five thousand works submitted, including Manet's Déjeuner sur l'herbe (Musée d'Orsay, Paris). In response to the conservative jury of that year, Napoleon III, in an effort to appease the artists as well as discourage antigovernment sentiment, organized the Salon des Refusés, which took place in the Palais des Champs-Élysées two weeks after the opening of the official Salon. The painting caused a formidable succès de scandale both for its technique and subject matter. The majority of the people failed to understand that the artist wanted to translate the conventions of the Old Masters into a new idiom that would reflect contemporary society. Two years later the scandal was repeated when Manet's Olympia (Musée d'Orsay, Paris) was accepted into the Salon of 1865. This time the jury was more lenient because fewer academicians were among its members. Even though his work often received severe criticism, Manet continued to submit works to the Salon, which he felt was the only legitimate place to compete and prove himself as an artist. At the time of the Universal Exposition in Paris in 1867, Manet, following Courbet's (q.v.) lead set in 1855, organized his own pavilion next to the Exposition where he showed more than fifty paintings. Émile Zola, the French writer and critic who may have collaborated with Manet in writing the preface for his one-man exhibition, recognized his talent and modernity. Zola rejected academic painting of the day, including Alexandre Cabanel's (1823-1889) The Birth of Venus (Musée d'Orsay, Paris), which not only won the gold medal at the Salon of 1863 but was purchased by Napoleon III. Zola vehemently defended Manet against harsh criticism and exalted him as the greatest painter of the nineteenth century. Manet painted a portrait of Zola (Salon 1868, Musée d'Orsay, Paris) that reflected the artist's interest in Japanese prints as well as photography. By the 1870s Manet's palette had lightened and his brushwork became freer and more sketchy. These new features in his painting technique may have resulted from his contact with the younger impressionist group that began exhibiting as such in 1874. Although Manet was friendly with its members and sympathized with their goals, he never exhibited with them and continued to show his paintings at the official Salon. Manet was truly innovative in depicting subjects of urban life. However, during his lifetime he enjoyed little support, and it was not until the impressionists gained general recognition that Manet was acknowledged as a truly modern painter. Henri Matisse (1869-1954) would express his immense admiration for Manet as follows: \"He was the first to act by reflex, thus simplifying the painter's métier, . . . Manet was direct as could be.\"1 1. Matisse in L'Intransigeant (25 January 1932), cited in Manet 1832-1883, 18.",
+      "shortBio": "Born into a wealthy family, Édouard Manet was encouraged in his artistic curiosity by his uncle and often visited the Louvre with his college friend Antonin Proust. Initially, however, Manet wanted to pursue a naval career. It was not until he failed the entrance exams for…",
+      "disciplines": [
+        "illustration",
+        "painting",
+        "printmaking"
+      ],
+      "featured": false,
+      "website": "https://www.clevelandart.org/art/collection/search?artist=%C3%89douard%20Manet",
+      "works": [
+        {
+          "cmaId": 104013,
+          "title": "Olympia",
+          "slug": "olympia-104013",
+          "year": 1867,
+          "medium": "etching",
+          "description": "When Edouard Manet’s painting Olympia was exhibited in Paris in 1865, it was met by the critics and general public with jeers, laughter, criticism, and distain. Manet had depicted his model, Victorine Meurent, as a modern day courtesan, confrontational rather than seductive. Manet’s depiction of a prostitute’s body in a contemporary setting was a radical rejection of the idealized beauty of the traditional female nude. Olympia forced recognition of troubled and contradictory attitudes toward prostitution in the mid-19th century, much to the discomfort of contemporary audiences. The artist made this etching to reproduce his controversial painting.",
+          "url": "https://clevelandart.org/art/1922.186",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1922.186/1922.186_web.jpg",
+          "discipline": "printmaking"
+        },
+        {
+          "cmaId": 136589,
+          "title": "The Dead Christ with Angels",
+          "slug": "the-dead-christ-with-angels-136589",
+          "year": 1866,
+          "medium": "etching and aquatint",
+          "dimensions": "Image: 32.9 x 38 cm (12 15/16 x 14 15/16 in.); Plate: 39.4 x 32.9 cm (15 1/2 x 12 15/16 in.)",
+          "description": "Edouard Manet often reinterpreted his own paintings as prints, using various techniques to bring his work to a broader audience. Here, he relied on a combination of aquatint and repeating marks to realistically suggest Christ’s lifeless body in the tomb where he was placed following his crucifixion. The figure’s vacant gaze and the deep shadows behind him led critics to deride the work as grotesque in its realism. The etching was the largest Manet made and, perhaps as a result, only a few impressions—including the one seen here—were made from the plate.",
+          "url": "https://clevelandart.org/art/1961.151",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1961.151/1961.151_web.jpg",
+          "discipline": "printmaking"
+        },
+        {
+          "cmaId": 134268,
+          "title": "The Guitarist",
+          "slug": "the-guitarist-134268",
+          "year": 1861,
+          "medium": "etching",
+          "description": "Manet’s painting The Spanish Singer won popular and critical success when it was exhibited in Paris at the annual Salon of 1860. The artist capitalized on the recognition of the painting and produced an etched version of the composition the following year that proved equally successful. Manet’s subject was inspired by Jaime Bosch, a virtuoso guitarist who was wildly popular in Paris in the mid-19th century. The Catalonian guitarist took part in the musical soirées organized by Madame Manet, the artist’s mother, at her home in Paris.",
+          "url": "https://clevelandart.org/art/1956.747",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1956.747/1956.747_web.jpg",
+          "discipline": "printmaking"
+        },
+        {
+          "cmaId": 135336,
+          "title": "Berthe Morisot with a Muff",
+          "slug": "berthe-morisot-with-a-muff-135336",
+          "year": 1871,
+          "medium": "oil on canvas",
+          "dimensions": "Framed: 91.1 x 76.5 x 7.3 cm (35 7/8 x 30 1/8 x 2 7/8 in.); Unframed: 74 x 60 cm (29 1/8 x 23 5/8 in.)",
+          "description": "This is one of two portraits Manet painted of Morisot dressed for winter in a heavy coat and feathered hat. (See Berthe Morisot with a Half Veil, also in this gallery.) Manet’s wide brushstrokes and crosshatchings, which describe areas of shadow, evoke the sketchy quality of Morisot’s own paintings, likely Manet’s nod to his subject’s identity as an artist.",
+          "url": "https://clevelandart.org/art/1958.34",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1958.34/1958.34_web.jpg",
+          "discipline": "painting"
+        },
+        {
+          "cmaId": 134236,
+          "title": "Claire Campbell",
+          "slug": "claire-campbell-134236",
+          "year": 1876,
+          "medium": "Pastel with oil on fine-weave canvas",
+          "dimensions": "Unframed: 55.2 x 45.7 cm (21 3/4 x 18 in.)",
+          "description": "During the late 1870s, Edouard Manet began to experience health problems that made it difficult for him to work in oil painting. Instead, he began to draw using pastel, a powdery medium that allowed him to render line and color with each stroke. This work is one of numerous portraits that Manet created around this time with the medium. It depicts Claire Campbell, a fashionable young British woman whose father published The Daily Telegraph, a British newspaper. Manet used the velvety texture of pastel to render the subject's skin and hair, limiting his palette to mostly neutral tones such as white, gray, and black.",
+          "url": "https://clevelandart.org/art/1956.718",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1956.718/1956.718_web.jpg",
+          "discipline": "illustration"
+        }
+      ]
+    },
+    {
+      "cmaId": 1836,
+      "name": "Camille Pissarro",
+      "slug": "camille-pissarro",
+      "description": "Camille Pissarro (French, 1830–1903)",
+      "bio": "Camille Pissarro's parents ran a general merchandise business on St. Thomas. After attending boarding school in Paris, Pissarro returned to the West Indies to work for his father from 1847 until 1852. As an artist he was largely self-taught, receiving some instruction from Fritz Melbye (1826-1896), a Danish artist with whom he traveled to Venezuela in 1852. When Pissarro returned to Paris in 1855, he shared a studio with Anton Melbye (1818-1875), Fritz's brother, and with David Jacobsen (1821-1871). He took classes at the École des Beaux-Arts in 1856 and three years later attended the Académie Suisse, where he befriended artists such as Cézanne (q.v.), Monet (q.v.), and Guillaumin (q.v.). Corot (q.v.) encouraged him to paint landscapes around Paris, and he was listed as Corot's pupil in the catalogues of the Salons of 1864 and 1865. He had met Julie Vellay in 1860, with whom he would have eight children; they married in 1871. Pissarro exhibited regularly at the Salons from 1859 to 1870, although his work received little attention and he sold hardly anything. In 1866 he settled in Pontoise, often returning to Paris where he kept a studio. He frequented Émile Zola's \"Thursdays\" (weekly literary gatherings) and associated with Manet's (q.v.) artistic circle that gathered in the Café Guerbois. During the Franco-Prussian War (1870-71) Pissarro fled with his family, first to Montfoucault and then to London, where he worked with Monet and Daubigny (q.v.) and was introduced to the dealer Durand-Ruel. In 1872 he returned to Pontoise, where he painted with Cézanne. Around 1869 Pissarro began painting in a purely impressionist style, and in 1874 he helped organize the first impressionist exhibition. He moved to Éragny-sur-Epte in 1884, where he came into contact with Seurat (q.v.) and Paul Signac (1863-1935) and subsequently began to work in a pointillist style. He eventually found this technique too limiting, and returned to an impressionist mode, often working in series. By the end of his career his landscapes and depictions of city life sold well, and in 1892 he was given a retrospective exhibition at Durand-Ruel. By now, the artist had developed strongly anarchist convictions. Pissarro not only painted and made drawings, he also experimented with etching and lithography.",
+      "shortBio": "Camille Pissarro's parents ran a general merchandise business on St. Thomas. After attending boarding school in Paris, Pissarro returned to the West Indies to work for his father from 1847 until 1852. As an artist he was largely self-taught, receiving some instruction from…",
+      "disciplines": [
+        "painting",
+        "printmaking"
+      ],
+      "featured": false,
+      "website": "https://www.clevelandart.org/art/collection/search?artist=Camille%20Pissarro",
+      "works": [
+        {
+          "cmaId": 148759,
+          "title": "La Roche-Guyon",
+          "slug": "la-roche-guyon-148759",
+          "year": 1866,
+          "medium": "etching",
+          "dimensions": "Image: 27.4 x 22.2 cm (10 13/16 x 8 3/4 in.); Plate: 31.8 x 23.9 cm (12 1/2 x 9 7/16 in.); Sheet: 43.5 x 32.8 cm (17 1/8 x 12 15/16 in.)",
+          "description": "A very early etching by the Impressionist artist Camille Pissarro, this view of the massive rocks at La Roche-Guyon reveals the artist’s painterly attitude toward printmaking. Using only the etched line and a layer of ink left on his printing plate's surface, Pissarro created a dramatic landscape filled with brilliant sunlight and soft shadows.",
+          "url": "https://clevelandart.org/art/1976.20",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1976.20/1976.20_web.jpg",
+          "discipline": "printmaking"
+        },
+        {
+          "cmaId": 541185,
+          "title": "Self-Portrait",
+          "slug": "self-portrait-541185",
+          "year": 1885,
+          "medium": "zinc etching with aquatint on light tan wove paper",
+          "dimensions": "Matted: 40.8 x 35.6 cm (16 1/16 x 14 in.); Image: 18.7 x 17.8 cm (7 3/8 x 7 in.); Sheet: 34.7 x 27.4 cm (13 11/16 x 10 13/16 in.)",
+          "description": "This print is one of Camille Pissarro’s few self-portraits and his only etched one. Made when he was around 60 years old, Pissarro presents himself as an aged and bearded artist wearing a soft hat and peering out of the picture frame through his half-moon spectacles. Pissarro made only 28 impressions of the print during his lifetime, most of which he gave to friends and family members.",
+          "url": "https://clevelandart.org/art/2023.119",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/2023.119/2023.119_web.jpg",
+          "discipline": "printmaking"
+        },
+        {
+          "cmaId": 128392,
+          "title": "Edge of the Woods Near L'Hermitage, Pontoise",
+          "slug": "edge-of-the-woods-near-l-hermitage-pontoise-128392",
+          "year": 1879,
+          "medium": "oil on fabric",
+          "dimensions": "Framed: 166 x 204 x 16.5 cm (65 3/8 x 80 5/16 x 6 1/2 in.); Unframed: 125 x 163 cm (49 3/16 x 64 3/16 in.)",
+          "description": "Born to a French-Jewish family on St. Thomas island in the Caribbean, Pissarro painted this monumental landscape when he was desperately poor and struggling to sell his paintings. It depicts a man slumbering in the sun-dappled backwoods of the Hermitage, a rural village near Pontoise, where the artist had been living since 1872. Restricting his palette to pure hues, Pissarro applied brushstrokes in systematic diagonal patterns, producing an effect that he likened to knitting. This canvas was included in the fourth Impressionist exhibition of 1879.",
+          "url": "https://clevelandart.org/art/1951.356",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1951.356/1951.356_web.jpg",
+          "discipline": "painting"
+        },
+        {
+          "cmaId": 155626,
+          "title": "The Lock at Pontoise",
+          "slug": "the-lock-at-pontoise-155626",
+          "year": 1872,
+          "medium": "oil on fabric",
+          "dimensions": "Framed: 76.8 x 105.7 x 11.4 cm (30 1/4 x 41 5/8 x 4 1/2 in.); Unframed: 53 x 83 cm (20 7/8 x 32 11/16 in.)",
+          "description": "Pissarro was instrumental in developing the radically new Impressionist technique of painting quickly outdoors to capture fleeting effects of light and atmosphere. The rushing water and overcast sky in this view of a river lock near the artist’s home at Pontoise, a rural commune about 17 miles northwest of Paris, are rendered with rapid, broken brushstrokes of pure color. Painting directly on canvas without preliminary drawing, Pissarro may have executed this work in a single session. The shimmering surface of broken color conveys the sensation of natural, outdoor light.",
+          "url": "https://clevelandart.org/art/1990.7",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1990.7/1990.7_web.jpg",
+          "discipline": "painting"
+        },
+        {
+          "cmaId": 74228,
+          "title": "Fishmarket",
+          "slug": "fishmarket-74228",
+          "year": 1902,
+          "medium": "oil on canvas",
+          "dimensions": "Unframed: 66 x 81.3 cm (26 x 32 in.)",
+          "description": "This impressive view of a bustling fish market belongs to a series of paintings that Pissarro made during the summer of 1902 depicting the harbor at Dieppe. Borrowing from the Impressionist method of portraying a modern city from a high vantage point, he enlivened the scene with rich, vibrant colors applied with energetic, broken brushstrokes. Ever concerned with the fleeting effects of atmosphere, Pissarro painted the interpenetration of industrial steam with the clouds in the brilliant, sunlit sky.",
+          "url": "https://clevelandart.org/art/2020.113",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/2020.113/2020.113_web.jpg",
+          "discipline": "painting"
+        }
+      ]
+    },
+    {
+      "cmaId": 1955,
+      "name": "Hubert Robert",
+      "slug": "hubert-robert",
+      "description": "Hubert Robert (French, 1733–1808)",
+      "bio": "Hubert Robert (French, 1733–1808) Active 1733–1808. Public-domain works from the Cleveland Museum of Art Open Access collection, used as development stand-ins for the Organized Chaos Arts directory.",
+      "shortBio": "Hubert Robert (French, 1733–1808) Active 1733–1808. Public-domain works from the Cleveland Museum of Art Open Access collection, used as development stand-ins for the Organized Chaos Arts directory.",
+      "disciplines": [
+        "printmaking"
+      ],
+      "featured": false,
+      "website": "https://www.clevelandart.org/art/collection/search?artist=Hubert%20Robert",
+      "works": [
+        {
+          "cmaId": 112066,
+          "title": "The Antique Gallery",
+          "slug": "the-antique-gallery-112066",
+          "year": 1763,
+          "medium": "etching",
+          "dimensions": "Platemark: 13.8 x 9.3 cm (5 7/16 x 3 11/16 in.); Border: 13.1 x 8.4 cm (5 3/16 x 3 5/16 in.)",
+          "description": "Derived from his own pen-and-ink drawings, this suite of etchings features fictional characters situated near recognizable buildings and statues in Rome. On the title page, Robert dedicated the suite to Marguerite Le Compte, who visited Rome in 1764 in the company of the wealthy author and art enthusiast Claude Henri Watelet. Both Le Compte and Watelet were amateur etchers, and they socialized with a group that included artists and printmakers centered at the academies in Italy. Robert’s dedication was likely motivated by the hope of future patronage from Le Compte. She may be the generous woman with a hand muff depicted in The Ancient Temple, the fifth scene in this series.",
+          "url": "https://clevelandart.org/art/1930.545",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1930.545/1930.545_web.jpg",
+          "discipline": "printmaking"
+        },
+        {
+          "cmaId": 112069,
+          "title": "The Statue in Front of Ruins",
+          "slug": "the-statue-in-front-of-ruins-112069",
+          "year": 1763,
+          "medium": "etching",
+          "dimensions": "Platemark: 13.5 x 9.4 cm (5 5/16 x 3 11/16 in.); Border: 12.7 x 9 cm (5 x 3 9/16 in.)",
+          "description": "Derived from his own pen-and-ink drawings, this suite of etchings features fictional characters situated near recognizable buildings and statues in Rome. On the title page, Robert dedicated the suite to Marguerite Le Compte, who visited Rome in 1764 in the company of the wealthy author and art enthusiast Claude Henri Watelet. Both Le Compte and Watelet were amateur etchers, and they socialized with a group that included artists and printmakers centered at the academies in Italy. Robert’s dedication was likely motivated by the hope of future patronage from Le Compte. She may be the generous woman with a hand muff depicted in The Ancient Temple, the fifth scene in this series.",
+          "url": "https://clevelandart.org/art/1930.548",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1930.548/1930.548_web.jpg",
+          "discipline": "printmaking"
+        },
+        {
+          "cmaId": 112065,
+          "title": "Le Puits",
+          "slug": "le-puits-112065",
+          "year": 1763,
+          "medium": "etching",
+          "description": "Derived from his own pen-and-ink drawings, this suite of etchings features fictional characters situated near recognizable buildings and statues in Rome. On the title page, Robert dedicated the suite to Marguerite Le Compte, who visited Rome in 1764 in the company of the wealthy author and art enthusiast Claude Henri Watelet. Both Le Compte and Watelet were amateur etchers, and they socialized with a group that included artists and printmakers centered at the academies in Italy. Robert’s dedication was likely motivated by the hope of future patronage from Le Compte. She may be the generous woman with a hand muff depicted in The Ancient Temple, the fifth scene in this series.",
+          "url": "https://clevelandart.org/art/1930.544",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1930.544/1930.544_web.jpg",
+          "discipline": "printmaking"
+        },
+        {
+          "cmaId": 112070,
+          "title": "Les Soirées de Rome:  Le Buste",
+          "slug": "les-soirees-de-rome-le-buste-112070",
+          "year": 1764,
+          "medium": "etching",
+          "description": "Derived from his own pen-and-ink drawings, this suite of etchings features fictional characters situated near recognizable buildings and statues in Rome. On the title page, Robert dedicated the suite to Marguerite Le Compte, who visited Rome in 1764 in the company of the wealthy author and art enthusiast Claude Henri Watelet. Both Le Compte and Watelet were amateur etchers, and they socialized with a group that included artists and printmakers centered at the academies in Italy. Robert’s dedication was likely motivated by the hope of future patronage from Le Compte. She may be the generous woman with a hand muff depicted in The Ancient Temple, the fifth scene in this series.",
+          "url": "https://clevelandart.org/art/1930.549",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1930.549/1930.549_web.jpg",
+          "discipline": "printmaking"
+        },
+        {
+          "cmaId": 112062,
+          "title": "Le Sarcophage",
+          "slug": "le-sarcophage-112062",
+          "year": 1763,
+          "medium": "etching",
+          "description": "Derived from his own pen-and-ink drawings, this suite of etchings features fictional characters situated near recognizable buildings and statues in Rome. On the title page, Robert dedicated the suite to Marguerite Le Compte, who visited Rome in 1764 in the company of the wealthy author and art enthusiast Claude Henri Watelet. Both Le Compte and Watelet were amateur etchers, and they socialized with a group that included artists and printmakers centered at the academies in Italy. Robert’s dedication was likely motivated by the hope of future patronage from Le Compte. She may be the generous woman with a hand muff depicted in The Ancient Temple, the fifth scene in this series.",
+          "url": "https://clevelandart.org/art/1930.541",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1930.541/1930.541_web.jpg",
+          "discipline": "printmaking"
+        }
+      ]
+    },
+    {
+      "cmaId": 2002,
+      "name": "Jean-Honoré Fragonard",
+      "slug": "jean-honore-fragonard",
+      "description": "Jean-Honoré Fragonard (French, 1732–1806)",
+      "bio": "Jean-Honoré Fragonard (French, 1732–1806) Active 1732–1806. Public-domain works from the Cleveland Museum of Art Open Access collection, used as development stand-ins for the Organized Chaos Arts directory.",
+      "shortBio": "Jean-Honoré Fragonard (French, 1732–1806) Active 1732–1806. Public-domain works from the Cleveland Museum of Art Open Access collection, used as development stand-ins for the Organized Chaos Arts directory.",
+      "disciplines": [
+        "painting",
+        "printmaking"
+      ],
+      "featured": false,
+      "website": "https://www.clevelandart.org/art/collection/search?artist=Jean-Honor%C3%A9%20Fragonard",
+      "works": [
+        {
+          "cmaId": 122166,
+          "title": "A Boy in a Red-lined Cloak",
+          "slug": "a-boy-in-a-red-lined-cloak-122166",
+          "year": 1780,
+          "medium": "oil on wood",
+          "dimensions": "Framed: 36 x 27 x 3.5 cm (14 3/16 x 10 5/8 x 1 3/8 in.); Unframed: 20.8 x 16 cm (8 3/16 x 6 5/16 in.)",
+          "description": "In the course of his long career, Fragonard produced more than 550 paintings. In this particular painting, the seventeenth-century costume, the brown palette, and his technique suggest that Fragonard is reflecting upon the work of Peter Paul Rubens and Rembrandt rather than his teacher François Boucher. While there is considerable evidence that the sitter is Alexander Evariste Fragonard, the artist's son, this identity has never been confirmed.",
+          "url": "https://clevelandart.org/art/1942.49",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1942.49/1942.49_web.jpg",
+          "discipline": "painting"
+        },
+        {
+          "cmaId": 170459,
+          "title": "Bacchanales: The Satyr's Dance ",
+          "slug": "bacchanales-the-satyr-s-dance-170459",
+          "year": 1763,
+          "medium": "etching",
+          "dimensions": "Image: 13.6 x 20.3 cm (5 3/8 x 8 in.); Sheet: 14.8 x 21.3 cm (5 13/16 x 8 3/8 in.)",
+          "description": "Jean-Honoré Fragonard made these four etchings shortly after returning to Paris from Italy, where he studied antique subjects and sculpture. He may have also looked at other sources for inspiration, such as Jacques François Joseph Saly’s suite of vase designs. Though the prints feature the followers of Bacchus, the wine god does not make an appearance. Instead, Fragonard highlighted the playfully erotic frolics, conflicts, and even family life of a group of bacchants, conceiving them as low-relief sculptures on stone fragments within abundant foliage. Fragonard’s creations helped to popularize revelries in nature in French art, architecture, and garden design during the later 1700s.",
+          "url": "https://clevelandart.org/art/2012.64.4",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/2012.64.4/2012.64.4_web.jpg",
+          "discipline": "printmaking"
+        },
+        {
+          "cmaId": 170456,
+          "title": "Bacchanales: Nymph Supported by Two Satyrs ",
+          "slug": "bacchanales-nymph-supported-by-two-satyrs-170456",
+          "year": 1763,
+          "medium": "etching",
+          "dimensions": "Image: 13.3 x 19.7 cm (5 1/4 x 7 3/4 in.); Sheet: 15.1 x 21.3 cm (5 15/16 x 8 3/8 in.)",
+          "description": "Jean-Honoré Fragonard made these four etchings shortly after returning to Paris from Italy, where he studied antique subjects and sculpture. He may have also looked at other sources for inspiration, such as Jacques François Joseph Saly’s suite of vase designs. Though the prints feature the followers of Bacchus, the wine god does not make an appearance. Instead, Fragonard highlighted the playfully erotic frolics, conflicts, and even family life of a group of bacchants, conceiving them as low-relief sculptures on stone fragments within abundant foliage. Fragonard’s creations helped to popularize revelries in nature in French art, architecture, and garden design during the later 1700s.",
+          "url": "https://clevelandart.org/art/2012.64.1",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/2012.64.1/2012.64.1_web.jpg",
+          "discipline": "printmaking"
+        },
+        {
+          "cmaId": 170458,
+          "title": "Bacchanales: Nymph Astride a Satyr ",
+          "slug": "bacchanales-nymph-astride-a-satyr-170458",
+          "year": 1763,
+          "medium": "etching",
+          "dimensions": "Platemark: 14.9 x 21.2 cm (5 7/8 x 8 3/8 in.); Sheet: 15.8 x 22.3 cm (6 1/4 x 8 3/4 in.)",
+          "description": "Jean-Honoré Fragonard made these four etchings shortly after returning to Paris from Italy, where he studied antique subjects and sculpture. He may have also looked at other sources for inspiration, such as Jacques François Joseph Saly’s suite of vase designs. Though the prints feature the followers of Bacchus, the wine god does not make an appearance. Instead, Fragonard highlighted the playfully erotic frolics, conflicts, and even family life of a group of bacchants, conceiving them as low-relief sculptures on stone fragments within abundant foliage. Fragonard’s creations helped to popularize revelries in nature in French art, architecture, and garden design during the later 1700s.",
+          "url": "https://clevelandart.org/art/2012.64.3",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/2012.64.3/2012.64.3_web.jpg",
+          "discipline": "printmaking"
+        },
+        {
+          "cmaId": 170457,
+          "title": "Bacchanales: The Satyr's Family ",
+          "slug": "bacchanales-the-satyr-s-family-170457",
+          "year": 1763,
+          "medium": "etching",
+          "dimensions": "Image: 14.5 x 21.4 cm (5 11/16 x 8 7/16 in.); Sheet: 18 x 24.5 cm (7 1/16 x 9 5/8 in.)",
+          "description": "Jean-Honoré Fragonard made these four etchings shortly after returning to Paris from Italy, where he studied antique subjects and sculpture. He may have also looked at other sources for inspiration, such as Jacques François Joseph Saly’s suite of vase designs. Though the prints feature the followers of Bacchus, the wine god does not make an appearance. Instead, Fragonard highlighted the playfully erotic frolics, conflicts, and even family life of a group of bacchants, conceiving them as low-relief sculptures on stone fragments within abundant foliage. Fragonard’s creations helped to popularize revelries in nature in French art, architecture, and garden design during the later 1700s.",
+          "url": "https://clevelandart.org/art/2012.64.2",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/2012.64.2/2012.64.2_web.jpg",
+          "discipline": "printmaking"
+        }
+      ]
+    },
+    {
+      "cmaId": 2032,
+      "name": "Berlinghiero",
+      "slug": "berlinghiero",
+      "description": "Berlinghiero (Italian, before 1242)",
+      "bio": "Berlinghiero was first recorded in a Lucchese document of 1228 and mentioned as already dead by 1243.  Crowe and Cavlcaselle's mistranslation of the document of 1228 (known only from a 1600s transcription) gave rise to the apparently mistaken assumption that Berlinghiero came from Milan and that his last name was Berlinghieri.  These misconceptions persist despite the thorough review and corrected interpretation of the available sources published by Garrison (1951, I I ff.).  Berlinghiero introduced Byzantine elements into the style of painting in Lucca which dominated that school during the first three-quarters of the 1200s and strongly influenced painting in Pisa and Florence.  Attributions to Berlinghiero are based on his one signed work, a Crucifix, probably painted c. 1210-1220.  Three sons were trained by Belinghiero and works by two of them, Bonaventura and Marco, are known.",
+      "shortBio": "Berlinghiero was first recorded in a Lucchese document of 1228 and mentioned as already dead by 1243. Crowe and Cavlcaselle's mistranslation of the document of 1228 (known only from a 1600s transcription) gave rise to the apparently mistaken assumption that Berlinghiero came…",
+      "disciplines": [
+        "painting"
+      ],
+      "featured": false,
+      "website": "https://www.clevelandart.org/art/collection/search?artist=Berlinghiero",
+      "works": [
+        {
+          "cmaId": 142474,
+          "title": "The Crucifixion of St. Andrew, with St. Francis and St. Paul below",
+          "slug": "the-crucifixion-of-st-andrew-with-st-francis-and-st-paul-below-142474",
+          "year": 1225,
+          "medium": "tempera and gold on wood",
+          "dimensions": "Unframed: 42.5 x 12.5 cm (16 3/4 x 4 15/16 in.)",
+          "description": "This small altarpiece, intended for a domestic interior or private chapel, consists of three panels, allowing it to be folded and easily transported. Surrounding the Virgin and Child in the center are various saints. On the left is Saint Andrew crucified, with St. Francis and St. Paul below; on the right, Christ with the instruments of the Passion, and St. Stephen and St. Lawrence below. The long expressive lines that define the clothing and hands of the figures are typical of Byzantine painting, which spread from Constantinople to Italy in the Middle Ages. Berlinghiero is one of the earliest Italian painters known by name. He lived in Lucca, the most important artistic center in Tuscany before the rise of Siena and Florence. Berlinghiero headed a large, influential workshop that included his sons.",
+          "url": "https://clevelandart.org/art/1966.237.b",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1966.237.b/1966.237.b_web.jpg",
+          "discipline": "painting"
+        },
+        {
+          "cmaId": 142472,
+          "title": "Virgin and Child with Saints",
+          "slug": "virgin-and-child-with-saints-142472",
+          "year": 1225,
+          "medium": "triptych (tabernacle); tempera and gold on poplar panel",
+          "dimensions": "Overall: 42.6 x 51.5 cm (16 3/4 x 20 1/4 in.); Center: 42.8 x 27 cm (16 7/8 x 10 5/8 in.); Left: 42.5 x 12.5 cm (16 3/4 x 4 15/16 in.); Right: 42.4 x 12 cm (16 11/16 x 4 3/4 in.)",
+          "description": "This small altarpiece, intended for a domestic interior or private chapel, consists of three panels, allowing it to be folded and easily transported. Surrounding the Virgin and Child in the center are various saints. On the left is Saint Andrew crucified, with St. Francis and St. Paul below; on the right, Christ with the instruments of the Passion, and St. Stephen and St. Lawrence below. The long expressive lines that define the clothing and hands of the figures are typical of Byzantine painting, which spread from Constantinople to Italy in the Middle Ages. Berlinghiero is one of the earliest Italian painters known by name. He lived in Lucca, the most important artistic center in Tuscany before the rise of Siena and Florence. Berlinghiero headed a large, influential workshop that included his sons.",
+          "url": "https://clevelandart.org/art/1966.237",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1966.237/1966.237_web.jpg",
+          "discipline": "painting"
+        },
+        {
+          "cmaId": 142475,
+          "title": "Christ in a Mandorla, with the instruments of the Passion, with St. Stephen and St. Lawrence below",
+          "slug": "christ-in-a-mandorla-with-the-instruments-of-the-passion-with-st-stephen-and-st--142475",
+          "year": 1225,
+          "medium": "tempera and gold on wood",
+          "dimensions": "Unframed: 42.4 x 12 cm (16 11/16 x 4 3/4 in.)",
+          "description": "This small altarpiece, intended for a domestic interior or private chapel, consists of three panels, allowing it to be folded and easily transported. Surrounding the Virgin and Child in the center are various saints. On the left is Saint Andrew crucified, with St. Francis and St. Paul below; on the right, Christ with the instruments of the Passion, and St. Stephen and St. Lawrence below. The long expressive lines that define the clothing and hands of the figures are typical of Byzantine painting, which spread from Constantinople to Italy in the Middle Ages. Berlinghiero is one of the earliest Italian painters known by name. He lived in Lucca, the most important artistic center in Tuscany before the rise of Siena and Florence. Berlinghiero headed a large, influential workshop that included his sons.",
+          "url": "https://clevelandart.org/art/1966.237.c",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1966.237.c/1966.237.c_web.jpg",
+          "discipline": "painting"
+        }
+      ]
+    },
+    {
+      "cmaId": 2285,
+      "name": "Salvator Rosa",
+      "slug": "salvator-rosa",
+      "description": "Salvator Rosa (Italian, 1615–1673)",
+      "bio": "Salvator Rosa (Italian, 1615–1673) Active 1615–1673. Public-domain works from the Cleveland Museum of Art Open Access collection, used as development stand-ins for the Organized Chaos Arts directory.",
+      "shortBio": "Salvator Rosa (Italian, 1615–1673) Active 1615–1673. Public-domain works from the Cleveland Museum of Art Open Access collection, used as development stand-ins for the Organized Chaos Arts directory.",
+      "disciplines": [
+        "painting",
+        "printmaking"
+      ],
+      "featured": false,
+      "website": "https://www.clevelandart.org/art/collection/search?artist=Salvator%20Rosa",
+      "works": [
+        {
+          "cmaId": 145971,
+          "title": "Glaucus and Scylla",
+          "slug": "glaucus-and-scylla-145971",
+          "year": 1656,
+          "medium": "etching",
+          "dimensions": "Framed: 52.4 x 39.4 cm (20 5/8 x 15 1/2 in.)",
+          "description": "Salvatore Rosa was a prolific and skilled printmaker, producing more than 100 etchings throughout his career. Derived from Ovid's Metamorphoses, Glaucus and Scylla tells a story associated with magic and witchcraft. After drinking a magical herb, the fisherman Glaucus was immortalized and transformed into a sea god with fins and a fish tail. Rosa depicts the moment in which the amorous Glaucus declares his love to the beautiful water nymph, Scylla, who flees. Later, Glacus implored the witch Circe to help him win the heart of Scylla, but attracted to the sea god herself, the jealous witch poisoned the waters where Scylla lived, turning the nymph into the infamous rock that troubled Ulysses and countless sea travelers. The ominous, rolling clouds and Glaucus's thrashing form project the drama of Scylla's escape and foreshadow her own metamorphosis to come.",
+          "url": "https://clevelandart.org/art/1971.176",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1971.176/1971.176_web.jpg",
+          "discipline": "printmaking"
+        },
+        {
+          "cmaId": 142993,
+          "title": "Jason and the Dragon",
+          "slug": "jason-and-the-dragon-142993",
+          "year": 1658,
+          "medium": "etching",
+          "dimensions": "Sheet: 39.1 x 23.7 cm (15 3/8 x 9 5/16 in.)",
+          "description": "Jason's quest for the Golden Fleece required him to bypass a fearsome dragon, which he was able to do with a sleeping potion given to him by the witch Medea. Salvatore Rosa selected classical narratives to prove he was a great and learned painter of histories, and he showcased the novelty of being among the first 16th- or 17th-century artists to portray this particular story. Rosa turned the ancient epic into a moody struggle by transmitting the mystery and magic of his earlier witchcraft imagery. Utilizing the energetic and spontaneous qualities of his draftsmanship, the violence of Jason's feat is emphasized by a claustrophobic and savage environment of crags and \"blasted\" trees that frames the dynamic diagonals of the hero and recoiling dragon.",
+          "url": "https://clevelandart.org/art/1966.730",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1966.730/1966.730_web.jpg",
+          "discipline": "printmaking"
+        },
+        {
+          "cmaId": 148327,
+          "title": "Diogenes and His Cup",
+          "slug": "diogenes-and-his-cup-148327",
+          "year": 1662,
+          "medium": "etching",
+          "description": "Diogenes was an ancient Greek philosopher who valued poverty and shunned worldly goods, to the extent that he discarded his drinking bowl when he observed a youth drinking water from cupped hands, as depicted here. The print was made by the eccentric Neapolitan artist Salvator Rosa, who rejected conventional patronage in order to focus on themes that interested him. The placement of the narrative within a lush landscape is typical of Rosa’s approach, as is the emphasis on the unconventional principles of his subject, with which he identified.",
+          "url": "https://clevelandart.org/art/1975.51",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1975.51/1975.51_web.jpg",
+          "discipline": "printmaking"
+        },
+        {
+          "cmaId": 149107,
+          "title": "Scenes of Witchcraft: Evening",
+          "slug": "scenes-of-witchcraft-evening-149107",
+          "year": 1640,
+          "medium": "oil on canvas",
+          "dimensions": "Framed: 76.2 x 9.6 cm (30 x 3 3/4 in.); Unframed: 54.5 cm (21 7/16 in.)",
+          "description": "At dusk, Rosa's hags gather around a cauldron. Above their incantations soars a conjured skeleton holding an hourglass symbolizing the brevity of life. In its left hand, the demonic creature holds a capital letter A from which extends a plumb line; as ancient signs of the moon and judgment, this strange combination of symbols embodies the nocturnal judgment the witches are doling out below. Though more rare in paint, the detailed portrayal of witches at their spells enjoyed a long literary tradition. The wax effigy alludes to classical literature by Virgil and Horace that described love magic. Poets in the 1500s and 1600s continued the tradition, writing verse about witches concocting potions and performing love spells. In Rosa's own poem \"La Strega (The Witch),\" the jilted Phyllis vows to take revenge on her feeble lover, listing the ingredients for her black magic: \"ground powders, mystic gems, snakes and owls, stinking blood. . . .\" Painting was considered \"mute poetry\" in the 1600s, and Rosa often explored the same themes in his written and painted art—a clever way to gain fame as a unique intellect.",
+          "url": "https://clevelandart.org/art/1977.37.3",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1977.37.3/1977.37.3_web.jpg",
+          "discipline": "painting"
+        },
+        {
+          "cmaId": 149108,
+          "title": "Scenes of Witchcraft: Night",
+          "slug": "scenes-of-witchcraft-night-149108",
+          "year": 1640,
+          "medium": "oil on canvas",
+          "dimensions": "Framed: 76.2 x 9.6 cm (30 x 3 3/4 in.); Unframed: 54.5 cm (21 7/16 in.)",
+          "description": "In the pitch black of night, two groups of men are gathered in a forest. To the left, travelers apprehensively pause to watch a magician conjure terrifying apparitions. Since the Middle Ages, necromancy, the act of communing with the dead, was associated with male sorcerers. In Rosa's painting, the wizened necromancer who stands tall and resolute directly below a classical column is reminiscent of Moses, a predecessor to Renaissance depictions of sorcerers. Rosa's learned magicians not only invoke associations with philosophers and intellects, but they would have also referred to the artist himself and the intellectual elite with whom he associated in Florence. Just as a powerful magician could conjure strange creatures with his wand, so too could Rosa shape a strange world with his originality, intelligence, and the skillful use of paint and brush.",
+          "url": "https://clevelandart.org/art/1977.37.4",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1977.37.4/1977.37.4_web.jpg",
+          "discipline": "painting"
+        }
+      ]
+    },
+    {
+      "cmaId": 2386,
+      "name": "Francisco de Goya",
+      "slug": "francisco-de-goya",
+      "description": "Francisco de Goya (Spanish, 1746–1828)",
+      "bio": "Francisco de Goya (Spanish, 1746–1828) Active 1746–1828. Public-domain works from the Cleveland Museum of Art Open Access collection, used as development stand-ins for the Organized Chaos Arts directory.",
+      "shortBio": "Francisco de Goya (Spanish, 1746–1828) Active 1746–1828. Public-domain works from the Cleveland Museum of Art Open Access collection, used as development stand-ins for the Organized Chaos Arts directory.",
+      "disciplines": [
+        "illustration",
+        "painting",
+        "printmaking"
+      ],
+      "featured": false,
+      "website": "https://www.clevelandart.org/art/collection/search?artist=Francisco%20de%20Goya",
+      "works": [
+        {
+          "cmaId": 133653,
+          "title": "They Have Flown, Plate 61",
+          "slug": "they-have-flown-plate-61-133653",
+          "year": 1799,
+          "medium": "etching and aquatint",
+          "dimensions": "Image: 18.6 x 12.9 cm (7 5/16 x 5 1/16 in.); Plate: 21.4 x 15 cm (8 7/16 x 5 7/8 in.); Sheet: 31.9 x 22.3 cm (12 9/16 x 8 3/4 in.)",
+          "description": "In the print series Los Caprichos, which translates as “caprices” or “artistic fantasies,” Francisco de Goya drew on his expansive imagination to comment on Spanish society. The artist’s critiques are not always clear, and many of the prints are intentionally ambiguous. Here, three witches support a young woman taking flight. Caught in the wind, her dress and veil transform her into a human butterfly, perhaps reflecting views at the time that characterized women as flighty. However, both the association of butterflies with life’s fragility and the presence of witches—often used by the artist to symbolize immorality and sex work—may instead invite a more sinister interpretation.",
+          "url": "https://clevelandart.org/art/1956.272",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1956.272/1956.272_web.jpg",
+          "discipline": "printmaking"
+        },
+        {
+          "cmaId": 133655,
+          "title": "When Day Breaks We Will Be Off, Plate 71",
+          "slug": "when-day-breaks-we-will-be-off-plate-71-133655",
+          "year": 1799,
+          "medium": "etching and aquatint",
+          "dimensions": "Image: 17.3 x 12.7 cm (6 13/16 x 5 in.); Plate: 19.7 x 14.9 cm (7 3/4 x 5 7/8 in.); Sheet: 32 x 22.4 cm (12 5/8 x 8 13/16 in.)",
+          "description": "Francisco de Goya used printmaking to explore subjects that stirred controversy when represented in more public media, such as oil painting. This print belongs to Los Caprichos, a series of enigmatic images that critique the hypocrisy and irrationality the artist observed throughout contemporary Spanish society. Here, a group of witches prepares to fly without broomsticks or sight, suggesting ignorance and obliviousness. The dense and starry sky behind them was created using layers of aquatint—a technique that Goya was among the earliest and most expert artists to adopt.",
+          "url": "https://clevelandart.org/art/1956.274",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1956.274/1956.274_web.jpg",
+          "discipline": "printmaking"
+        },
+        {
+          "cmaId": 123490,
+          "title": "Portrait of Don Juan Antonio Cuervo",
+          "slug": "portrait-of-don-juan-antonio-cuervo-123490",
+          "year": 1819,
+          "medium": "oil on canvas",
+          "dimensions": "Framed: 136.8 x 105.1 x 7.3 cm (53 7/8 x 41 3/8 x 2 7/8 in.); Unframed: 120 x 87 cm (47 1/4 x 34 1/4 in.)",
+          "description": "This portrait both testifies to Goya’s friendship with Cuervo and presents the sitter as a cutting-edge intellectual. Director of the Royal Academy of San Fernando, the official academy for artists and architects in Spain, Cuervo appears with his plan for the recent renovation of Madrid’s Church of Santiago. The jacket with red and gold brocade identifies him as a member of the academy.",
+          "url": "https://clevelandart.org/art/1943.90",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1943.90/1943.90_web.jpg",
+          "discipline": "painting"
+        },
+        {
+          "cmaId": 144588,
+          "title": "Saint Ambrose",
+          "slug": "saint-ambrose-144588",
+          "year": 1796,
+          "medium": "oil on canvas",
+          "dimensions": "Framed: 148.7 x 225.3 x 10.3 cm (58 9/16 x 88 11/16 x 4 1/16 in.); Unframed: 190 x 113 cm (74 13/16 x 44 1/2 in.)",
+          "description": "This work belongs to a series depicting Ambrose, Jerome, Augustine, and Gregory, key figures of early Catholicism. Saint Ambrose (about AD 340–391), the bishop of Milan, resolved important theological conflicts within the church and worked effectively with advocates of Roman paganism. The low viewpoint and large scale suggest that this painting hung high on the wall of a religious institution, but its original location remains unknown. In the late 1700s, Spain expelled all the Jesuits and sparked a transformation of the church. Many of these reformers turned back to early church history for inspiration, and this painting was probably commissioned by one of these new organizations.",
+          "url": "https://clevelandart.org/art/1969.23",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1969.23/1969.23_web.jpg",
+          "discipline": "painting"
+        },
+        {
+          "cmaId": 157643,
+          "title": "Young Woman (possibly a Sex Worker) with a Man (recto); Young Woman Wringing Her Hands over a Man's Naked Body (verso)",
+          "slug": "young-woman-possibly-a-sex-worker-with-a-man-recto-young-woman-wringing-her-hand-157643",
+          "year": 1796,
+          "medium": "brush and gray and black washes on laid paper",
+          "dimensions": "Image: 18.7 x 12 cm (7 3/8 x 4 3/4 in.); Sheet: 23.5 x 14.5 cm (9 1/4 x 5 11/16 in.)",
+          "description": "Among the great figures of the pictorial arts in the West, Francisco de Goya is one of the very few whose work as a graphic artist is arguably even more important than his paintings. Alongside a prodigious output of prints, he created eight sketchbooks of drawings over the course of 30 years. This double-sided sheet comes from the so-called Album B, or Madrid Album, which, like all of them, was scattered throughout the world in public and private collections after his death. The drawings reveal Goya’s powers of invention and observation, and his biting satire. On the recto side of the sheet, a vulgar encounter between a prostitute and a pot-bellied lecher reveals the bluntness of the Goya’s social criticism. The verso drawing is less easily pinned down, though it follows traditional iconography for representations of Saint Margaret of Cortona, a nobleman’s mistress who repented and entered a convent after her lover’s dog led her to his murdered corpse.",
+          "url": "https://clevelandart.org/art/1995.15",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1995.15/1995.15_web.jpg",
+          "discipline": "illustration"
+        }
+      ]
+    },
+    {
+      "cmaId": 2403,
+      "name": "Jusepe de Ribera",
+      "slug": "jusepe-de-ribera",
+      "description": "Jusepe de Ribera (Spanish, 1591–1652)",
+      "bio": "Jusepe de Ribera (Spanish, 1591–1652) Active 1591–1652. Public-domain works from the Cleveland Museum of Art Open Access collection, used as development stand-ins for the Organized Chaos Arts directory.",
+      "shortBio": "Jusepe de Ribera (Spanish, 1591–1652) Active 1591–1652. Public-domain works from the Cleveland Museum of Art Open Access collection, used as development stand-ins for the Organized Chaos Arts directory.",
+      "disciplines": [
+        "illustration",
+        "painting",
+        "printmaking"
+      ],
+      "featured": false,
+      "website": "https://www.clevelandart.org/art/collection/search?artist=Jusepe%20de%20Ribera",
+      "works": [
+        {
+          "cmaId": 142291,
+          "title": "Silenus",
+          "slug": "silenus-142291",
+          "year": 1628,
+          "medium": "etching",
+          "dimensions": "Sheet: 27 x 35 cm (10 5/8 x 13 3/4 in.)",
+          "description": "Before a large wine barrel, Silenus (Bacchus’s teacher) lies inebriated on the ground as he raises his cup to receive wine from a satyr in this print. Jusepe de Ribera included these and other details indicating that the scene was intended to be humorous. Two infants mimic Silenus, and a braying donkey adds to the chaotic setting. Pan, patron of shepherds, with his pipe and staff at his feet, crowns Silenus with grapevines. A satyr and a maenad, at upper left, contribute music as well as sexual innuendo (implied by the placement of the satyr’s flute). Ribera drew inspiration from Andrea Mantegna’s bacchanalia image but he introduced more texture and sensuality to the subject matter through his rich etching technique.",
+          "url": "https://clevelandart.org/art/1966.123",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1966.123/1966.123_web.jpg",
+          "discipline": "printmaking"
+        },
+        {
+          "cmaId": 143202,
+          "title": "The Martyrdom of St. Bartholomew",
+          "slug": "the-martyrdom-of-st-bartholomew-143202",
+          "year": 1624,
+          "medium": "etching",
+          "url": "https://clevelandart.org/art/1967.166",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1967.166/1967.166_web.jpg",
+          "discipline": "printmaking"
+        },
+        {
+          "cmaId": 136680,
+          "title": "Saint Jerome",
+          "slug": "saint-jerome-136680",
+          "year": 1638,
+          "medium": "oil on canvas",
+          "dimensions": "Framed: 150 x 121.5 x 9 cm (59 1/16 x 47 13/16 x 3 9/16 in.); Unframed: 129 x 100.3 cm (50 13/16 x 39 1/2 in.)",
+          "description": "Saint Jerome (about ad 347–420) translated biblical texts into Latin. Although he sometimes appears as a scholar in his study, Ribera represents him here as a penitent who withdrew to the desert, beating his chest with a stone to emulate Christ’s suffering and contemplating a skull symbolizing human vanity. Working in Naples, Ribera enthusiastically adapted Caravaggio’s characteristic use of light and dark and naturalistic models.",
+          "url": "https://clevelandart.org/art/1961.219",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1961.219/1961.219_web.jpg",
+          "discipline": "painting"
+        },
+        {
+          "cmaId": 160084,
+          "title": "St. Sebastian",
+          "slug": "st-sebastian-160084",
+          "year": 1626,
+          "medium": "red chalk with pen and brown ink",
+          "dimensions": "Sheet: 17.3 x 12.4 cm (6 13/16 x 4 7/8 in.)",
+          "description": "This subtly drawn study in red chalk with ink accents depicts the moment just before the Roman soldier Sebastian was shot through with arrows for refusing to renounce his Christian faith. The young martyr turns hopefully toward heaven as if comforted by divine light. Ribera favored the subject because it allowed him to study the expressive possibilities of the bound human figure. A number of related drawings by the artist from the same period treat similar themes of saints bound in punishment. Although Spanish by birth, Jusepe de Ribera spent most of his life in Naples, where he became the dominant artistic figure until his death in 1652.",
+          "url": "https://clevelandart.org/art/1997.53",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1997.53/1997.53_web.jpg",
+          "discipline": "illustration"
+        },
+        {
+          "cmaId": 144604,
+          "title": "The Penitent St. Peter",
+          "slug": "the-penitent-st-peter-144604",
+          "year": 1616,
+          "medium": "etching",
+          "url": "https://clevelandart.org/art/1969.244",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1969.244/1969.244_web.jpg",
+          "discipline": "printmaking"
+        }
+      ]
+    },
+    {
+      "cmaId": 2446,
+      "name": "Herman van Swanevelt",
+      "slug": "herman-van-swanevelt",
+      "description": "Herman van Swanevelt (Dutch, c. 1600–1655)",
+      "bio": "Herman van Swanevelt (Dutch, c. 1600–1655) Active 1600–1655. Public-domain works from the Cleveland Museum of Art Open Access collection, used as development stand-ins for the Organized Chaos Arts directory.",
+      "shortBio": "Herman van Swanevelt (Dutch, c. 1600–1655) Active 1600–1655. Public-domain works from the Cleveland Museum of Art Open Access collection, used as development stand-ins for the Organized Chaos Arts directory.",
+      "disciplines": [
+        "painting",
+        "printmaking"
+      ],
+      "featured": false,
+      "website": "https://www.clevelandart.org/art/collection/search?artist=Herman%20van%20Swanevelt",
+      "works": [
+        {
+          "cmaId": 153801,
+          "title": "The Flight into Egypt",
+          "slug": "the-flight-into-egypt-153801",
+          "year": 1652,
+          "medium": "etching and engraving",
+          "description": "This series by Herman Swanevelt, The Flight into Egypt, illustrates an event from the New Testament of the Bible. Joseph, Mary, and Christ fled into Egypt to escape King Herod's persecution. Traditionally represented as a single image, Swanevelt enlarged the story into four scenes. The Holy family is first shown traveling with three angels behind them, then Joseph helps Mary off the donkey, next Joseph leads the donkey to water as Mary changes the child, and finally the family is at rest. However, the main focus of each of these prints is the depiction of landscape, a genre that reached unprecedented levels of popularity during the 1600s. The scenery, looking much more like the Italian countryside than Egypt, was inspired by Swanevelt's paintings. Although he was Dutch, he spent most of his career in Paris and Rome. As a painter, he was known for his ability to convey warm, glowing sunlight, a quality also found in his etchings.",
+          "url": "https://clevelandart.org/art/1987.92",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1987.92/1987.92_web.jpg",
+          "discipline": "printmaking"
+        },
+        {
+          "cmaId": 153804,
+          "title": "The Donkey Led to the River",
+          "slug": "the-donkey-led-to-the-river-153804",
+          "year": 1652,
+          "medium": "etching and engraving",
+          "description": "This series by Herman Swanevelt, The Flight into Egypt, illustrates an event from the New Testament of the Bible. Joseph, Mary, and Christ fled into Egypt to escape King Herod's persecution. Traditionally represented as a single image, Swanevelt enlarged the story into four scenes. The Holy family is first shown traveling with three angels behind them, then Joseph helps Mary off the donkey, next Joseph leads the donkey to water as Mary changes the child, and finally the family is at rest. However, the main focus of each of these prints is the depiction of landscape, a genre that reached unprecedented levels of popularity during the 1600s. The scenery, looking much more like the Italian countryside than Egypt, was inspired by Swanevelt's paintings. Although he was Dutch, he spent most of his career in Paris and Rome. As a painter, he was known for his ability to convey warm, glowing sunlight, a quality also found in his etchings.",
+          "url": "https://clevelandart.org/art/1987.92.3",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1987.92.3/1987.92.3_web.jpg",
+          "discipline": "printmaking"
+        },
+        {
+          "cmaId": 97189,
+          "title": "Landscape with Travelers",
+          "slug": "landscape-with-travelers-97189",
+          "year": 1630,
+          "medium": "oil on canvas",
+          "dimensions": "Framed: 98 x 119 x 9 cm (38 9/16 x 46 7/8 x 3 9/16 in.); Unframed: 75 x 94.8 cm (29 1/2 x 37 5/16 in.)",
+          "description": "Swanevelt played an important role in the development of 17th-century landscape painting in Rome. Often regarded as a follower of Claude Lorrain (1600-1682), with whom he briefly shared a home, most scholars now believe that the influence was mutual. Swanevelt's landscapes are distinguished by the use of Roman peasants, rather than the classical figures preferred by his contemporaries.",
+          "url": "https://clevelandart.org/art/1916.823",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1916.823/1916.823_web.jpg",
+          "discipline": "painting"
+        },
+        {
+          "cmaId": 153805,
+          "title": "The Cave",
+          "slug": "the-cave-153805",
+          "year": 1652,
+          "medium": "etching and engraving",
+          "description": "This series by Herman Swanevelt, The Flight into Egypt, illustrates an event from the New Testament of the Bible. Joseph, Mary, and Christ fled into Egypt to escape King Herod's persecution. Traditionally represented as a single image, Swanevelt enlarged the story into four scenes. The Holy family is first shown traveling with three angels behind them, then Joseph helps Mary off the donkey, next Joseph leads the donkey to water as Mary changes the child, and finally the family is at rest. However, the main focus of each of these prints is the depiction of landscape, a genre that reached unprecedented levels of popularity during the 1600s. The scenery, looking much more like the Italian countryside than Egypt, was inspired by Swanevelt's paintings. Although he was Dutch, he spent most of his career in Paris and Rome. As a painter, he was known for his ability to convey warm, glowing sunlight, a quality also found in his etchings.",
+          "url": "https://clevelandart.org/art/1987.92.4",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1987.92.4/1987.92.4_web.jpg",
+          "discipline": "printmaking"
+        },
+        {
+          "cmaId": 153802,
+          "title": "The Little Angels on the Hill",
+          "slug": "the-little-angels-on-the-hill-153802",
+          "year": 1652,
+          "medium": "etching and engraving",
+          "description": "This series by Herman Swanevelt, The Flight into Egypt, illustrates an event from the New Testament of the Bible. Joseph, Mary, and Christ fled into Egypt to escape King Herod's persecution. Traditionally represented as a single image, Swanevelt enlarged the story into four scenes. The Holy family is first shown traveling with three angels behind them, then Joseph helps Mary off the donkey, next Joseph leads the donkey to water as Mary changes the child, and finally the family is at rest. However, the main focus of each of these prints is the depiction of landscape, a genre that reached unprecedented levels of popularity during the 1600s. The scenery, looking much more like the Italian countryside than Egypt, was inspired by Swanevelt's paintings. Although he was Dutch, he spent most of his career in Paris and Rome. As a painter, he was known for his ability to convey warm, glowing sunlight, a quality also found in his etchings.",
+          "url": "https://clevelandart.org/art/1987.92.1",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1987.92.1/1987.92.1_web.jpg",
+          "discipline": "printmaking"
+        }
+      ]
+    },
+    {
+      "cmaId": 2451,
+      "name": "David Teniers",
+      "slug": "david-teniers",
+      "description": "David Teniers (Flemish, 1610–1690)",
+      "bio": "David Teniers (Flemish, 1610–1690) Active 1610–1690. Public-domain works from the Cleveland Museum of Art Open Access collection, used as development stand-ins for the Organized Chaos Arts directory.",
+      "shortBio": "David Teniers (Flemish, 1610–1690) Active 1610–1690. Public-domain works from the Cleveland Museum of Art Open Access collection, used as development stand-ins for the Organized Chaos Arts directory.",
+      "disciplines": [
+        "painting"
+      ],
+      "featured": false,
+      "website": "https://www.clevelandart.org/art/collection/search?artist=David%20Teniers",
+      "works": [
+        {
+          "cmaId": 159501,
+          "title": "Landscape with Peasants Dancing",
+          "slug": "landscape-with-peasants-dancing-159501",
+          "year": 1640,
+          "medium": "oil on wood",
+          "dimensions": "Framed: 69 x 96.5 x 8 cm (27 3/16 x 38 x 3 1/8 in.); Unframed: 49 x 78 cm (19 5/16 x 30 11/16 in.)",
+          "description": "Before a rustic inn, a group of villagers converse, embrace, and dance to a bagpiper’s tune. Teniers was one of many Netherlandish artists whose paintings celebrate the joys of country life. These delicately painted works were created primarily for an elite urban audience nostalgic for a simpler existence.",
+          "url": "https://clevelandart.org/art/1996.271",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1996.271/1996.271_web.jpg",
+          "discipline": "painting"
+        },
+        {
+          "cmaId": 95274,
+          "title": "Peasants Smoking in an Inn",
+          "slug": "peasants-smoking-in-an-inn-95274",
+          "year": 1635,
+          "medium": "oil on wood",
+          "dimensions": "Framed: 46.5 x 37 x 4 cm (18 5/16 x 14 9/16 x 1 9/16 in.); Unframed: 37.2 x 26.3 cm (14 5/8 x 10 3/8 in.)",
+          "description": "David Teniers the Younger was a popular artist who specialized in small paintings of rustic Flemish life in the 1600s. In works such as Peasants Smoking in an Inn, an older man and a younger man in the foreground smoke tobacco. The younger man rests limply against the wall and his head lolls back, a gesture that symbolized that he had overindulged in smoke. Another standing man prepares his pipe and watches the younger man with amusement. Tobacco was a novelty in the 1600s, introduced from the Americas and East Indies with other new imports such as sugar cane and rice, and was believed to be a medicinal product. It was particularly recommended for people who lived in \"waterish places\" such as Antwerp, the capital of Flanders, where Teniers painted this scene. Although many medical practitioners believed tobacco to be a cure for numerous ailments, moral opponents to smoking criticized it as a danger to health and morals. The mixed reputation and widespread popularity of tobacco smoking thus made it a marketable and amusing subject for Flemish artists such as Teniers.",
+          "url": "https://clevelandart.org/art/1916.1046",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1916.1046/1916.1046_web.jpg",
+          "discipline": "painting"
+        },
+        {
+          "cmaId": 148965,
+          "title": "Village Festival",
+          "slug": "village-festival-148965",
+          "year": 1646,
+          "medium": "oil on canvas",
+          "dimensions": "Framed: 57 x 91 x 9 cm (22 7/16 x 35 13/16 x 3 9/16 in.); Unframed: 37.7 x 71.3 cm (14 13/16 x 28 1/16 in.)",
+          "description": "Depictions of peasant festivals, such as weddings, harvests, and village holidays became an extremely popular subject for Flemish artists during the 1600s. In his paintings of these festive occasions David Teniers the Younger (1610–1690), portrayed peasants dancing and playing music, focusing on the cheerful elements of peasant life. His images often feature close-knit family groups taking part in the celebration. Contrary to his predecessors, who often depicted broken and disorderly still life objects in their paintings, Teniers emphasized household objects in brass, ceramic, and glass in a perfect state to demonstrate the growing prosperity of the peasants.",
+          "url": "https://clevelandart.org/art/1977.122",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1977.122/1977.122_web.jpg",
+          "discipline": "painting"
+        },
+        {
+          "cmaId": 123149,
+          "title": "Game of Backgammon",
+          "slug": "game-of-backgammon-123149",
+          "year": 1640,
+          "medium": "oil on wood, transferred to canvas",
+          "dimensions": "Framed: 82 x 102 x 9 cm (32 5/16 x 40 3/16 x 3 9/16 in.); Unframed: 59 x 80.6 cm (23 1/4 x 31 3/4 in.)",
+          "description": "The game of backgammon has a long and popular history which can be traced back many centuries. The version of the game as it is played in modern times first appeared in the 1400s under various names. Its current appellation was coined around the same time as the date of this painting. Backgammon was exceptionally popular in the 1600s, and was often played for money or other wagers. The two men on the left side of this painting are clearly involved in a high stakes game of backgammon. A three-man cluster has gathered to watch them lay their bets, while another tallies their points on a scoreboard. The young lady in the right corner of the room otherwise surrounded by men and the older women who looks down on the game of backgammon from a window, both indicate that the interior presented in this painting is probably the gaming room of a brothel. Courtesans often worked out of such game rooms, providing further entertainment for men. Depictions of games, like procurement scenes, often symbolized moralizing virtues. Games were considered at best folly and at worst immoral. Backgammon was often used to represent the foolishness or wickedness of betting and wasting one's time.",
+          "url": "https://clevelandart.org/art/1943.377",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1943.377/1943.377_web.jpg",
+          "discipline": "painting"
+        },
+        {
+          "cmaId": 99306,
+          "title": "Old Man and Woman",
+          "slug": "old-man-and-woman-99306",
+          "year": 1700,
+          "medium": "oil on wood",
+          "dimensions": "Unframed: 13.8 x 12 cm (5 7/16 x 4 3/4 in.)",
+          "url": "https://clevelandart.org/art/1918.865",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1918.865/1918.865_web.jpg",
+          "discipline": "painting"
+        }
+      ]
+    },
+    {
+      "cmaId": 5381,
+      "name": "Maestro Giorgio Andreoli",
+      "slug": "maestro-giorgio-andreoli",
+      "description": "Maestro Giorgio Andreoli (Italian, 1465?–1553)",
+      "bio": "Maestro Giorgio Andreoli (Italian, 1465?–1553) Active 1465–1553. Public-domain works from the Cleveland Museum of Art Open Access collection, used as development stand-ins for the Organized Chaos Arts directory.",
+      "shortBio": "Maestro Giorgio Andreoli (Italian, 1465?–1553) Active 1465–1553. Public-domain works from the Cleveland Museum of Art Open Access collection, used as development stand-ins for the Organized Chaos Arts directory.",
+      "disciplines": [
+        "ceramics"
+      ],
+      "featured": false,
+      "website": "https://www.clevelandart.org/art/collection/search?artist=Maestro%20Giorgio%20Andreoli",
+      "works": [
+        {
+          "cmaId": 124200,
+          "title": "Charger Depicting the Three Graces",
+          "slug": "charger-depicting-the-three-graces-124200",
+          "year": 1520,
+          "medium": "tin-glazed earthenware with gold lustre (maiolica)",
+          "dimensions": "Diameter: 44.8 cm (17 5/8 in.)",
+          "description": "During the Renaissance, an understanding of classical antiquity was perceived to be a sign of social, intellectual, and economic distinction. Scenes from Greco-Roman mythology were prominently featured on maiolica, covering the surface in a style called istoriato (decorated with stories). This depiction of the three graces was likely based on an engraving by the Renaissance printmaker, Marcantonio Raimondi.",
+          "url": "https://clevelandart.org/art/1945.2",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1945.2/1945.2_web.jpg",
+          "discipline": "ceramics"
+        },
+        {
+          "cmaId": 127473,
+          "title": "Plate with Arms of the Vitelleschi Family",
+          "slug": "plate-with-arms-of-the-vitelleschi-family-127473",
+          "year": 1527,
+          "medium": "tin-glazed earthenware with gold luster (maiolica)",
+          "dimensions": "Diameter: 26.3 cm (10 3/8 in.)",
+          "description": "Italian nobles of the 1500s often expressed their wealth, social status, and sophistication by ordering large sets of maiolica that sometimes carried their coats of arms or even likenesses, usually in profile as in portraits of the period. Reserved for use at festival events such as a wedding or commissioned to mark a special occasion or an important visit, elaborately decorated utilitarian vessels in maiolica were prized as works of art by their owners and displayed as such in their residences.",
+          "url": "https://clevelandart.org/art/1950.155",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1950.155/1950.155_web.jpg",
+          "discipline": "ceramics"
+        },
+        {
+          "cmaId": 123317,
+          "title": "Charger with Arms of the Vigeri Family",
+          "slug": "charger-with-arms-of-the-vigeri-family-123317",
+          "year": 1524,
+          "medium": "tin-glazed earthenware with gold and red lustre (maiolica)",
+          "dimensions": "Diameter: 39.4 cm (15 1/2 in.)",
+          "description": "Italian nobles of the 1500s often expressed their wealth, social status, and sophistication by ordering large sets of maiolica that sometimes carried their coats of arms or even likenesses, usually in profile similar to portrait paintings of the period. Reserved for use at festival events such as a wedding or commissioned to mark a special occasion or an important visit, elaborately decorated utilitarian vessels in maiolica were prized as works of art by their owners and displayed as such in their residences.",
+          "url": "https://clevelandart.org/art/1943.56",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1943.56/1943.56_web.jpg",
+          "discipline": "ceramics"
+        },
+        {
+          "cmaId": 127474,
+          "title": "Plate Depicting the Myth of Cadmus",
+          "slug": "plate-depicting-the-myth-of-cadmus-127474",
+          "year": 1526,
+          "medium": "tin-glazed earthenware with gold lustre (maiolica)",
+          "dimensions": "Diameter: 26.3 cm (10 3/8 in.)",
+          "description": "Obeying the command of an oracle, Cadmus followed a cow to Boeotia, or “oxen-land.” There he slayed a dragon and buried its teeth in the ground. From the teeth grew a crop of warriors who fought each other until only the strongest five remained. Cadmus invited the victors to join him, and together they built the city of Thebes, where the mythological hero, Hercules (or Herakles) was later born.",
+          "url": "https://clevelandart.org/art/1950.156",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1950.156/1950.156_web.jpg",
+          "discipline": "ceramics"
+        },
+        {
+          "cmaId": 119154,
+          "title": "Plate: Diana and Acteon",
+          "slug": "plate-diana-and-acteon-119154",
+          "year": 1522,
+          "medium": "tin-glazed earthenware with gold and red lustre (maiolica)",
+          "dimensions": "Diameter: 30.2 cm (11 7/8 in.)",
+          "description": "Alfred Pringsheim was a German Jewish collector. During Kristallnacht, in November 1938, the SS seized Pringsheim's maiolica collection from his home in Munich. It was stored in the annex to the Bayerishches National Museum, Munich. In March 1939, the German Ministry of Trade authorized export of Pringsheim's maiolica collection to London for auction at Sotheby's, provided that 80% of the proceeds up to £20,000 and 70% of the remainder be paid to the German Gold Discount Bank in foreign currency. Pringsheim was to receive the remaining proceeds. In exchange, Pringsheim and his wife were allowed to emigrate to Switzerland. After the war, the Pringsheim heirs received restitution of the sale proceeds paid to the Reichsbank.",
+          "url": "https://clevelandart.org/art/1940.13",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/1940.13/1940.13_web.jpg",
+          "discipline": "ceramics"
+        }
+      ]
+    },
+    {
+      "cmaId": 8607,
+      "name": "René Lalique",
+      "slug": "rene-lalique",
+      "description": "René Lalique (French, 1860–1945)",
+      "bio": "René Lalique (French, 1860–1945) Active 1860–1945. Public-domain works from the Cleveland Museum of Art Open Access collection, used as development stand-ins for the Organized Chaos Arts directory.",
+      "shortBio": "René Lalique (French, 1860–1945) Active 1860–1945. Public-domain works from the Cleveland Museum of Art Open Access collection, used as development stand-ins for the Organized Chaos Arts directory.",
+      "disciplines": [
+        "glass"
+      ],
+      "featured": false,
+      "website": "https://www.clevelandart.org/art/collection/search?artist=Ren%C3%A9%20Lalique",
+      "works": [
+        {
+          "cmaId": 165186,
+          "title": "Frogs and Lily Pads (Grenouilles et Nénuphars) Vase",
+          "slug": "frogs-and-lily-pads-grenouilles-et-nenuphars-vase-165186",
+          "year": 1909,
+          "medium": "glass",
+          "dimensions": "Overall: 21 x 29.8 cm (8 1/4 x 11 3/4 in.)",
+          "description": "This vase is an early example of French designer René Lalique's experimentation with producing artistic glass. Lalique combines applied, cast, and molded glass techniques to achieve an ethereal effect of a murky swamp, a typical Art Nouveau motif. Lily pads adorn the surface with green frogs perched on top.",
+          "url": "https://clevelandart.org/art/2007.180",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/2007.180/2007.180_web.jpg",
+          "discipline": "glass"
+        },
+        {
+          "cmaId": 169213,
+          "title": "Mermaids and Frogs Decanter (Carafe sirènes et grenouilles)",
+          "slug": "mermaids-and-frogs-decanter-carafe-sirenes-et-grenouilles-169213",
+          "year": 1917,
+          "medium": "glass",
+          "dimensions": "Overall: 39 x 16.9 cm (15 3/8 x 6 5/8 in.)",
+          "url": "https://clevelandart.org/art/2011.122",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/2011.122/2011.122_web.jpg",
+          "discipline": "glass"
+        },
+        {
+          "cmaId": 169208,
+          "title": "Hunting Dogs Plate (Assiette chasse chiens)",
+          "slug": "hunting-dogs-plate-assiette-chasse-chiens-169208",
+          "year": 1913,
+          "medium": "glass",
+          "dimensions": "Overall: 2 x 21 cm (13/16 x 8 1/4 in.)",
+          "description": "Entitled Chasse, Chiens, meaning hunt, dogs, this glass plate's gilded decoration of dogs and birds is intended to evoke the hunt. Six hunting dogs encircle the center of the plate, while game birds trim the perimeter.",
+          "url": "https://clevelandart.org/art/2011.121.1",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/2011.121.1/2011.121.1_web.jpg",
+          "discipline": "glass"
+        },
+        {
+          "cmaId": 169215,
+          "title": "Stopper for a Mermaids and Frogs Decanter (Carafe sirènes et grenouilles)",
+          "slug": "stopper-for-a-mermaids-and-frogs-decanter-carafe-sirenes-et-grenouilles-169215",
+          "year": 1917,
+          "medium": "glass",
+          "dimensions": "Overall: 39 cm (15 3/8 in.)",
+          "url": "https://clevelandart.org/art/2011.122.b",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/2011.122.b/2011.122.b_web.jpg",
+          "discipline": "glass"
+        }
+      ]
+    },
+    {
+      "cmaId": 16318,
+      "name": "Thomas Chippendale",
+      "slug": "thomas-chippendale",
+      "description": "Thomas Chippendale (British, 1718–1779)",
+      "bio": "Thomas Chippendale (British, 1718–1779) Active 1718–1779. Public-domain works from the Cleveland Museum of Art Open Access collection, used as development stand-ins for the Organized Chaos Arts directory.",
+      "shortBio": "Thomas Chippendale (British, 1718–1779) Active 1718–1779. Public-domain works from the Cleveland Museum of Art Open Access collection, used as development stand-ins for the Organized Chaos Arts directory.",
+      "disciplines": [
+        "wood"
+      ],
+      "featured": false,
+      "website": "https://www.clevelandart.org/art/collection/search?artist=Thomas%20Chippendale",
+      "works": [
+        {
+          "cmaId": 296871,
+          "title": "Pair of Candle Stands (torchères)",
+          "slug": "pair-of-candle-stands-torcheres-296871",
+          "year": 1768,
+          "medium": "Gilt-wood, gesso",
+          "dimensions": "Each: 154 x 56 x 51 cm (60 5/8 x 22 1/16 x 20 1/16 in.)",
+          "description": "This pair of gilded candle stands was made by Thomas Chippendale, the most renowned cabinetmaker in eighteenth-century London, for the grand drawing room of Brocket Hall, a large country house in Hertfordshire, England. With finely carved acanthus leaves, swags, fluting, and oval masks depicting the Roman goddess Diana, these candle stands exhibit Chippendale’s masterful understanding of neoclassical proportion, scale, and ornament. His landmark book of furniture designs, The Gentleman and Cabinet-Maker’s Director (first published in 1754), was highly admired as a source of inspiration by cabinetmakers and architects around England as well as in Europe and America.",
+          "url": "https://clevelandart.org/art/2018.203",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/2018.203/2018.203_web.jpg",
+          "discipline": "wood"
+        },
+        {
+          "cmaId": 317973,
+          "title": "Candle Stand (torchère) (1 of 2)",
+          "slug": "candle-stand-torchere-1-of-2-317973",
+          "year": 1768,
+          "medium": "Gilt-wood, gesso",
+          "dimensions": "124 x 56 x 51 cm (48 13/16 x 22 1/16 x 20 1/16 in.)",
+          "description": "This gilded candle stand was made by Thomas Chippendale, the most renowned cabinetmaker in eighteenth-century London, for the grand drawing room of Brocket Hall, a large country house in Hertfordshire, England. With finely carved acanthus leaves, swags, fluting, and oval masks depicting the Roman goddess Diana, this candle stand exhibits Chippendale’s masterful understanding of neoclassical proportion, scale, and ornament. His landmark book of furniture designs, The Gentleman and Cabinet-Maker’s Director (first published in 1754), was highly admired as a source of inspiration by cabinetmakers and architects around England as well as in Europe and America.",
+          "url": "https://clevelandart.org/art/2018.203.1",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/2018.203.1/2018.203.1_web.jpg",
+          "discipline": "wood"
+        },
+        {
+          "cmaId": 317974,
+          "title": "Candle Stand (torchère) (2 of 2)",
+          "slug": "candle-stand-torchere-2-of-2-317974",
+          "year": 1768,
+          "medium": "Gilt-wood, gesso",
+          "dimensions": "154 x 56 x 51 cm (60 5/8 x 22 1/16 x 20 1/16 in.)",
+          "description": "This gilded candle stand was made by Thomas Chippendale, the most renowned cabinetmaker in eighteenth-century London, for the grand drawing room of Brocket Hall, a large country house in Hertfordshire, England. With finely carved acanthus leaves, swags, fluting, and oval masks depicting the Roman goddess Diana, this candle stand exhibits Chippendale’s masterful understanding of neoclassical proportion, scale, and ornament. His landmark book of furniture designs, The Gentleman and Cabinet-Maker’s Director (first published in 1754), was highly admired as a source of inspiration by cabinetmakers and architects around England as well as in Europe and America.",
+          "url": "https://clevelandart.org/art/2018.203.2",
+          "imageUrl": "https://openaccess-cdn.clevelandart.org/2018.203.2/2018.203.2_web.jpg",
+          "discipline": "wood"
+        }
+      ]
+    }
+  ]
+}

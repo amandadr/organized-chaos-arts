@@ -8,30 +8,55 @@ const mediumMatchers = [
   { pattern: /mixed/i, discipline: "mixed-media" },
   {
     pattern:
-      /gelatin|darkroom|silver\s*print|photograph|film\s*photo|analogue\s*photo/i,
+      /gelatin|darkroom|silver\s*print|photograph|albumen|daguerre|film\s*photo|analogue\s*photo/i,
     discipline: "photography",
   },
-  { pattern: /ink|illustrat|drawing|digital/i, discipline: "illustration" },
   {
-    pattern: /linocut|etching|litho|woodcut|silkscreen|screen\s*print/i,
+    pattern: /ink|illustrat|drawing|charcoal|pastel|graphite|chalk|wash|brush|digital/i,
+    discipline: "illustration",
+  },
+  {
+    pattern:
+      /linocut|etching|litho|woodcut|engraving|mezzotint|aquatint|silkscreen|screen\s*print/i,
     discipline: "printmaking",
   },
   {
     pattern:
-      /ceramic|stoneware|porcelain|pottery|clay|glaze|wheel-?thrown|hand-?built|salt-?glaze/i,
+      /ceramic|earthenware|stoneware|porcelain|pottery|clay|terracotta|glaze|wheel-?thrown|hand-?built|salt-?glaze/i,
     discipline: "ceramics",
   },
-  { pattern: /jewel|sterling|silver|gold|bead/i, discipline: "jewelry" },
-  { pattern: /glass|blown/i, discipline: "glass" },
-  { pattern: /textile|fibre|fiber|cloth|quilt|weave|wool/i, discipline: "textiles" },
-  { pattern: /sculpt/i, discipline: "sculpture" },
-  { pattern: /wood|maple|oak|walnut|salvage|timber|driftwood/i, discipline: "wood" },
-  { pattern: /paint|oil|acrylic|gouache|watercolou?r/i, discipline: "painting" },
+  { pattern: /jewel|sterling|necklace|brooch|bracelet|bead/i, discipline: "jewelry" },
+  { pattern: /glass|blown|stained\s*glass/i, discipline: "glass" },
+  {
+    pattern: /textile|fibre|fiber|cloth|quilt|weave|wool|silk|linen|tapestry|embroidery/i,
+    discipline: "textiles",
+  },
+  {
+    pattern: /sculpt|bronze|marble|alabaster/i,
+    discipline: "sculpture",
+  },
+  {
+    pattern: /paint|oil|acrylic|gouache|tempera|fresco|watercolou?r/i,
+    discipline: "painting",
+  },
+  {
+    pattern: /wood|maple|oak|walnut|salvage|timber|driftwood/i,
+    discipline: "wood",
+  },
 ];
 
-export function disciplineFromMedium(medium) {
+/**
+ * Returns a discipline only when a matcher hits. Used by the Cleveland fetch
+ * so unmatched museum techniques are skipped instead of falling through to mixed-media.
+ */
+export function matchedDisciplineFromMedium(medium) {
+  if (!medium) return null;
   const match = mediumMatchers.find((entry) => entry.pattern.test(medium));
-  return match?.discipline ?? "mixed-media";
+  return match?.discipline ?? null;
+}
+
+export function disciplineFromMedium(medium) {
+  return matchedDisciplineFromMedium(medium) ?? "mixed-media";
 }
 
 /**

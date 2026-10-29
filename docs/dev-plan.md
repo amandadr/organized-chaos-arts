@@ -39,11 +39,19 @@ Living sequence for Organized Chaos Arts. The full original roadmap remains in `
 
 ## Done — Richer development catalog
 
-- Seed roster: ~20 invented Atlantic makers / ~100 works (niches, 1–2 bodies each)
-- Coverage: all disciplines with multi-maker depth where needed; PE ≥3 cities; NL ≥3 cities; NS/NB balanced
+- Seed roster: ~20 Cleveland Museum of Art CC0 makers / ~100 works (committed snapshot)
+- Atlantic cities and Unsplash portraits are deliberate development stand-ins; bios and works are museum records
+- Refresh snapshot with `npm run sanity:fetch-catalog`; seed with `npm run sanity:seed` (downloads images into Sanity)
 - Medium classifier in `lib/palette.ts` aligned with seed strings; seed asserts classification before write
-- Catalog data in `scripts/seed/catalog.mjs`; seed prunes leftover artists/artworks
+- Catalog builder in `scripts/seed/catalog.mjs`; seed prunes leftover artists/artworks
 - Fuel for a later hang-and-filter pass (variety ordering, medium chips) — not implemented yet
+
+## Now — Live site, faux catalog
+
+- Ship the seeded catalog on Netlify. Do not create a second Sanity dataset.
+- Homepage banner (`components/layout/FauxDataBanner.tsx`) tells visitors the directory is under development and showing faux data.
+- Keep `NEXT_PUBLIC_SANITY_DATASET=production`. That dataset is the one that was seeded.
+- Remove the banner only when real artists replace the roster.
 
 ## Next
 

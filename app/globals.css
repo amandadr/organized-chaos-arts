@@ -456,6 +456,25 @@
     box-shadow: 10px 10px 0 var(--color-ink);
   }
 
+  /* While the lightbox is open, clear sticky card hover under the dialog. */
+  html.oca-viewer-open .oca-artwork-card,
+  html.oca-viewer-open .oca-artwork-card:hover,
+  html.oca-viewer-open .oca-artwork-card:focus-within {
+    z-index: auto;
+    transform: none;
+    box-shadow: 5px 5px 0 var(--color-ink);
+  }
+
+  html.oca-viewer-open .oca-artwork-trigger,
+  html.oca-viewer-open .oca-artwork-card,
+  html.oca-viewer-open .oca-artwork-card * {
+    cursor: auto;
+  }
+
+  .oca-artwork-viewer[open] {
+    cursor: default;
+  }
+
   @media (prefers-reduced-motion: reduce) {
     .oca-artwork-card {
       transition: box-shadow 180ms ease;
@@ -466,10 +485,17 @@
       transform: none;
       box-shadow: 8px 8px 0 var(--color-ink);
     }
+
+    html.oca-viewer-open .oca-artwork-card,
+    html.oca-viewer-open .oca-artwork-card:hover,
+    html.oca-viewer-open .oca-artwork-card:focus-within {
+      box-shadow: 5px 5px 0 var(--color-ink);
+    }
   }
 
   .oca-artwork-viewer::backdrop {
     background: color-mix(in srgb, var(--color-ink) 72%, transparent);
+    cursor: default;
   }
 
   .oca-fill-paper {

@@ -57,4 +57,4 @@ See `docs/relume.md`.
 
 ## Current status
 
-Local foundation, Relume shell, and Sanity-backed home, gallery, Instagram, and artist pages. Resources, FAQs, and values still use placeholder copy.
+The public site is going live with the seeded faux catalog (Cleveland Museum of Art works, invented Atlantic cities, Unsplash portraits). The homepage banner says so. `NEXT_PUBLIC_SANITY_DATASET` stays `production` — that name is the Sanity dataset, and it is the one holding this stand-in content. Remove the banner only when real artists replace the roster.
